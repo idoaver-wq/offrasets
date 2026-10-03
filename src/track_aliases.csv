@@ -1,0 +1,540 @@
+﻿alias_id,source_text,canonical_song_id,normalized_artist,normalized_title,version_or_remix,confidence,reason
+ALIAS_0001,Offer Nissim - Crazy Things At Night,SONG_0001,Offer Nissim,Crazy Things At Night,,HIGH,primary spelling (no change)
+ALIAS_0002,Offer Nissim - Esther,SONG_0002,Offer Nissim,Esther,,HIGH,primary spelling (no change)
+ALIAS_0003,Offer Nissim - Ahasuerus,SONG_0003,Offer Nissim,Ahasuerus,,HIGH,primary spelling (no change)
+ALIAS_0004,Offer Nissim - Umpatampa,SONG_0004,Offer Nissim,Umpatampa,,HIGH,primary spelling (no change)
+ALIAS_0005,Lara Fabian - Growing Wings - Offer Nissim Remix,SONG_0005,Lara Fabian,Growing Wings,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0006,Offer Nissim Feat. Riki Ben-Ari - Dance The Night,SONG_0006,Offer Nissim Feat. Riki Ben-Ari,Dance The Night,,HIGH,primary spelling (no change)
+ALIAS_0007,Extasia & Zach Adam feat Rony G - Light Beams - Offer Nissim Remix,SONG_0007,Extasia & Zach Adam Feat. Rony G,Light Beams,Offer Nissim Remix,HIGH,artist credit normalized; version/remix retained: Offer Nissim Remix | Artist normalized: 'Extasia & Zach Adam feat Rony G' -> 'Extasia & Zach Adam Feat. Rony G'
+ALIAS_0008,Offer Nissim Feat. Maya Simantov & Vanesa LeKlein - Breaking Away,SONG_0008,Offer Nissim Feat. Maya Simantov & Vanesa Klein,Breaking Away,,HIGH,primary spelling (no change); Corrected 26.09.2026: Artist spelling: 'Vanesa LeKlein' -> 'Vanesa Klein' (Spotify / Apple Music credits)
+ALIAS_0009,Jennifer Lopez - Que Hiciste - Offer Nissim Remix,SONG_0009,Jennifer Lopez,Que Hiciste,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0010,Offer Nissim Feat. Gila Goldstein - Feel It,SONG_0010,Offer Nissim Feat. Gila Goldstein,Feel It,,HIGH,primary spelling (no change)
+ALIAS_0011,Sarit Hadad - Ze She'shomer Alay (Offer Nissim Vs Yinon Yahel Club Mix),SONG_0011,Sarit Hadad,Ze She'shomer Alay,Offer Nissim Vs Yinon Yahel Club Mix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Vs Yinon Yahel Club Mix
+ALIAS_0012,Offer Nissim Feat. Sarit Hadad - Shufuni,SONG_0012,Offer Nissim Feat. Sarit Hadad,Shufuni,,HIGH,primary spelling (no change)
+ALIAS_0013,Miri Mesika - Mefahed Allay'ich - Offer Nissim Remix,SONG_0013,Miri Mesika,Mefahed Allay'ich,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0014,Offer Nissim Feat Yael Poliakov And Ilan Peled - Sing From Your Pussy - The Tricksters,SONG_0014,Offer Nissim Feat. The Tricksters (Yael Poliakov And Ilan Peled),Sing From Your Pussy,,HIGH,artist credit normalized | 'The Tricksters' is part of the act's name (Yael Poliakov and Ilan Peled) - confirmed by archive owner.
+ALIAS_0015,Offer Nissim Feat. Ilan Peled - Mushi Mushi,SONG_0015,Offer Nissim Feat. Ilan Peled,Mushi Mushi,,HIGH,primary spelling (no change)
+ALIAS_0016,Offer Nissim Feat. Epiphony - Break My World,SONG_0016,Offer Nissim Feat. Epiphony,Break My World,,HIGH,primary spelling (no change)
+ALIAS_0017,Henree Feat. Nikka - See Me Now (Finally),SONG_0017,Henree Feat. Nikka,See Me Now (Finally),,HIGH,"primary spelling (no change) | '(Finally)' is part of the title, not a version."
+ALIAS_0018,The Trash Mermaids - Xperiel - Offer Nissim Remix,SONG_0018,The Trash Mermaids,Xperiel,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0019,Offer Nissim Feat. Ivana Lola - Kriminal Eye,SONG_0019,Offer Nissim Feat. Ivana Lola,Kriminal Eye,,HIGH,primary spelling (no change)
+ALIAS_0020,Amelia Lily - Bring Me Joy - Offer Nissim Remix,SONG_0020,Amelia Lily,You Bring Me Joy,Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix | Title spelling normalized: 'Bring Me Joy' -> 'You Bring Me Joy'
+ALIAS_0021,Offer Nissim Feat. Riki Ben-Ari - Fame,SONG_0021,Offer Nissim Feat. Riki Ben-Ari,Fame,,HIGH,primary spelling (no change)
+ALIAS_0022,Offer Nissim Feat. Maya Simantov - Wake Up (Original Mix),SONG_0022,Offer Nissim Feat. Maya Simantov,Wake Up,Original Mix,HIGH,title variant/typo normalized; version/remix retained: Original Mix
+ALIAS_0023,Offer Nissim - Another Cha Cha (Peter Rauhofer's NYC Edit),SONG_0023,Offer Nissim,Another Cha Cha,Peter Rauhofer's NYC Edit,HIGH,title variant/typo normalized; version/remix retained: Peter Rauhofer's NYC Edit
+ALIAS_0024,Meital De Razon & Asi Tal - Toda La Noche (Offer Nissim & Asi Tal Remix),SONG_0024,Meital De Razon & Asi Tal,Toda La Noche,Offer Nissim & Asi Tal Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim & Asi Tal Remix
+ALIAS_0025,Steps - Scared Of The Dark (Offer Nissim Remix),SONG_0025,Steps,Scared Of The Dark,Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix
+ALIAS_0026,Rita - Bigharar (Offer Nissim Extended Remix),SONG_0026,Rita,Beegharar,Offer Nissim Extended Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Extended Remix; Corrected 26.09.2026: Title spelling per Offer Nissim's official release (Spotify: 'Beegharar - Offer Nissim Club Remix')
+ALIAS_0027,Offer Nissim Feat. Eyal Golan - Lo Mevina Ivrit,SONG_0027,Offer Nissim Feat. Eyal Golan,Lo Mevina Ivrit,,HIGH,primary spelling (no change)
+ALIAS_0028,Offer Nissim Vs Abdulqader Qawza - Lord Of Mercy,SONG_0028,Offer Nissim Vs Abdulqader Qawza,Lord Of Mercy,,HIGH,"primary spelling (no change) | DIFFERENT song from 'Offer Nissim Feat. Nasrin Kadri - Lord Of Mercy': this is a remix of Abdulqader Qawza, the Nasrin one is an original production - confirmed by archive owner 06.09.2026."
+ALIAS_0029,Vali - Ain't No Friend Of Mine - Offer Nissim Remix,SONG_0029,Vali,Ain't No Friend Of Mine,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0030,Vali - Pluto - Offer Nissim Remix,SONG_0030,Vali,Pluto,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0031,Cher - Gimme Gimme Gimme! - A Man After Midnight - Offer Nissim Remix,SONG_0031,Cher,Gimme! Gimme! Gimme! (A Man After Midnight),Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix | Subtitle written as a separate dash segment; version as written is 'Offer Nissim Remix' (not the 'Needs A Man' wording).
+ALIAS_0032,Offer Nissim Feat. Maya Simantov - Everybody Needs A Man,SONG_0032,Offer Nissim Feat. Maya Simantov,Everybody Needs A Man,,HIGH,primary spelling (no change)
+ALIAS_0033,Offer Nissim Feat. Maya Simantov - Im In Love,SONG_0033,Offer Nissim Feat. Maya Simantov,I'm In Love,,HIGH,primary spelling (no change)
+ALIAS_0034,Offer Nissim Feat. Ania Bukstein - ROKEDET,SONG_0034,Offer Nissim Feat. Ania Bukstein,Rokedet,,HIGH,primary spelling (no change)
+ALIAS_0035,Offer Nissim - Set My Mind Free,SONG_0035,Offer Nissim,Set My Mind Free,,HIGH,primary spelling (no change)
+ALIAS_0036,Nirious - People - Original Mix,SONG_0036,Nirious,People,Original Mix,HIGH,version/remix retained: Original Mix
+ALIAS_0037,Offer Nissim - Open Your Eyes,SONG_0037,Offer Nissim,Open Your Eyes,,HIGH,primary spelling (no change)
+ALIAS_0038,Losless - Synecku (Original Mix),SONG_0038,Losless,Synecku,Original Mix,HIGH,title variant/typo normalized; version/remix retained: Original Mix
+ALIAS_0039,Offer Nissim Feat. Maya Simantov - When We Met,SONG_0039,Offer Nissim Feat. Maya Simantov,When We Met,,HIGH,primary spelling (no change)
+ALIAS_0040,Offer Nissim Feat. Maya Simantov - Let Me Live,SONG_0040,Offer Nissim Feat. Maya Simantov,Let Me Live,,HIGH,primary spelling (no change)
+ALIAS_0041,Offer Nissim Feat. Maya Simantov - Perfect Love,SONG_0041,Offer Nissim Feat. Maya Simantov,Perfect Love,,HIGH,primary spelling (no change)
+ALIAS_0042,Offer Nissim Feat. Maya Simantov - Tel Aviv,SONG_0042,Offer Nissim Feat. Maya Simantov,Tel Aviv,,HIGH,primary spelling (no change)
+ALIAS_0043,Offer Nissim Feat. Epiphony - Believe In Me,SONG_0043,Offer Nissim Feat. Epiphony,Believe In Me,,HIGH,primary spelling (no change)
+ALIAS_0044,Offer Nissim - Shalom Aleychem,SONG_0044,Offer Nissim,Shalom Aleychem,,HIGH,primary spelling (no change)
+ALIAS_0045,Offer Nissim - Completely Yourself,SONG_0045,Offer Nissim,Completely Yourself,,HIGH,primary spelling (no change)
+ALIAS_0046,Madonna - Girl Gone Wild (Offer Nissim Remix),SONG_0046,Madonna,Girls Gone Wild,Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix | Title spelling normalized: 'Girl Gone Wild' -> 'Girls Gone Wild'
+ALIAS_0047,Suzanne Palmer - Fascinated (Offer Nissim Remix),SONG_0047,Suzanne Palmer,Fascinated,Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix
+ALIAS_0048,Offer Nissim Feat. Dana International - We Can Make It,SONG_0048,Offer Nissim Feat. Dana International,We Can Make It,,HIGH,primary spelling (no change)
+ALIAS_0049,Offer Nissim Feat Sailo - Forgive Me (Club Mix),SONG_0049,Offer Nissim Feat. Sailo,Forgive Me,Club Mix,HIGH,title variant/typo normalized; artist credit normalized; version/remix retained: Club Mix | Artist normalized: 'Offer Nissim Feat Sailo' -> 'Offer Nissim Feat. Sailo'
+ALIAS_0050,Offer Nissim Brothers in Rhythm - Such a Good Feeling,SONG_0050,Brothers In Rhythm,Such A Good Feeling,Offer Nissim Remix,HIGH,artist credit normalized; version/remix retained: Offer Nissim Remix | Source reads 'Offer Nissim Brothers in Rhythm' with a dropped dash; it is the Offer Nissim Remix - confirmed by archive owner.
+ALIAS_0051,Billie Ray Martin - The Glittering Gutter (Offer Nissim Remix),SONG_0051,Billie Ray Martin,The Glittering Gutter,Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix
+ALIAS_0052,Offer Nissim Presents: Jimmy Fontana - El Mundo,SONG_0052,Offer Nissim Presents Jimmy Fontana,El Mundo,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim Presents: Jimmy Fontana' -> 'Offer Nissim Presents Jimmy Fontana'
+ALIAS_0053,Gabriel & Dresden Feat. Kristine W. - Save My Soul (Offer Nissim Mix),SONG_0053,Kristine W.,Save My Soul,Gabriel & Dresden Mix (Offer Nissim Mix),MEDIUM,title variant/typo normalized; version/remix retained: Offer Nissim Mix; Corrected 26.09.2026: Artist corrected: the song is Kristine W. - Save My Soul; Gabriel & Dresden are the remixers (Beatport / Spotify / Wikipedia)
+ALIAS_0054,Britney Meets Hollywood - Gimme More And More (Offer Nissim Remix),SONG_0054,Britney Meets Hollywood,Gimme More And More,Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix
+ALIAS_0055,Anita Mayer - Why Tell Me Why (Offer Nissim Remix),SONG_0055,Anita Meyer,Why Tell Me Why,Offer Nissim Remix,HIGH,title variant/typo normalized; artist credit normalized; version/remix retained: Offer Nissim Remix | Artist normalized: 'Anita Mayer' -> 'Anita Meyer'
+ALIAS_0056,Offer Nissim Feat. ROCKING SON - Moskau (Official Remix),SONG_0056,Offer Nissim Feat. ROCKING SON,Moskau,Official Remix,HIGH,title variant/typo normalized; version/remix retained: Official Remix
+ALIAS_0057,Offer Nissim Presents : Barcelona,SONG_0057,Offer Nissim,Barcelona,,HIGH,title variant/typo normalized; artist credit normalized | 'Barcelona' is the song title - confirmed by archive owner.
+ALIAS_0058,Shirley Bassey - La Passione - Offer Nissim Remix,SONG_0058,Shirley Bassey,La Passione,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0059,Kim Wilde - Loved (Offer Nissim Mix),SONG_0059,Kim Wilde,Loved,Offer Nissim Mix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Mix
+ALIAS_0060,Offer Nissim Feat. The Israeli Opera - Hymns To God,SONG_0060,Offer Nissim Feat. The Israeli Opera,Hymns To God,,HIGH,primary spelling (no change)
+ALIAS_0061,Offer Nissim Feat. Maya Simantov - Open Up,SONG_0061,Offer Nissim Feat. Maya Simantov,Open Up,,HIGH,primary spelling (no change)
+ALIAS_0062,Black Box - Everybody Everybody - Offer Nissim Remix,SONG_0062,Black Box,Everybody Everybody,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0063,Offer Nissim Feat. Meital De Razon - My Pride,SONG_0063,Offer Nissim Feat. Meital De Razon,My Pride,,HIGH,primary spelling (no change)
+ALIAS_0064,DJ Extasia & Zach Adam feat Rony G - Light Beams - Offer Nissim Remix,SONG_0007,Extasia & Zach Adam Feat. Rony G,Light Beams,Offer Nissim Remix,HIGH,artist credit normalized; version/remix retained: Offer Nissim Remix | Artist normalized: 'DJ Extasia & Zach Adam feat Rony G' -> 'Extasia & Zach Adam Feat. Rony G'
+ALIAS_0065,Cher- Gimme! Gimme! (A Man After Midnight) - Offer Nissim Needs A Man Remix,SONG_0031,Cher,Gimme! Gimme! Gimme! (A Man After Midnight),Offer Nissim Needs A Man Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Needs A Man Remix | Source has only two 'Gimme!' and no space after 'Cher-'; same song.
+ALIAS_0066,Offer Nissim Feat. Yael Poliakov And Ilan Peled (Miri Paskal) - Sing From Your Pussy - The Tricksters,SONG_0014,Offer Nissim Feat. The Tricksters (Yael Poliakov And Ilan Peled),Sing From Your Pussy,,HIGH,artist credit normalized | '(Miri Paskal)' character credit dropped; 'The Tricksters' is the act's name.
+ALIAS_0067,Offer Nissim Present: The Bitches - Ain't No Mountain,SONG_0064,Offer Nissim Presents The Bitches,Ain't No Mountain,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim Present: The Bitches' -> 'Offer Nissim Presents The Bitches'
+ALIAS_0068,Madonna X Maluma - Medellin - Offer Nissim Set Me Free Remix,SONG_0065,Madonna X Maluma,Medellin,Offer Nissim Set Me Free Remix,HIGH,version/remix retained: Offer Nissim Set Me Free Remix
+ALIAS_0069,Offer Nissim Feat. Nasrin Qadri - Lord Of Mercy,SONG_0066,Offer Nissim Feat. Nasrin Kadri,Lord Of Mercy,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim Feat. Nasrin Qadri' -> 'Offer Nissim Feat. Nasrin Kadri'
+ALIAS_0070,Farid El Atrache - Banadi Aleik (Offer Nissim Remix),SONG_0067,Farid El Atrache,Banadi Aleik,Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix
+ALIAS_0071,Offer Nissim - Dancing,SONG_0068,Offer Nissim,Dancing,,HIGH,primary spelling (no change)
+ALIAS_0072,Michelle Obama All-Star Girl Power Anthem - This Is For My Girls - Offer Nissim Remix,SONG_0069,Michelle Obama All-Star Girl Power Anthem,This Is For My Girls,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0073,Offer Nissim Feat. Maya Simantov - Rainbow,SONG_0070,Offer Nissim Feat. Maya Simantov,Rainbow,,HIGH,primary spelling (no change)
+ALIAS_0074,Offer Nissim Feat. Zach Adam & Riki Ben-Ari - Born To Dance,SONG_0071,Offer Nissim Feat. Zach Adam & Riki Ben-Ari,Born To Dance,,HIGH,primary spelling (no change)
+ALIAS_0075,Offer Nissim Feat. Maya Simantov - Pefect Love,SONG_0041,Offer Nissim Feat. Maya Simantov,Perfect Love,,HIGH,title variant/typo normalized | Title spelling normalized: 'Pefect Love' -> 'Perfect Love'
+ALIAS_0076,Offer Nissim Feat. Maya Simantov - Wish You Were Here,SONG_0072,Offer Nissim Feat. Maya Simantov,Wish You Were Here,,HIGH,primary spelling (no change)
+ALIAS_0077,Paul Oakenfold - Souther Sun - Offer Nissim Remix,SONG_0073,Paul Oakenfold,Southern Sun,Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix | Title spelling normalized: 'Souther Sun' -> 'Southern Sun'
+ALIAS_0078,Vanessa Paradis - Joe Le Taxi - Offer Nissim Remix,SONG_0074,Vanessa Paradis,Joe Le Taxi,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0079,ABBA - SOS - Offer Nissim Remix,SONG_0075,ABBA,SOS,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0080,Offer Nissim Feat. Maya Simantov - Come Out,SONG_0076,Offer Nissim Feat. Maya Simantov,Come Out,,HIGH,primary spelling (no change)
+ALIAS_0081,Offer Nissim - Africa,SONG_0077,Offer Nissim,Africa,,HIGH,primary spelling (no change)
+ALIAS_0082,Offer Nissim - Osa Osa (Original Mix),SONG_0078,Offer Nissim,Osa Osa,Original Mix,HIGH,title variant/typo normalized; version/remix retained: Original Mix
+ALIAS_0083,Eartha Kitt - Where Is My Man - Offer Nissim Remix,SONG_0079,Eartha Kitt,Where Is My Man,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0084,Offer Nissim Ft. Epiphony & Elisete - Million Stars (Club Mix),SONG_0080,Offer Nissim Feat. Epiphony & Elisete,Million Stars,Club Mix,HIGH,title variant/typo normalized; artist credit normalized; version/remix retained: Club Mix | Artist normalized: 'Offer Nissim Ft. Epiphony & Elisete' -> 'Offer Nissim Feat. Epiphony & Elisete'
+ALIAS_0085,Offer Nisim ft. Betty - Poison,SONG_0081,Offer Nissim Feat. Betty,Poison (Ra'al),,HIGH,title variant/typo normalized; artist credit normalized | Title spelling normalized: 'Poison' -> 'Poison (Ra'al)'; Artist normalized: 'Offer Nisim ft. Betty' -> 'Offer Nissim Feat. Betty'
+ALIAS_0086,Offer Nissim - A Relationship With A Man,SONG_0082,Offer Nissim,A Relationship With A Man,,HIGH,primary spelling (no change)
+ALIAS_0087,Deborah Cox - Easy As Life (Offer Nissim Remix),SONG_0083,Deborah Cox,Easy As Life,Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix
+ALIAS_0088,Donna Summer & Barbra Streisand - Enough Is Enough 2017 (Offer Nissim's Drama Remix),SONG_0084,Donna Summer & Barbra Streisand,Enough Is Enough,2017 (Offer Nissim's Drama Remix),HIGH,title variant/typo normalized; version/remix retained: 2017 (Offer Nissim's Drama Remix) | '2017' belongs to the remix label.
+ALIAS_0089,Offer Nissim Feat. Ania Bukstein - Rokedet,SONG_0034,Offer Nissim Feat. Ania Bukstein,Rokedet,,HIGH,primary spelling (no change)
+ALIAS_0090,Offer Nissim X Ania Bukstein - Equality,SONG_0085,Offer Nissim X Ania Bukstein,Equality,,HIGH,primary spelling (no change)
+ALIAS_0091,Offer Nissim Feat. Meital De Razon & Riki Ben-Ari - Better Man,SONG_0086,Offer Nissim Feat. Meital De Razon & Riki Ben-Ari,Better Man,,HIGH,primary spelling (no change)
+ALIAS_0092,Aretha Franklin - Rolling In The Deep (Offer Nissim Remix),SONG_0087,Aretha Franklin,Rolling In The Deep,Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix
+ALIAS_0093,Offer Nissim - Fucker,SONG_0088,Offer Nissim,Fucker,,HIGH,primary spelling (no change)
+ALIAS_0094,Anggun - The Good Is Back - Offer Nissim Remix,SONG_0089,Anggun,The Good Is Back,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0095,Idan Raichel - Achshav Nish'arnu - Offer Nissim Remix,SONG_0090,Idan Raichel,Achshav Nish'arnu,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0096,Offer Nissim Feat. Dana International - Layla Tov Eropa,SONG_0091,Offer Nissim Feat. Dana International,Layla Tov Eropa,,HIGH,primary spelling (no change)
+ALIAS_0097,Offer Nissim X Ninet - Who Wants To Live Forever,SONG_0092,Offer Nissim X Ninet,Who Wants To Live Forever,,HIGH,primary spelling (no change)
+ALIAS_0098,Madonna - God Control - Offer Nissim's Rosh Hashanah Remix,SONG_0093,Madonna,God Control,Offer Nissim's Rosh Hashanah Remix,HIGH,version/remix retained: Offer Nissim's Rosh Hashanah Remix
+ALIAS_0099,Offer Nissim - Theater Club,SONG_0094,Offer Nissim,Theater Club,,HIGH,primary spelling (no change)
+ALIAS_0100,Love De-Luxe - Here Comes That Sound - Offer Nissim Remix,SONG_0095,Love De-Luxe,Here Comes That Sound Again,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix; Corrected 26.09.2026: Official title is 'Here Comes That Sound Again' (Discogs / Wikipedia)
+ALIAS_0101,Offer Nissim Vs Michael Jackson - Off The Wall,SONG_0096,Offer Nissim Vs Michael Jackson,Off The Wall,,HIGH,primary spelling (no change)
+ALIAS_0102,Offer Nissim Feat. Maya Simantov - Lie (Live Performance),SONG_0097,Offer Nissim Feat. Maya Simantov,Lie,Live Performance,HIGH,title variant/typo normalized; version/remix retained: Live Performance
+ALIAS_0103,Offer Nissim Feat. Zach Adam - You Need My Love,SONG_0098,Offer Nissim Feat. Zach Adam,You Need My Love,,HIGH,primary spelling (no change)
+ALIAS_0104,Dana International - Petra (Offer Nissim '08 Reconstruction),SONG_0099,Dana International,Petra,Offer Nissim '08 Reconstruction,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim '08 Reconstruction
+ALIAS_0105,Offer Nissim Presents Ilan Peled - Ćest Coccinelle,SONG_0100,Offer Nissim Presents Ilan Peled,C'est Coccinelle,,HIGH,primary spelling (no change)
+ALIAS_0106,Britney Spears - Till The World Ends (Offer Nissim & Itay Kalderon Lovers Remix),SONG_0101,Britney Spears,Till The World Ends,Offer Nissim & Itay Kalderon Lovers Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim & Itay Kalderon Lovers Remix
+ALIAS_0107,Beyonce - Run The World (Itay kalderon & Adi Perez Remix),SONG_0102,Beyoncé,Run The World (Girls),Itay kalderon & Adi Perez Remix,HIGH,title variant/typo normalized; version/remix retained: Itay kalderon & Adi Perez Remix; Corrected 26.09.2026: Official spelling: 'Beyonce - Run The World' -> 'Beyoncé - Run The World (Girls)'
+ALIAS_0108,This Is For My Girls (Offer Nissim Remix),SONG_0069,Michelle Obama All-Star Girl Power Anthem,This Is For My Girls,Offer Nissim Remix,HIGH,title variant/typo normalized; artist credit normalized; version/remix retained: Offer Nissim Remix | No artist printed in source; confirmed by archive owner to be the Michelle Obama All-Star Girl Power Anthem track.
+ALIAS_0109,Keren Peles - מי אני Mi Ani מי אני - Offer Nissim Remix (Live Performance),SONG_0103,Keren Peles,Mi Ani,Offer Nissim Remix (Live Performance),HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix (Live Performance) | Title written in Hebrew and transliteration; normalized to 'Mi Ani'.
+ALIAS_0110,Offer Nissim Vs Led Zeppelin - Whole Lotta Love,SONG_0104,Offer Nissim Vs Led Zeppelin,Whole Lotta Love,,HIGH,primary spelling (no change)
+ALIAS_0111,Madonna X Maluma - Medellín - Offer Nissim Set Me Free Remix,SONG_0065,Madonna X Maluma,Medellin,Offer Nissim Set Me Free Remix,HIGH,version/remix retained: Offer Nissim Set Me Free Remix
+ALIAS_0112,Madonna - I Rise - Offer Nissim Remix,SONG_0105,Madonna,I Rise,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0113,Offer Nissim – Esther,SONG_0002,Offer Nissim,Esther,,HIGH,primary spelling (no change)
+ALIAS_0114,Angie Stone - Wish I Didn't Miss You - Offer Nissim Remix,SONG_0106,Angie Stone,Wish I Didn't Miss You,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0115,Offer Nissim Feat. Maya Simantov - Searching,SONG_0107,Offer Nissim Feat. Maya Simantov,Searching,,HIGH,primary spelling (no change)
+ALIAS_0116,Offer Nissim Feat. Maya Simantov - Holding On,SONG_0108,Offer Nissim Feat. Maya Simantov,Holding On,,HIGH,primary spelling (no change)
+ALIAS_0117,Offer Nissim Presents Ofra Haza - Latet (Reconstruction Mix),SONG_0109,Offer Nissim Presents Ofra Haza,Latet,Reconstruction Mix,HIGH,title variant/typo normalized; version/remix retained: Reconstruction Mix
+ALIAS_0118,Offer Nissim Feat Sailo - Forgive Me (Techno Mix),SONG_0049,Offer Nissim Feat. Sailo,Forgive Me,Techno Mix,HIGH,title variant/typo normalized; artist credit normalized; version/remix retained: Techno Mix | Artist normalized: 'Offer Nissim Feat Sailo' -> 'Offer Nissim Feat. Sailo'
+ALIAS_0119,Offer Nissim Ft. Omri Mizrahi - Don't Stop The Dance (Original Mix),SONG_0110,Offer Nissim Feat. Omri Mizrahi,Don't Stop The Dance,Original Mix,HIGH,title variant/typo normalized; artist credit normalized; version/remix retained: Original Mix | Artist normalized: 'Offer Nissim Ft. Omri Mizrahi' -> 'Offer Nissim Feat. Omri Mizrahi'
+ALIAS_0120,Offer Nissim x Mergui - City Lights,SONG_0111,Offer Nissim X Mergui,City Lights,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim x Mergui' -> 'Offer Nissim X Mergui'
+ALIAS_0121,Offer Nissim – Sex,SONG_0112,Offer Nissim,Sex,,HIGH,primary spelling (no change)
+ALIAS_0122,Amelia Lily - You Bring Me Joy - Offer Nissim Remix,SONG_0020,Amelia Lily,You Bring Me Joy,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0123,Offer Nissim - Up To The Top,SONG_0113,Offer Nissim,Up To The Top,,HIGH,primary spelling (no change)
+ALIAS_0124,Chava Alberstein - The Treasure - Offer Nissim Remix,SONG_0114,Chava Alberstein,The Treasure,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0125,Offer Nissim - Movement - Let The Music Play | Shannon,SONG_0115,Offer Nissim,Movement - Let The Music Play | Shannon,,HIGH,"title variant/typo normalized | Track name kept whole ('Movement', built on Shannon's 'Let The Music Play'); no version stated."
+ALIAS_0126,Offer Nissim Feat Ilan Peled - Pot Pot,SONG_0116,Offer Nissim Feat. Ilan Peled,Pot Pot,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim Feat Ilan Peled' -> 'Offer Nissim Feat. Ilan Peled'
+ALIAS_0127,Michael Jackson - Billie Jean '08 (Offer Nissim Remix Part 2),SONG_0117,Michael Jackson,Billie Jean,'08 (Offer Nissim Remix Part 2),HIGH,title variant/typo normalized; version/remix retained: '08 (Offer Nissim Remix Part 2)
+ALIAS_0128,Chrissy Metz - I'm Standing With You - Offer Nissim Remix,SONG_0118,Chrissy Metz,I'm Standing With You,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0129,Offer Nissim Feat. Riki Ben-Ari - Light My Fire (Live Performance),SONG_0119,Offer Nissim Feat. Riki Ben-Ari,Light My Fire,Live Performance,HIGH,title variant/typo normalized; version/remix retained: Live Performance
+ALIAS_0130,Offer Nissim - Lost The Music,SONG_0120,Offer Nissim,Lost In Music,,HIGH,title variant/typo normalized | Title spelling normalized: 'Lost The Music' -> 'Lost In Music'
+ALIAS_0131,Ivana Lola Feat. AC & GetFar - Don't You Hide (L.I.B.) Offer Nissim Remix,SONG_0121,Ivana Lola Feat. AC & GetFar,Don't You Hide (L.I.B.),Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix | Remix credit written without a separating dash.
+ALIAS_0132,Madonna - I Don't Search I Find - Offer Nissim Remix,SONG_0122,Madonna,I Don't Search I Find,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0133,Suzanne Palmer - Free My Love - Offer Nissim Remix,SONG_0123,Suzanne Palmer,Free My Love,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0134,Offer Nissim Feat. Maya Simantov - Lie,SONG_0097,Offer Nissim Feat. Maya Simantov,Lie,,HIGH,primary spelling (no change)
+ALIAS_0135,Offer Nissim Feat. Maya Simantov - Happy People,SONG_0124,Offer Nissim Feat. Maya Simantov,Happy People,,HIGH,primary spelling (no change)
+ALIAS_0136,Offer Nissim Feat. Epiphony - Heaven In Your Eyes - Avicii Tribute,SONG_0125,Offer Nissim Feat. Epiphony,Heaven In Your Eyes,Avicii Tribute,HIGH,version/remix retained: Avicii Tribute
+ALIAS_0137,Rivka Zohar - Il n'est Pas Comme Hier - Offer Nissim Remix,SONG_0126,Rivka Zohar,Il n'est Pas Comme Hier,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0138,Offer Nissim Pres. Ilan Peled - Udrub (Original Mix),SONG_0127,Offer Nissim Presents Ilan Peled,Udrub,Original Mix,HIGH,title variant/typo normalized; artist credit normalized; version/remix retained: Original Mix | Artist normalized: 'Offer Nissim Pres. Ilan Peled' -> 'Offer Nissim Presents Ilan Peled'
+ALIAS_0139,Aretha Franklin - Rolling In The Deep - Offer Nissim Remix,SONG_0087,Aretha Franklin,Rolling In The Deep,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0140,Katy B - Crying For No Reason (Offer Nissim Remix),SONG_0128,Katy B,Crying For No Reason,Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix
+ALIAS_0141,Cher - Gimme! Gimme! Gimme! (Offer Nissim Needs A Man Remix),SONG_0031,Cher,Gimme! Gimme! Gimme! (A Man After Midnight),Offer Nissim Needs A Man Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Needs A Man Remix | Title spelling normalized: 'Gimme! Gimme! Gimme!' -> 'Gimme! Gimme! Gimme! (A Man After Midnight)'
+ALIAS_0142,Offer Nissim - Bimbo (Original Mix),SONG_0129,Offer Nissim,Bimbo,Original Mix,HIGH,title variant/typo normalized; version/remix retained: Original Mix
+ALIAS_0143,Offer Nissim Feat. Maya Simantov - Miracle,SONG_0130,Offer Nissim Feat. Maya Simantov,Miracle,,HIGH,primary spelling (no change)
+ALIAS_0144,Extasia & Zach Adam feat. Rony G - Light Beams - Offer Nissim Remix,SONG_0007,Extasia & Zach Adam Feat. Rony G,Light Beams,Offer Nissim Remix,HIGH,artist credit normalized; version/remix retained: Offer Nissim Remix | Artist normalized: 'Extasia & Zach Adam feat. Rony G' -> 'Extasia & Zach Adam Feat. Rony G'
+ALIAS_0145,The Young Professionals - Be With You Tonight - Offer Nissim Remix,SONG_0131,The Young Professionals,Be With You Tonight,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0146,Madonna - God Control - Offer Nissim's Rosh Hashana Remix,SONG_0093,Madonna,God Control,Offer Nissim's Rosh Hashana Remix,HIGH,version/remix retained: Offer Nissim's Rosh Hashana Remix
+ALIAS_0147,Madonna - I Rise - Offer Nissim remix,SONG_0105,Madonna,I Rise,Offer Nissim remix,HIGH,version/remix retained: Offer Nissim remix
+ALIAS_0148,Be Alright Feat. Kristine W. (Offer Nissim Mix),SONG_0132,Kristine W.,Be Alright,Offer Nissim Mix,HIGH,title variant/typo normalized; artist credit normalized; version/remix retained: Offer Nissim Mix | Source lists title before artist ('Be Alright Feat. Kristine W.'); reordered - confirmed by archive owner. Version wording kept as printed.
+ALIAS_0149,Jean-Jacques Goldman - La vie par procuration (Offer Nissim Remix),SONG_0133,Jean-Jacques Goldman,La Vie Par Procuration,Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix
+ALIAS_0150,Offer Nissim Feat. Assaf Amdrusky - Again,SONG_0134,Offer Nissim Feat. Assaf Amdursky,Again,,HIGH,primary spelling (no change); Corrected 26.09.2026: Artist spelling: 'Amdrusky' -> 'Amdursky'
+ALIAS_0151,Offer Nissim - Each Other,SONG_0135,Offer Nissim,Each Other,,HIGH,primary spelling (no change)
+ALIAS_0152,Chic - I Want Your Love (Nirious Remix),SONG_0136,Chic,I Want Your Love,Nirious Remix,HIGH,"title variant/typo normalized; version/remix retained: Nirious Remix; Corrected 26.09.2026: Transcription error: image reads 'Chic', not 'Cher'"
+ALIAS_0153,Age of Love - The Age Of Love (Solomun Remix),SONG_0137,Age of Love,The Age Of Love,Solomun Remix,HIGH,title variant/typo normalized; version/remix retained: Solomun Remix
+ALIAS_0154,Celeda - The Underground - Peter Rauhofer's Original Underground Mix,SONG_0138,Celeda,The Underground,Peter Rauhofer's Original Underground Mix,HIGH,version/remix retained: Peter Rauhofer's Original Underground Mix
+ALIAS_0155,Offer Nissim Feat. Maya Simantov - Hook Up,SONG_0139,Offer Nissim Feat. Maya Simantov,Hook Up,,HIGH,primary spelling (no change)
+ALIAS_0156,Offer Nissim Feat. Maya - Wish You Were Here,SONG_0072,Offer Nissim Feat. Maya Simantov,Wish You Were Here,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim Feat. Maya' -> 'Offer Nissim Feat. Maya Simantov'
+ALIAS_0157,Offer Nissim Feat. Epiphony - Out Of My Skin,SONG_0140,Offer Nissim Feat. Epiphony,Out Of My Skin,,HIGH,primary spelling (no change)
+ALIAS_0158,Offer Nissim Presents: The Bitches - Ain't No Mountain,SONG_0064,Offer Nissim Presents The Bitches,Ain't No Mountain,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim Presents: The Bitches' -> 'Offer Nissim Presents The Bitches'
+ALIAS_0159,Offer Nissim Feat. Yael Poliakov And Ilan Peled - Sing From Your Pussy,SONG_0014,Offer Nissim Feat. Yael Poliakov And Ilan Peled,Sing From Your Pussy,,HIGH,primary spelling (no change)
+ALIAS_0160,Cher - Gimme! Gimme! Gimme! (A Man After Midnight),SONG_0031,Cher,Gimme! Gimme! Gimme! (A Man After Midnight),,HIGH,primary spelling (no change) | No version stated in source.
+ALIAS_0161,Offer Nissim Feat. Maya Simantov - I'm In Love,SONG_0033,Offer Nissim Feat. Maya Simantov,I'm In Love,,HIGH,primary spelling (no change)
+ALIAS_0162,Offer Nissim - Cha Cha Cha (Peter Rauhofer's NYC Edit),SONG_0023,Offer Nissim,Another Cha Cha,Peter Rauhofer's NYC Edit,HIGH,"title variant/typo normalized; version/remix retained: Peter Rauhofer's NYC Edit | Same track as 'Another Cha Cha' (Offer Nissim's production of Santa Esmeralda's song, Peter Rauhofer NYC Edit) - confirmed by archive owner 06.09.2026."
+ALIAS_0163,U2 – Love Is Bigger Than Anything In Its Way – Offer Nissim Remix,SONG_0141,U2,Love Is Bigger Than Anything In Its Way,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0164,Offer Nissim Feat. Maya Simantov - Like There Is No Tomorrow INTRO,SONG_0142,Offer Nissim Feat. Maya Simantov,Like There Is No Tomorrow,INTRO,HIGH,title variant/typo normalized; version/remix retained: INTRO | 'INTRO' appended to title without separator; treated as version.
+ALIAS_0165,Offer Nissim - Studio 54,SONG_0143,Offer Nissim,Studio 54,,HIGH,primary spelling (no change)
+ALIAS_0166,Brothers In Rhythm - Such a Good Feeling -  Offer Nissim Remix,SONG_0050,Brothers In Rhythm,Such A Good Feeling,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0167,Offer Nissim Feat. Deborah Cox - Summer Of Love,SONG_0144,Offer Nissim Feat. Deborah Cox,Summer Of Love,,HIGH,primary spelling (no change)
+ALIAS_0168,Offer Nissim Feat. Ilan Peled - Pot Pot,SONG_0116,Offer Nissim Feat. Ilan Peled,Pot Pot,,HIGH,primary spelling (no change)
+ALIAS_0169,MR.BLACK & Offer Nissim - Mucho Bien - Reconstruction Mix,SONG_0145,Mr. Black & Offer Nissim,Mucho Bien,Reconstruction Mix,HIGH,artist credit normalized; version/remix retained: Reconstruction Mix | Artist normalized: 'MR.BLACK & Offer Nissim' -> 'Mr. Black & Offer Nissim'
+ALIAS_0170,Offer Nissim - Bombay,SONG_0146,Offer Nissim,Bombay,,HIGH,primary spelling (no change)
+ALIAS_0171,Offer Nissim - La Talya,SONG_0147,Offer Nissim,La Talya,,HIGH,primary spelling (no change)
+ALIAS_0172,Offer Nissim Feat. Riki Ben Ari - I Can't Sleep At Night,SONG_0148,Offer Nissim Feat. Riki Ben-Ari,I Can't Sleep At Night,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim Feat. Riki Ben Ari' -> 'Offer Nissim Feat. Riki Ben-Ari'
+ALIAS_0173,M.O. All-Star Girl Power Anthem - This Is For My Girls - Offer Nissim Remix,SONG_0069,Michelle Obama All-Star Girl Power Anthem,This Is For My Girls,Offer Nissim Remix,HIGH,artist credit normalized; version/remix retained: Offer Nissim Remix | Artist normalized: 'M.O. All-Star Girl Power Anthem' -> 'Michelle Obama All-Star Girl Power Anthem'
+ALIAS_0174,Offer Nissim Feat. Robin S. - Show Me Love,SONG_0149,Offer Nissim Feat. Robin S.,Show Me Love,,HIGH,primary spelling (no change)
+ALIAS_0175,Offer Nissim & Mr. Black - Show Me Love - Pride Version - Vox By SAILO,SONG_0149,Offer Nissim & Mr. Black,Show Me Love,Pride Version - Vox By SAILO,HIGH,"version/remix retained: Pride Version - Vox By SAILO | A version of Show Me Love (Robin S.); same song, different version - confirmed by archive owner."
+ALIAS_0176,Offer Nissim X Harel Skaat - Ahava Nafshi (Live Performance),SONG_0150,Offer Nissim X Harel Skaat,Ahava Nafshi,Live Performance,HIGH,title variant/typo normalized; version/remix retained: Live Performance
+ALIAS_0177,"MNEK - At Night , I Think About You (Offer Nissim Remix)",SONG_0151,MNEK,"At Night, I Think About You",Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix
+ALIAS_0178,Madonna - Living For Love (Offer Nissim Living For Drums Vocal Remix),SONG_0152,Madonna,Living For Love,Offer Nissim Living For Drums Vocal Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Living For Drums Vocal Remix
+ALIAS_0179,Offer Nissim Feat. Maya Simantov – First Time,SONG_0153,Offer Nissim Feat. Maya Simantov,First Time,,HIGH,primary spelling (no change)
+ALIAS_0180,Offer Nissim Feat. Maya Simantov - Like A Woman,SONG_0154,Offer Nissim Feat. Maya Simantov,Like A Woman,,HIGH,primary spelling (no change)
+ALIAS_0181,Offer Nissim Feat. Nasrin Kadry - Hubby,SONG_0155,Offer Nissim Feat. Nasrin Kadri,Hubby,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim Feat. Nasrin Kadry' -> 'Offer Nissim Feat. Nasrin Kadri'
+ALIAS_0182,Offer Nissim X Zehava Ben - ELAI (Live Performance),SONG_0156,Offer Nissim X Zehava Ben,Elai,Live Performance,HIGH,title variant/typo normalized; version/remix retained: Live Performance
+ALIAS_0183,Offer Nissim Feat. Betty - Kol Doudi,SONG_0157,Offer Nissim Feat. Betty,Kol Doudi,,HIGH,primary spelling (no change)
+ALIAS_0184,Keren Peles // MI ANI - OFFER NISSIM REMIX,SONG_0103,Keren Peles,Mi Ani,Offer Nissim Remix,HIGH,title variant/typo normalized; artist credit normalized; version/remix retained: Offer Nissim Remix | Unusual '//' separator and all-caps in source.
+ALIAS_0185,Dana International - Petra - Offer Nissim Reconstruction Mix,SONG_0099,Dana International,Petra,Offer Nissim Reconstruction Mix,HIGH,version/remix retained: Offer Nissim Reconstruction Mix
+ALIAS_0186,Offer Nissim Feat E.G. - Lo Mevina Ivrit - Pride Version (Live Performance),SONG_0027,Offer Nissim Feat. Eyal Golan,Lo Mevina Ivrit,Pride Version (Live Performance),HIGH,artist credit normalized; version/remix retained: Pride Version (Live Performance) | 'E.G.' = Eyal Golan - confirmed by archive owner.
+ALIAS_0187,Offer Nissim Feat. Ilan Peled - Like A Mouse (Live Perfomance),SONG_0158,Offer Nissim Feat. Ilan Peled,Like A Mouse,Live Perfomance,HIGH,title variant/typo normalized; version/remix retained: Live Perfomance
+ALIAS_0188,Offer Nissim Feat. Masaki Durian & Ilan Peled - Mayim,SONG_0159,Offer Nissim Feat. Masaki Durian & Ilan Peled,Mayim,,HIGH,primary spelling (no change)
+ALIAS_0189,Offer Nissim Feat. Maya Simantov - Let Me Live (Live Performance),SONG_0040,Offer Nissim Feat. Maya Simantov,Let Me Live,Live Performance,HIGH,title variant/typo normalized; version/remix retained: Live Performance
+ALIAS_0190,Offer Nissim Feat. Meital De Razon - Like This Like That,SONG_0160,Offer Nissim Feat. Meital De Razon,Like This Like That,,HIGH,primary spelling (no change)
+ALIAS_0191,Offer Nissim Feat. Maya Simantov - Zero Fucks,SONG_0161,Offer Nissim Feat. Maya Simantov,Zero Fucks,,HIGH,primary spelling (no change)
+ALIAS_0192,Offer Nissim Feat. Maya Simantov - Illusion,SONG_0162,Offer Nissim Feat. Maya Simantov,Illusion,,HIGH,primary spelling (no change)
+ALIAS_0193,Offer Nissim Feat. Ilan Peled - Viado Presidente (Live Performance),SONG_0163,Offer Nissim Feat. Ilan Peled,Viado Presidente,Live Performance,HIGH,title variant/typo normalized; version/remix retained: Live Performance
+ALIAS_0194,Offer Nissim Feat. Riki Ben-Ari - Light My Fire,SONG_0119,Offer Nissim Feat. Riki Ben-Ari,Light My Fire,,HIGH,primary spelling (no change)
+ALIAS_0195,Kristine W. - The Wonder Of It All - Offer Nissim 2011 Remix,SONG_0164,Kristine W.,The Wonder Of It All,Offer Nissim 2011 Remix,HIGH,version/remix retained: Offer Nissim 2011 Remix
+ALIAS_0196,Offer Nissim Feat. Rivka Zohar - Shoshanat Yaakov,SONG_0165,Offer Nissim Feat. Rivka Zohar,Shoshanat Yaakov,,HIGH,primary spelling (no change)
+ALIAS_0197,Offer Nissim X Tair Haim - Laila (Live Performance),SONG_0166,Offer Nissim X Tair Haim,Laila,Live Performance,HIGH,title variant/typo normalized; version/remix retained: Live Performance
+ALIAS_0198,Farid El Atrache - Banadi Aleik - Offer Nissim Remix,SONG_0067,Farid El Atrache,Banadi Aleik,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0199,Rita - Beegharar - Offer Nissim Remix,SONG_0026,Rita,Beegharar,Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix | Title spelling normalized: 'Beegharar' -> 'Bigharar'; Corrected 26.09.2026: Title spelling per Offer Nissim's official release (Spotify: 'Beegharar - Offer Nissim Club Remix')
+ALIAS_0200,Eyal Golan Feat. Offer Nissim - Eshal,SONG_0167,Eyal Golan Feat. Offer Nissim,Eshal,,HIGH,primary spelling (no change) | Artist order reversed compared with later listings; same song.
+ALIAS_0201,Miri Paskal Feat. Firkat Al Nour - Tigi Nesam El Amar - Offer Nissim Remix,SONG_0168,Miri Paskal Feat. Firkat Al Nour,Tigi Nesam El Amar,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0202,Offer Nissim Present Linet & Ilan Peled - Falan Filan,SONG_0169,Offer Nissim Presents Linet & Ilan Peled,Falan Filan,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim Present Linet & Ilan Peled' -> 'Offer Nissim Presents Linet & Ilan Peled'
+ALIAS_0203,Cher - Gimme! Gimme! Gimme! - Offer Nissim Needs A Man Remix,SONG_0031,Cher,Gimme! Gimme! Gimme! (A Man After Midnight),Offer Nissim Needs A Man Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Needs A Man Remix | Title spelling normalized: 'Gimme! Gimme! Gimme!' -> 'Gimme! Gimme! Gimme! (A Man After Midnight)'
+ALIAS_0204,Kristine W. - Be Alright - Offer Nissim Remix,SONG_0132,Kristine W.,Be Alright,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0205,Offer Nissim - Another Cha Cha - Peter Rauhofer's NYC Edit,SONG_0023,Offer Nissim,Another Cha Cha,Peter Rauhofer's NYC Edit,HIGH,version/remix retained: Peter Rauhofer's NYC Edit
+ALIAS_0206,Offer Nissim - Bimbo,SONG_0129,Offer Nissim,Bimbo,,HIGH,primary spelling (no change)
+ALIAS_0207,Aviv Geffen & Ella-Lee - Varod Mavrik - Offer Nissim Remix (Live Performance),SONG_0170,Aviv Geffen & Ella-Lee,Varod Mavrik,Offer Nissim Remix (Live Performance),HIGH,version/remix retained: Offer Nissim Remix (Live Performance)
+ALIAS_0208,Offer Nissim Feat Sailo - Forgive Me,SONG_0049,Offer Nissim Feat. Sailo,Forgive Me,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim Feat Sailo' -> 'Offer Nissim Feat. Sailo'
+ALIAS_0209,Therese - Put 'Em High - Elad Navon Remix,SONG_0171,StoneBridge Feat. Therese,Put 'Em High,Elad Navon Remix,HIGH,version/remix retained: Elad Navon Remix; Corrected 26.09.2026: Original is credited 'StoneBridge feat. Therese' (Discogs / Spotify)
+ALIAS_0210,Offer Nissim Feat. Maya Simantov - Alone,SONG_0172,Offer Nissim Feat. Maya Simantov,Alone,,HIGH,primary spelling (no change)
+ALIAS_0211,Deborah Cox - Easy As Life - Offer Nissim Remix,SONG_0083,Deborah Cox,Easy As Life,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0212,Offer Nissim - Infected Love,SONG_0173,Offer Nissim,Infected Love,,HIGH,primary spelling (no change)
+ALIAS_0213,Offer Nissim Feat. Maya Simantov - Like There Is No Tomorrow,SONG_0142,Offer Nissim Feat. Maya Simantov,Like There Is No Tomorrow,,HIGH,primary spelling (no change)
+ALIAS_0214,Offer Nissim Feat. Maya Simantov  - Everybody Needs A Man,SONG_0032,Offer Nissim Feat. Maya Simantov,Everybody Needs A Man,,HIGH,primary spelling (no change)
+ALIAS_0215,Offer Nissim Feat. Maya Simantov - Like A Woman (Live Performance),SONG_0154,Offer Nissim Feat. Maya Simantov,Like A Woman,Live Performance,HIGH,title variant/typo normalized; version/remix retained: Live Performance
+ALIAS_0216,Offer Nissim - Move Your Body,SONG_0174,Offer Nissim,Move Your Body,,HIGH,primary spelling (no change)
+ALIAS_0217,Silver Convention - Fly Robin Fly - Offer Nissim Remix,SONG_0175,Silver Convention,Fly Robin Fly,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0218,Eliran Halevy - In My Heart,SONG_0176,Eliran Halevy,In My Heart,,HIGH,primary spelling (no change)
+ALIAS_0219,Beyonce – Run Da World - Itay Kalderon & Adi Perez Remix,SONG_0102,Beyoncé,Run The World (Girls),Itay Kalderon & Adi Perez Remix,HIGH,title variant/typo normalized; version/remix retained: Itay Kalderon & Adi Perez Remix | Title spelling normalized: 'Run Da World' -> 'Run The World'; Corrected 26.09.2026: Official spelling: 'Beyonce - Run The World' -> 'Beyoncé - Run The World (Girls)'
+ALIAS_0220,Offer Nissim Feat. Maya Simantov - Like There Is No Tomorrow - Club Mix,SONG_0142,Offer Nissim Feat. Maya Simantov,Like There Is No Tomorrow,Club Mix,HIGH,version/remix retained: Club Mix
+ALIAS_0221,Offer Nissim Feat. Ilan Peled - Mesuchsechet - Live Performance,SONG_0177,Offer Nissim Feat. Ilan Peled,Mesuchsechet,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0222,Madonna - Turn Up The Radio - Offer Nissim Club Remix,SONG_0178,Madonna,Turn Up The Radio,Offer Nissim Club Remix,HIGH,version/remix retained: Offer Nissim Club Remix
+ALIAS_0223,Offer Nissim X Harel Skaat - Ahava Nafshi,SONG_0150,Offer Nissim X Harel Skaat,Ahava Nafshi,,HIGH,primary spelling (no change)
+ALIAS_0224,Offer Nissim X Netta Barzilai - We Are Drunk,SONG_0179,Offer Nissim X Netta Barzilai,We Are Drunk,,HIGH,primary spelling (no change)
+ALIAS_0225,Suzanne Palmer - Fascinated  - Offer Nissim Remix,SONG_0047,Suzanne Palmer,Fascinated,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0226,Deborah Cox - Everbody Dance - Offer Nissim Show Mix - Live Performance,SONG_0180,Deborah Cox,Everybody Dance,Offer Nissim Show Mix - Live Performance,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Show Mix - Live Performance | Title spelling normalized: 'Everbody Dance' -> 'Everybody Dance'
+ALIAS_0227,Deborah Cox - Easy As Life - Offer Nissim Show Mix - Live Performance,SONG_0083,Deborah Cox,Easy As Life,Offer Nissim Show Mix - Live Performance,HIGH,version/remix retained: Offer Nissim Show Mix - Live Performance
+ALIAS_0228,Deborah Cox - Summer Of Love - Offer Nissim Show Mix - Live Performance,SONG_0144,Deborah Cox,Summer Of Love,Offer Nissim Show Mix - Live Performance,HIGH,version/remix retained: Offer Nissim Show Mix - Live Performance
+ALIAS_0229,Rita & ELK (DUENDE) - Boom Boom Boom - Offer Nissim Show Mix - Live Performance,SONG_0181,Rita & ELK,Boom Boom Boom,Offer Nissim Show Mix - Live Performance,HIGH,artist credit normalized; version/remix retained: Offer Nissim Show Mix - Live Performance | '(DUENDE)' is the duo name in source.
+ALIAS_0230,Offer Nissim - Atencion Alegria,SONG_0182,Offer Nissim,Atencion Alegria,,HIGH,primary spelling (no change)
+ALIAS_0231,Donna Summer - Power Of Love - Offer Nissim Remix,SONG_0183,Donna Summer,Power Of Love,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0232,Offer Nissim X Tal Ramon - Lo Levad - Live Performance,SONG_0184,Offer Nissim X Tal Ramon,Lo Levad,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0233,Mariah Carey Vs Maya - I'm That Chick - Offer Nissim Remix,SONG_0185,Mariah Carey Vs Maya,I'm That Chick,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0234,Offer Nissim Feat. Maya Simantov - Boys - Live Performance,SONG_0186,Offer Nissim Feat. Maya Simantov,Boys,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0235,Madonna - Finally Enough Love - Offer Nissim Requiem Remix,SONG_0187,Madonna,Finally Enough Love,Offer Nissim Requiem Remix,HIGH,version/remix retained: Offer Nissim Requiem Remix
+ALIAS_0236,Ivana Lola Feat. AC & GetFar - Don't You Hide (L.I.B.) - Offer Nissim Remix,SONG_0121,Ivana Lola Feat. AC & GetFar,Don't You Hide (L.I.B.),Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0237,Offer Nissim - Get What I Want,SONG_0188,Offer Nissim,Get What I Want,,HIGH,primary spelling (no change)
+ALIAS_0238,Offer Nissim Feat. Maya Simantov - Bitch,SONG_0189,Offer Nissim Feat. Maya Simantov,Bitch,,HIGH,primary spelling (no change)
+ALIAS_0239,Offer Nissim - I Want Muscles,SONG_0190,Offer Nissim,I Want Muscles,,HIGH,primary spelling (no change)
+ALIAS_0240,Offer Nissim Feat. Shai Tsabari - Shalom Leah Dudi,SONG_0191,Offer Nissim Feat. Shai Tsabari,Shalom Leah Dudi,,HIGH,primary spelling (no change)
+ALIAS_0241,Ilan Peled - Frachtnin - Offer Nissim Remix  - Live Performance,SONG_0192,Ilan Peled,Frachtnin,Offer Nissim Remix - Live Performance,HIGH,version/remix retained: Offer Nissim Remix - Live Performance
+ALIAS_0242,Rita and ELK - Boom Boom Boom - Offer Nissim Remix,SONG_0181,Rita and ELK,Boom Boom Boom,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0243,Meital De Razon & Asi Tal - Toda La Noche Offer Nissim & Asi Tal Remix,SONG_0024,Meital De Razon & Asi Tal,Toda La Noche,Offer Nissim & Asi Tal Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim & Asi Tal Remix | Remix credit written without separating dash.
+ALIAS_0244,Aviv Geffen & Ella-Lee - Varod Mavrik - Offer Nissim Remix,SONG_0170,Aviv Geffen & Ella-Lee,Varod Mavrik,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0245,Offer Nissim Feat. Maya Simantov - Cuando,SONG_0193,Offer Nissim Feat. Maya Simantov,Cuando,,HIGH,primary spelling (no change)
+ALIAS_0246,Offer Nissim & Mr. Black - Show Me Love,SONG_0149,Offer Nissim & Mr. Black,Show Me Love,,HIGH,primary spelling (no change) | Mr. Black version of Show Me Love (Robin S.); same song - confirmed by archive owner.
+ALIAS_0247,Offer Nissim Feat. Maya Simantov - For Your Love,SONG_0194,Offer Nissim Feat. Maya Simantov,For Your Love,,HIGH,primary spelling (no change)
+ALIAS_0248,Offer Nissim Feat. Symphony X - I Close My Eyes,SONG_0195,Offer Nissim Feat. Symphony X,I Close My Eyes,,HIGH,primary spelling (no change)
+ALIAS_0249,Offer Nissim Feat. Maya Simantov - Love Me,SONG_0196,Offer Nissim Feat. Maya Simantov,Love Me,,HIGH,primary spelling (no change)
+ALIAS_0250,Offer Nissim Feat. Maya Simantov - Be My Boyfriend,SONG_0197,Offer Nissim Feat. Maya Simantov,Be My Boyfriend,,HIGH,primary spelling (no change)
+ALIAS_0251,Offer Nissim Feat. Maya Simantov - Boys,SONG_0186,Offer Nissim Feat. Maya Simantov,Boys,,HIGH,primary spelling (no change)
+ALIAS_0252,Offer Nissim Feat. Ilan Peled - Mesuchsechet,SONG_0177,Offer Nissim Feat. Ilan Peled,Mesuchsechet,,HIGH,primary spelling (no change)
+ALIAS_0253,Offer Nissim Presents. Ilan Peled - Aprikose,SONG_0198,Offer Nissim Presents Ilan Peled,Aprikose,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim Presents. Ilan Peled' -> 'Offer Nissim Presents Ilan Peled'
+ALIAS_0254,Offer Nissim - Move Your Body - Club Mix,SONG_0174,Offer Nissim,Move Your Body,Club Mix,HIGH,version/remix retained: Club Mix
+ALIAS_0255,The KLF - What Time Is Love - Offer Nissim Remix,SONG_0199,The KLF,What Time Is Love,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0256,Pet Shop Boys - The Pop Kids - Offer Nissim Drama Remix,SONG_0200,Pet Shop Boys,The Pop Kids,Offer Nissim Drama Remix,HIGH,version/remix retained: Offer Nissim Drama Remix
+ALIAS_0257,Ran Danker - Malkat Harahava - Offer Nissim Remix  - Live Performance,SONG_0201,Ran Danker,Malkat Harahava,Offer Nissim Remix - Live Performance,HIGH,version/remix retained: Offer Nissim Remix - Live Performance
+ALIAS_0258,Offer Nissim Feat. Maya Simantov - Cafe Del Mar First Time,SONG_0153,Offer Nissim Feat. Maya Simantov,First Time,Cafe Del Mar,HIGH,title variant/typo normalized; version/remix retained: Cafe Del Mar | A remix of First Time (Cafe Del Mar version) - confirmed by archive owner.
+ALIAS_0259,Offer Nissim Presents: Amir Haddad - Désenchantée,SONG_0202,Offer Nissim Presents Amir Haddad,Désenchantée,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim Presents: Amir Haddad' -> 'Offer Nissim Presents Amir Haddad'
+ALIAS_0260,Offer Nissim Feat. Maya Simantov - You'll Never Know,SONG_0203,Offer Nissim Feat. Maya Simantov,You'll Never Know,,HIGH,primary spelling (no change)
+ALIAS_0261,Offer Nissim - High In Bed,SONG_0204,Offer Nissim,High In Bed,,HIGH,primary spelling (no change)
+ALIAS_0262,Ivri Lider & Rita - Cinderella Rockefella - Offer Nissim 2005 The Chin Reconstruction Mix,SONG_0205,Ivri Lider & Rita,Cinderella Rockefella,Offer Nissim 2005 The Chin Reconstruction Mix,HIGH,version/remix retained: Offer Nissim 2005 The Chin Reconstruction Mix
+ALIAS_0263,Offer Nissim Feat. Dana International -  Ani Lo Yechola Biladecha - Rosh Hashana Version,SONG_0206,Offer Nissim Feat. Dana International,Ani Lo Yechola Biladecha,Rosh Hashana Version,HIGH,version/remix retained: Rosh Hashana Version
+ALIAS_0264,Offer Nissim X Tamir Grinberg - Our Love,SONG_0207,Offer Nissim X Tamir Grinberg,Our Love,,HIGH,primary spelling (no change)
+ALIAS_0265,Rita And Elk - BAILADOR - Offer Nissim Remix,SONG_0208,Rita & ELK,Bailador,Offer Nissim Remix,HIGH,artist credit normalized; version/remix retained: Offer Nissim Remix | Artist normalized: 'Rita And Elk' -> 'Rita & ELK'
+ALIAS_0266,Offer Nissim - Underground,SONG_0209,Offer Nissim,Underground,,HIGH,primary spelling (no change)
+ALIAS_0267,Eartha Kitt – Where Is My Man - Offer Nissim Remix,SONG_0079,Eartha Kitt,Where Is My Man,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0268,Offer Nissim Feat. Maya Simantov - Miracle - Part B,SONG_0130,Offer Nissim Feat. Maya Simantov,Miracle,Part B,HIGH,version/remix retained: Part B
+ALIAS_0269,The Trash Mermaids - Cryptic Love - Offer Nissim Remix,SONG_0210,The Trash Mermaids,Cryptic Love,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0270,Offer Nissim X Harel Skaat - Ahava Nafsh,SONG_0150,Offer Nissim X Harel Skaat,Ahava Nafshi,,HIGH,title variant/typo normalized | Title spelling normalized: 'Ahava Nafsh' -> 'Ahava Nafshi'
+ALIAS_0271,Offer Nissim X Tair Haim - Laila,SONG_0166,Offer Nissim X Tair Haim,Laila,,HIGH,primary spelling (no change)
+ALIAS_0272,Dana International - Maganuna - Offer Nissim Reconstruction,SONG_0211,Dana International,Maganuna,Offer Nissim Reconstruction,HIGH,version/remix retained: Offer Nissim Reconstruction
+ALIAS_0273,Offer Nissim X ODEYA - Baleylot,SONG_0212,Offer Nissim X ODEYA,Baleylot,,HIGH,primary spelling (no change)
+ALIAS_0274,Whitney Houston - I Didn't Know My Own Strength - Offer Nissim Remix,SONG_0213,Whitney Houston,I Didn't Know My Own Strength,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0275,Offer Nissim - Cha Cha Cha - Peter Rauhofer Nyc Edit,SONG_0023,Offer Nissim,Another Cha Cha,Peter Rauhofer Nyc Edit,HIGH,title variant/typo normalized; version/remix retained: Peter Rauhofer Nyc Edit | Same track as 'Another Cha Cha' - confirmed by archive owner.
+ALIAS_0276,Eliran Halevy - Entourage,SONG_0214,Eliran Halevy,Entourage,,HIGH,primary spelling (no change)
+ALIAS_0277,Offer Nissim Pres. Dynasty Season - The Children,SONG_0215,Offer Nissim Presents Dynasty Season,The Children,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim Pres. Dynasty Season' -> 'Offer Nissim Presents Dynasty Season'
+ALIAS_0278,Offer Nissim Feat. Ilan Peled - Hypno Dance,SONG_0216,Offer Nissim Feat. Ilan Peled,Hypno Dance,,HIGH,primary spelling (no change)
+ALIAS_0279,Ran Danker -Malkat Harahva - Offer Nissim Remix,SONG_0201,Ran Danker,Malkat Harahava,Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix | Title spelling normalized: 'Malkat Harahva' -> 'Malkat Harahava'
+ALIAS_0280,Madonna - God Control - Offer Nissim Remix,SONG_0093,Madonna,God Control,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0281,Offer Nissim Feat. Meital De Razon - Saved Me,SONG_0217,Offer Nissim Feat. Meital De Razon,Saved Me,,HIGH,primary spelling (no change)
+ALIAS_0282,Offer Nissim Feat. Betty Pablo - Poison (Ra'al),SONG_0081,Offer Nissim Feat. Betty Pablo,Poison (Ra'al),,HIGH,primary spelling (no change) | Same song as 'Offer Nisim ft. Betty - Poison' (2019 spelling).
+ALIAS_0283,Offer Nissim Feat. Maya Simantov - Anything,SONG_0218,Offer Nissim Feat. Maya Simantov,Anything,,HIGH,primary spelling (no change)
+ALIAS_0284,Donna Summer & Barbra Streisand - Enough is Enough 2017 (Offer Nissim Remix),SONG_0084,Donna Summer & Barbra Streisand,Enough Is Enough,2017 (Offer Nissim Remix),HIGH,title variant/typo normalized; version/remix retained: 2017 (Offer Nissim Remix) | '2017' belongs to the remix label.
+ALIAS_0285,Lana Del Rey - Young And Beautiful (Offer Nissim Remix),SONG_0219,Lana Del Rey,Young And Beautiful,Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix
+ALIAS_0286,Offer Nissim Feat. Maya Simantov - Let God (LIVE SHOW),SONG_0220,Offer Nissim Feat. Maya Simantov,Let God,LIVE SHOW,HIGH,title variant/typo normalized; version/remix retained: LIVE SHOW
+ALIAS_0287,Offer Nissim - Welcome,SONG_0221,Offer Nissim,Welcome,,HIGH,primary spelling (no change)
+ALIAS_0288,Offer Nissim  - Celebration,SONG_0222,Offer Nissim,Celebration,,HIGH,primary spelling (no change)
+ALIAS_0289,Kristine W - Everything That I Got - Offer Nissim Tel Aviv Mix,SONG_0223,Kristine W.,Everything That I Got,Offer Nissim Tel Aviv Mix,HIGH,artist credit normalized; version/remix retained: Offer Nissim Tel Aviv Mix | Artist normalized: 'Kristine W' -> 'Kristine W.'
+ALIAS_0290,Offer Nissim Feat. Epiphony - Mr Charming,SONG_0224,Offer Nissim Feat. Epiphony,Mr Charming,,HIGH,primary spelling (no change)
+ALIAS_0291,Kim Wilde - Loved -Offer Nissim Remix,SONG_0059,Kim Wilde,Loved,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0292,Offer Nissim Feat. Ilan Peled and Nasrin Kadri - LIBERTÉ,SONG_0225,Offer Nissim Feat. Ilan Peled and Nasrin Kadri,Liberté,,HIGH,primary spelling (no change)
+ALIAS_0293,JJ Goldman - La Vie Par Procuration - Offer Nissim '08 Reconstruction,SONG_0133,Jean-Jacques Goldman,La Vie Par Procuration,Offer Nissim '08 Reconstruction,HIGH,artist credit normalized; version/remix retained: Offer Nissim '08 Reconstruction | Artist normalized: 'JJ Goldman' -> 'Jean-Jacques Goldman'
+ALIAS_0294,Ran Danker - Malkat Harahava - Offer Nissim Show Mix,SONG_0201,Ran Danker,Malkat Harahava,Offer Nissim Show Mix,HIGH,version/remix retained: Offer Nissim Show Mix
+ALIAS_0295,TYP - Be With You Tonight - Offer Nissim Remix,SONG_0131,The Young Professionals,Be With You Tonight,Offer Nissim Remix,HIGH,artist credit normalized; version/remix retained: Offer Nissim Remix | Artist normalized: 'TYP' -> 'The Young Professionals'
+ALIAS_0296,Vali - Ain't No Friend of Mine - Offer Nissim Remix,SONG_0029,Vali,Ain't No Friend Of Mine,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0297,Offer Nissim Feat. Nasrin Kadri - Lusi,SONG_0226,Offer Nissim Feat. Nasrin Kadri,Lusi,,HIGH,primary spelling (no change)
+ALIAS_0298,Offer Nissim Feat. Nasrin Kadri - Hubby - Show Mix,SONG_0155,Offer Nissim Feat. Nasrin Kadri,Hubby,Show Mix,HIGH,version/remix retained: Show Mix
+ALIAS_0299,Offer Nissim Feat. Eyal Golan - ESHAL,SONG_0167,Offer Nissim Feat. Eyal Golan,Eshal,,HIGH,primary spelling (no change)
+ALIAS_0300,Eliran Halevy - Can You Feel It,SONG_0227,Eliran Halevy,Can You Feel It,,HIGH,primary spelling (no change)
+ALIAS_0301,I Promised Mom & ANGST vor GRETA - My Sweet Stranger - Adam Ten & Mita Gami Remix,SONG_0228,I Promised Mom & ANGST vor GRETA,My Sweet Stranger,Adam Ten & Mita Gami Remix,HIGH,version/remix retained: Adam Ten & Mita Gami Remix
+ALIAS_0302,"Thayana Valle, Botteon, Out_Ctrl - Justify - Original Mix",SONG_0229,"Thayana Valle, Botteon, Out_Ctrl",Justify,Original Mix,HIGH,version/remix retained: Original Mix
+ALIAS_0303,Offer Nissim X Dana International - Dana Kama,SONG_0230,Offer Nissim X Dana International,Dana Kama,,HIGH,primary spelling (no change)
+ALIAS_0304,Offer Nissim Feat. Maya Simantov - We Can Make It - Show Mix,SONG_0048,Offer Nissim Feat. Maya Simantov,We Can Make It,Show Mix,HIGH,version/remix retained: Show Mix
+ALIAS_0305,Suzanne Palmer - Home - Offer Nissim Remix - Part 1,SONG_0231,Suzanne Palmer,Home,Offer Nissim Remix - Part 1,HIGH,version/remix retained: Offer Nissim Remix - Part 1
+ALIAS_0306,Offer Nissim X Arik Einstein - Ma Shehaya Haya,SONG_0232,Offer Nissim X Arik Einstein,Ma Shehaya Haya,,HIGH,primary spelling (no change)
+ALIAS_0307,Mono - Life in Mono - Offer Nissim Remix,SONG_0233,Mono,Life In Mono,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0308,Offer Nissim - Don't Know What To Do,SONG_0234,Offer Nissim,Don't Know What To Do,,HIGH,primary spelling (no change)
+ALIAS_0309,Amanda Lear - Follow Me - Offer Nissim Remix,SONG_0235,Amanda Lear,Follow Me,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0310,Nina Hagen - New York New York - Offer Nissim Remix,SONG_0236,Nina Hagen,New York New York,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0311,Offer Nissim Feat. Maya Simantov - First Time - Show Mix,SONG_0153,Offer Nissim Feat. Maya Simantov,First Time,Show Mix,HIGH,version/remix retained: Show Mix
+ALIAS_0312,Offer Nissim Feat. Maya Simantov - Happy People - Show Mix,SONG_0124,Offer Nissim Feat. Maya Simantov,Happy People,Show Mix,HIGH,version/remix retained: Show Mix
+ALIAS_0313,Offer Nissim Feat. Riki Ben Ari - Dance The Night,SONG_0006,Offer Nissim Feat. Riki Ben-Ari,Dance The Night,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim Feat. Riki Ben Ari' -> 'Offer Nissim Feat. Riki Ben-Ari'
+ALIAS_0314,Offer Nissim Feat. Shirley Bassey - La Passione,SONG_0058,Offer Nissim Feat. Shirley Bassey,La Passione,,HIGH,primary spelling (no change)
+ALIAS_0315,Offer Nissim - Osa Osa,SONG_0078,Offer Nissim,Osa Osa,,HIGH,primary spelling (no change)
+ALIAS_0316,Offer Nissim Feat. Ilan Peled - Free To Change,SONG_0237,Offer Nissim Feat. Ilan Peled,Free To Change,,HIGH,primary spelling (no change)
+ALIAS_0317,Offer Nissim - Lost In Music,SONG_0120,Offer Nissim,Lost In Music,,HIGH,primary spelling (no change)
+ALIAS_0318,Offer Nissim Feat. Epiphony - Boxing Ring,SONG_0238,Offer Nissim Feat. Epiphony,Boxing Ring,,HIGH,primary spelling (no change)
+ALIAS_0319,Sarit Hadad - Ze She'shomer Alay - Offer Nissim Vs Yinon Yahel Club Mix,SONG_0011,Sarit Hadad,Ze She'shomer Alay,Offer Nissim Vs Yinon Yahel Club Mix,HIGH,version/remix retained: Offer Nissim Vs Yinon Yahel Club Mix
+ALIAS_0320,Offer Nissim X Dana International - Good Night Europe - Show Mix,SONG_0091,Offer Nissim X Dana International,Layla Tov Eropa,Show Mix,HIGH,title variant/typo normalized; version/remix retained: Show Mix | English title of Layla Tov Eropa; same song - confirmed by archive owner (probable).
+ALIAS_0321,Offer Nissim Feat. Dana International - Power - Show Mix,SONG_0239,Offer Nissim Feat. Dana International,Power,Show Mix,HIGH,version/remix retained: Show Mix
+ALIAS_0322,Dana International - Ahlah Gever - Offer Nissim Show Mix,SONG_0240,Dana International,Ahlah Gever,Offer Nissim Show Mix,HIGH,version/remix retained: Offer Nissim Show Mix
+ALIAS_0323,Offer Nissim Feat. Dana International - Ani Lo Yechola Biladecha (Rosh Hashana Version),SONG_0206,Offer Nissim Feat. Dana International,Ani Lo Yechola Biladecha,Rosh Hashana Version,HIGH,title variant/typo normalized; version/remix retained: Rosh Hashana Version
+ALIAS_0324,Offer Nissim X Dana International - Down On Me,SONG_0241,Offer Nissim X Dana International,Down On Me,,HIGH,primary spelling (no change)
+ALIAS_0325,Elad Navon - Flow,SONG_0242,Elad Navon,Flow,,HIGH,primary spelling (no change)
+ALIAS_0326,Amuka vs Shakedown - Appreciate Me At Night - Offer Nissim Mash Up,SONG_0243,Amuka vs Shakedown,Appreciate Me At Night,Offer Nissim Mash Up,HIGH,version/remix retained: Offer Nissim Mash Up
+ALIAS_0327,Eliran Halevy - Vicious Games,SONG_0244,Yello,Vicious Games,Eliran Halevy Remix,HIGH,artist credit normalized; version/remix retained: Eliran Halevy Remix | Printed as an Eliran Halevy original; it is Eliran Halevy's remix of Yello's Vicious Games (same track as the NYC Pride 2023 line) - confirmed by archive owner 06.09.2026.
+ALIAS_0328,David Bowie - Wild Is The Wind - Eliran Halevy Remix,SONG_0245,David Bowie,Wild Is The Wind,Eliran Halevy Remix,HIGH,version/remix retained: Eliran Halevy Remix
+ALIAS_0329,Yehuda Poliker X Offer Nissim - Aphrodite - Show Mix,SONG_0246,Yehuda Poliker X Offer Nissim,Aphrodite,Show Mix,HIGH,version/remix retained: Show Mix
+ALIAS_0330,Rita & ELK (Duende) - Boom Boom Boom - Offer Nissim Remix,SONG_0181,Rita & ELK,Boom Boom Boom,Offer Nissim Remix,HIGH,artist credit normalized; version/remix retained: Offer Nissim Remix
+ALIAS_0331,"Deborah Cox Opening act  - Everybody Dance, Easy As, Summer Of Love - Offer Nissim Show Mix",SONG_0247,Deborah Cox,Everybody Dance / Easy As Life / Summer Of Love (opening-act medley),Offer Nissim Show Mix,HIGH,"title variant/typo normalized; artist credit normalized; version/remix retained: Offer Nissim Show Mix | OPENING ACT (02:30), not part of Offer Nissim's set proper; included per archive owner's instruction. Medley of three Deborah Cox songs; given its own canonical id. Component songs: Everybody Dance, Easy As Life, Summer Of Love."
+ALIAS_0332,Madonna - Celebration - Offer Nissim dub Remix,SONG_0222,Madonna,Celebration,Offer Nissim dub Remix,HIGH,version/remix retained: Offer Nissim dub Remix
+ALIAS_0333,Michelle Obama Power Anthem - This Is For My Girls - Offer Nissim Remix,SONG_0069,Michelle Obama All-Star Girl Power Anthem,This Is For My Girls,Offer Nissim Remix,HIGH,artist credit normalized; version/remix retained: Offer Nissim Remix | Artist normalized: 'Michelle Obama Power Anthem' -> 'Michelle Obama All-Star Girl Power Anthem'
+ALIAS_0334,Offer Nissim - Cha Cha Cha - Peter Rauhofer's NYC Edit,SONG_0023,Offer Nissim,Another Cha Cha,Peter Rauhofer's NYC Edit,HIGH,title variant/typo normalized; version/remix retained: Peter Rauhofer's NYC Edit | Same track as 'Another Cha Cha' - confirmed by archive owner.
+ALIAS_0335,Scissor Sisters - Fire With Fire - Peter Rauhofer Reconstruction Mix,SONG_0248,Scissor Sisters,Fire With Fire,Peter Rauhofer Reconstruction Mix,HIGH,version/remix retained: Peter Rauhofer Reconstruction Mix
+ALIAS_0336,Offer Nissim Feat. Dana International - Power,SONG_0239,Offer Nissim Feat. Dana International,Power,,HIGH,primary spelling (no change)
+ALIAS_0337,Yello - Vicious Games - Eliran Halevy Remix(?),SONG_0244,Yello,Vicious Games,Eliran Halevy Remix,HIGH,version/remix retained: Eliran Halevy Remix | Source has '(?)' after the remix credit; archive owner confirmed on 06.09.2026 that it is the Eliran Halevy Remix.
+ALIAS_0338,"MNEK - At Night , I Think About You - Offer Nissim Remix",SONG_0151,MNEK,"At Night, I Think About You",Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0339,Suzanne Palmer - Fascinated - Offer Nissim Remix,SONG_0047,Suzanne Palmer,Fascinated,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0340,Offer Nissim Feat. Omri Mizrahi - Don't Stop The Dance,SONG_0110,Offer Nissim Feat. Omri Mizrahi,Don't Stop The Dance,,HIGH,primary spelling (no change)
+ALIAS_0341,Offer Nissim Feat. Ilan Peled - One Minute Before We All Die - Intro Mix,SONG_0249,Offer Nissim Feat. Ilan Peled,One Minute Before We All Die,Intro Mix,HIGH,version/remix retained: Intro Mix
+ALIAS_0342,Offer Nissim - Keep On Dancing,SONG_0250,Offer Nissim,Keep On Dancing,,HIGH,primary spelling (no change)
+ALIAS_0343,Offer Nissim - Feel Free,SONG_0251,Offer Nissim,Feel Free,,HIGH,primary spelling (no change)
+ALIAS_0344,Madonna - God Control - Offer Nissim Rosh Hashana Remix,SONG_0093,Madonna,God Control,Offer Nissim Rosh Hashana Remix,HIGH,version/remix retained: Offer Nissim Rosh Hashana Remix
+ALIAS_0345,Offer Nissim Feat. Maya Simantov - LIE,SONG_0097,Offer Nissim Feat. Maya Simantov,Lie,,HIGH,primary spelling (no change)
+ALIAS_0346,Donna Summer & Barbra Streisand - Enough is Enough 2017 - Offer Nissim Remix,SONG_0084,Donna Summer & Barbra Streisand,Enough Is Enough,2017 - Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: 2017 - Offer Nissim Remix | '2017' belongs to the remix label.
+ALIAS_0347,Rihanna - Disturbia - Offer Nissim Remix,SONG_0252,Rihanna,Disturbia,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0348,Alain Chamfort - Manureva 07 - Offer Nissim Remix - OMG!,SONG_0253,Alain Chamfort,Manureva 07,Offer Nissim Remix - OMG!,HIGH,"version/remix retained: Offer Nissim Remix - OMG! | 'OMG!' is a comment in the source, kept in version field."
+ALIAS_0349,Offer Nissim X Netta - Turn Up The Heat - Live Performance,SONG_0254,Offer Nissim X Netta,Turn Up The Heat,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0350,Deborah Cox - Everbody Dance - Offer Nissim Show Mix,SONG_0180,Deborah Cox,Everybody Dance,Offer Nissim Show Mix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Show Mix | Title spelling normalized: 'Everbody Dance' -> 'Everybody Dance'
+ALIAS_0351,Deborah Cox - Easy As Life - Offer Nissim Show Mix,SONG_0083,Deborah Cox,Easy As Life,Offer Nissim Show Mix,HIGH,version/remix retained: Offer Nissim Show Mix
+ALIAS_0352,Britney Spears - Till The World Ends - Offer Nissim & Itay Kalderon Remix,SONG_0101,Britney Spears,Till The World Ends,Offer Nissim & Itay Kalderon Remix,HIGH,version/remix retained: Offer Nissim & Itay Kalderon Remix
+ALIAS_0353,Shoshana Damari - Adaa'in Kan - Offer Nissim Remix,SONG_0255,Shoshana Damari,Adaa'in Kan,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0354,Offer Nissim & Firqat Alnoor X Benaia Barabi - Adon Haselichot - Live Performance,SONG_0256,Offer Nissim & Firqat Alnoor X Benaia Barabi,Adon Haselichot,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0355,Offer Nissim & Firqat Alnoor X Eden Ben Zaken - Nisbata Aemonim - Live Performance,SONG_0257,Offer Nissim & Firqat Alnoor X Eden Ben Zaken,Nisbata Aemonim,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0356,Offer Nissim Feat. Maya Simantov - All The Love,SONG_0258,Offer Nissim Feat. Maya Simantov,All The Love,,HIGH,primary spelling (no change)
+ALIAS_0357,Eliran Halevy - Open The Door,SONG_0259,Eliran Halevy,Open The Door,,HIGH,primary spelling (no change)
+ALIAS_0358,Offer Nissim Feat. Maya Simantov - Heart Attack - Live Performance,SONG_0260,Offer Nissim Feat. Maya Simantov,Heart Attack,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0359,Offer Nissim X Ofra Haza - Adagio,SONG_0261,Offer Nissim X Ofra Haza,Adagio,,HIGH,primary spelling (no change)
+ALIAS_0360,Offer Nissim - Toro,SONG_0262,Offer Nissim,Toro,,HIGH,primary spelling (no change)
+ALIAS_0361,Offer Nissim - How Deep Is Your Love,SONG_0263,Offer Nissim,How Deep Is Your Love,,HIGH,primary spelling (no change)
+ALIAS_0362,Offer Nissim - When I Come Alive,SONG_0264,Offer Nissim,When I Come Alive,,HIGH,primary spelling (no change)
+ALIAS_0363,Offer Nissim - Can You Feel It,SONG_0265,Offer Nissim,Can You Feel It,,HIGH,primary spelling (no change)
+ALIAS_0364,Offer Nissim Feat. Maya Simantov - Come Back Home - Live Performance,SONG_0266,Offer Nissim Feat. Maya Simantov,Come Back Home,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0365,Offer Nissim Feat. Maya Simantov - Goddess - Live Performance,SONG_0267,Offer Nissim Feat. Maya Simantov,Goddess,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0366,Madonna - Living For Love - Offer Nissim Remix,SONG_0152,Madonna,Living For Love,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0367,Offer Nissim X Netta - Turn Up The Heat,SONG_0254,Offer Nissim X Netta,Turn Up The Heat,,HIGH,primary spelling (no change)
+ALIAS_0368,Offer Nissim Feat. Eyal Golan - ESHAL - Show Mix,SONG_0167,Offer Nissim Feat. Eyal Golan,Eshal,Show Mix,HIGH,version/remix retained: Show Mix
+ALIAS_0369,Jessica Sanchez - Stronger Together - Offer Nissim Remix,SONG_0268,Jessica Sanchez,Stronger Together,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0370,Offer Nissim Feat. Cim W - I Want To Be With You,SONG_0269,Offer Nissim Feat. Cim W,I Want To Be With You,,HIGH,primary spelling (no change)
+ALIAS_0371,Offer Nissim  X Ania Bukstein - Nesika - Live Performance,SONG_0270,Offer Nissim X Ania Bukstein,Nesika,Live Performance,HIGH,artist credit normalized; version/remix retained: Live Performance | Artist normalized: 'Offer Nissim  X Ania Bukstein' -> 'Offer Nissim X Ania Bukstein'
+ALIAS_0372,Offer Nissim Feat. Ania Bukstein - ROKEDET 2024 - Live Performance,SONG_0034,Offer Nissim Feat. Ania Bukstein,Rokedet,2024 - Live Performance,HIGH,title variant/typo normalized; version/remix retained: 2024 - Live Performance | '2024' treated as version label of Rokedet.
+ALIAS_0373,Amelia Lily - You Bring Me Joy - We Will Dance Again - Offer Nissim Remix,SONG_0020,Amelia Lily,You Bring Me Joy,We Will Dance Again - Offer Nissim Remix,HIGH,version/remix retained: We Will Dance Again - Offer Nissim Remix
+ALIAS_0374,Katy B - Crying For No Reason - Offer Nissim Remix,SONG_0128,Katy B,Crying For No Reason,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0375,Frank Sinatra - The World We Knew - Offer Nissim Remix,SONG_0271,Frank Sinatra,The World We Knew,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0376,Offer Nissim Feat. Boruch Sholom & Ilan Peled - SHUVA - Live Performance,SONG_0272,Offer Nissim Feat. Boruch Sholom & Ilan Peled,Shuva,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0377,Madonna - Girls Gone Wild - Offer Nissim Remix,SONG_0046,Madonna,Girls Gone Wild,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0378,Offer Nissim Feat. Maya Simantov - First Time,SONG_0153,Offer Nissim Feat. Maya Simantov,First Time,,HIGH,primary spelling (no change)
+ALIAS_0379,Eliran Halevy Feat. Ivana Lola - Egoeista - Live Performance,SONG_0273,Eliran Halevy Feat. Ivana Lola,Egoeista,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0380,Eliran Halevy - Romeo And Juliet,SONG_0274,Eliran Halevy,Romeo And Juliet,,HIGH,primary spelling (no change)
+ALIAS_0381,Offer Nissim - Saturday Night,SONG_0275,Offer Nissim,Saturday Night,,HIGH,primary spelling (no change)
+ALIAS_0382,Offer Nissim & 2050 - Reach Out,SONG_0276,Offer Nissim & 2050,Reach Out,,HIGH,primary spelling (no change)
+ALIAS_0383,Offer Nissim x Noa Kirel - Doctor - Live Performance,SONG_0277,Offer Nissim X Noa Kirel,Doctor,Live Performance,HIGH,artist credit normalized; version/remix retained: Live Performance | Artist normalized: 'Offer Nissim x Noa Kirel' -> 'Offer Nissim X Noa Kirel'
+ALIAS_0384,Rockers Revenge - Walking On Sunshine - Offer Nissim Remix,SONG_0278,Rockers Revenge,Walking On Sunshine,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0385,Offer Nissim x Sasson Shaulov - Sipur Acher - Live Performance,SONG_0279,Offer Nissim X Sasson Shaulov,Sipur Acher,Live Performance,HIGH,artist credit normalized; version/remix retained: Live Performance | Artist normalized: 'Offer Nissim x Sasson Shaulov' -> 'Offer Nissim X Sasson Shaulov'
+ALIAS_0386,Suzanne Palmer - Eye Can See You - Offer Nissim Remix,SONG_0280,Suzanne Palmer,Eye Can See U,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix; Corrected 26.09.2026: Official title is 'Eye Can See U' (Discogs); earlier normalization to 'Eye Can See You' reversed
+ALIAS_0387,Offer Nissim Feat. Ivana Lola - Kissed By You - Show Mix - Live Performance,SONG_0281,Offer Nissim Feat. Ivana Lola,Kissed By You,Show Mix - Live Performance,HIGH,version/remix retained: Show Mix - Live Performance
+ALIAS_0388,Offer Nissim - Everything Is Meaningless,SONG_0282,Offer Nissim,Everything Is Meaningless,,HIGH,primary spelling (no change)
+ALIAS_0389,Offer Nissim Feat. Maya Simantov - Hysterical (Live Performance),SONG_0283,Offer Nissim Feat. Maya Simantov,Hysterical,Live Performance,HIGH,title variant/typo normalized; version/remix retained: Live Performance
+ALIAS_0390,Offer Nissim - Rose,SONG_0284,Offer Nissim,Rose,,HIGH,primary spelling (no change)
+ALIAS_0391,Offer Nissim - Rainbow,SONG_0070,Offer Nissim,Rainbow,,HIGH,primary spelling (no change)
+ALIAS_0392,Offer Nissim - Celebration,SONG_0222,Offer Nissim,Celebration,,HIGH,primary spelling (no change)
+ALIAS_0393,Cher - Gimme! Gimme! Gimme! - Offer Nissim Remix,SONG_0031,Cher,Gimme! Gimme! Gimme! (A Man After Midnight),Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix | Title spelling normalized: 'Gimme! Gimme! Gimme!' -> 'Gimme! Gimme! Gimme! (A Man After Midnight)'
+ALIAS_0394,"Offer Nissim Feat. Meital De Razon - Like This, Like That",SONG_0160,Offer Nissim Feat. Meital De Razon,Like This Like That,,HIGH,primary spelling (no change)
+ALIAS_0395,Offer Nissim x Margol & Or Ben David - Pgisha (Live Performance),SONG_0285,Offer Nissim X Margol & Or Ben David,Pgisha,Live Performance,HIGH,title variant/typo normalized; artist credit normalized; version/remix retained: Live Performance | Artist normalized: 'Offer Nissim x Margol & Or Ben David' -> 'Offer Nissim X Margol & Or Ben David'
+ALIAS_0396,Offer Nissim - Listen To My Heart,SONG_0286,Offer Nissim,Listen To My Heart,,HIGH,primary spelling (no change)
+ALIAS_0397,Elad Navon - HONEY,SONG_0287,Elad Navon,Honey,,HIGH,primary spelling (no change)
+ALIAS_0398,Alain Chamfort - Manureva 07' - Offer Nissim Remix,SONG_0253,Alain Chamfort,Manureva 07,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix | Source writes 07' with an apostrophe.
+ALIAS_0399,SASH! - Encore Une Fois - Offer Nissim Remix,SONG_0288,SASH!,Encore Une Fois,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0400,Offer Nissim Feat. Maya Simantov - Miracle PART B,SONG_0130,Offer Nissim Feat. Maya Simantov,Miracle,Part B,HIGH,title variant/typo normalized; version/remix retained: Part B | 'PART B' appended to title.
+ALIAS_0401,Ilan Peled - Lets Fly - Offer Nisim Show Mix,SONG_0289,Ilan Peled,Let's Fly,Offer Nisim Show Mix,HIGH,version/remix retained: Offer Nisim Show Mix
+ALIAS_0402,Offer Nissim  X Ania Bukstein - Nesika,SONG_0270,Offer Nissim X Ania Bukstein,Nesika,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim  X Ania Bukstein' -> 'Offer Nissim X Ania Bukstein'
+ALIAS_0403,Scissor Sisters - Fire With Fire - Peter Rauhofer Mix,SONG_0248,Scissor Sisters,Fire With Fire,Peter Rauhofer Mix,HIGH,version/remix retained: Peter Rauhofer Mix
+ALIAS_0404,Eliran Halevy - So Good,SONG_0290,Eliran Halevy,So Good,,HIGH,primary spelling (no change)
+ALIAS_0405,Eliran Halevy - Just Can't Stop,SONG_0291,Eliran Halevy,Just Can't Stop,,HIGH,primary spelling (no change)
+ALIAS_0406,Madonna - I Don't Search I Find It - Offer Nissim Remix,SONG_0122,Madonna,I Don't Search I Find,Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix | Title spelling normalized: 'I Don't Search I Find It' -> 'I Don't Search I Find'
+ALIAS_0407,Offer Nissim Feat. Nikka - Never See Me Again (Live Performance),SONG_0292,Offer Nissim Feat. Nikka,Never See Me Again,Live Performance,HIGH,title variant/typo normalized; version/remix retained: Live Performance
+ALIAS_0408,Offer Nissim x Noa Kirel - Doctor,SONG_0277,Offer Nissim X Noa Kirel,Doctor,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim x Noa Kirel' -> 'Offer Nissim X Noa Kirel'
+ALIAS_0409,Nadia Ali - Rapture - VA MO LA Remix,SONG_0293,Nadia Ali,Rapture,VA MO LA Remix,HIGH,version/remix retained: VA MO LA Remix
+ALIAS_0410,Offer Nissim - The SPHINX,SONG_0294,Offer Nissim,The Sphinx,,HIGH,primary spelling (no change)
+ALIAS_0411,Offer Nissim - Raise Me Up,SONG_0295,Offer Nissim,Raise Me Up,,HIGH,primary spelling (no change)
+ALIAS_0412,Offer Nissim Feat. Maya Simantov - Wake Up,SONG_0022,Offer Nissim Feat. Maya Simantov,Wake Up,,HIGH,primary spelling (no change)
+ALIAS_0413,Offer Nissim - ROSE,SONG_0284,Offer Nissim,Rose,,HIGH,primary spelling (no change)
+ALIAS_0414,Offer Nissim X Eden Golan -  PIECES - Live Performance,SONG_0296,Offer Nissim X Eden Golan,Pieces,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0415,Robin S. - Show Me Love - Offer Nissim Remix,SONG_0149,Robin S.,Show Me Love,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0416,Offer Nissim Feat. Maya Simantov - Hysterical,SONG_0283,Offer Nissim Feat. Maya Simantov,Hysterical,,HIGH,primary spelling (no change)
+ALIAS_0417,Offer Nissim - Up To the Top,SONG_0113,Offer Nissim,Up To The Top,,HIGH,primary spelling (no change)
+ALIAS_0418,Offer Nissim Feat. Ilan Peled & Static - Tutta La Vita - Live Performance,SONG_0297,Offer Nissim Feat. Ilan Peled & Static,Tutta La Vita,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0419,Offer Nissim Presents: Los Chunguitos - Te Estoy Amando Locamente,SONG_0298,Offer Nissim Presents Los Chunguitos,Te Estoy Amando Locamente,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim Presents: Los Chunguitos' -> 'Offer Nissim Presents Los Chunguitos'
+ALIAS_0420,Santa Esmeralda - Anoter Cha Cha - Offer Nissim Remix - Peter Rauhofer NYC Edit,SONG_0023,Santa Esmeralda,Another Cha Cha,Offer Nissim Remix - Peter Rauhofer NYC Edit,HIGH,"title variant/typo normalized; version/remix retained: Offer Nissim Remix - Peter Rauhofer NYC Edit | Typo 'Anoter'; original artist credited here, elsewhere credited to Offer Nissim."
+ALIAS_0421,Offer Nissim Feat. Maya Simantov - Superman,SONG_0299,Offer Nissim Feat. Maya Simantov,Superman,,HIGH,primary spelling (no change)
+ALIAS_0422,Offer Nissim Feat. Yael Bar Zohar - Desert Star 2025 - Live Performance,SONG_0300,Offer Nissim Feat. Yael Bar Zohar,Desert Star 2025,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0423,Ran Danker - Malkat Harahava - Offer Nissim Remix,SONG_0201,Ran Danker,Malkat Harahava,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0424,Offer Nissim - Little Space,SONG_0301,Offer Nissim,Little Space,,HIGH,primary spelling (no change)
+ALIAS_0425,Eliran Halevy -  EXCITED,SONG_0302,Eliran Halevy,Excited,,HIGH,primary spelling (no change)
+ALIAS_0426,Melodic - Badman,SONG_0303,Melodic,Badman,,HIGH,primary spelling (no change)
+ALIAS_0427,Deborah Cox - Everybody Dance - Show Mix,SONG_0180,Deborah Cox,Everybody Dance,Show Mix,HIGH,version/remix retained: Show Mix
+ALIAS_0428,Deborah Cox - Easy As Life - Show Mix,SONG_0083,Deborah Cox,Easy As Life,Show Mix,HIGH,version/remix retained: Show Mix
+ALIAS_0429,Offer Nissim Presents: Ilan Peled - Whore Machine,SONG_0304,Offer Nissim Presents Ilan Peled,Whore Machine,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim Presents: Ilan Peled' -> 'Offer Nissim Presents Ilan Peled'
+ALIAS_0430,Offer Nissim Feat. Magi Azarzar - TITRAGEL ITA - Live Performance,SONG_0305,Offer Nissim Feat. Magi Azarzar,Titragel Ita,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0431,Offer Nissim X Rinat Bar - Mushlemet Im Srita - Live Performance,SONG_0306,Offer Nissim X Rinat Bar,Mushlemet Im Srita,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0432,Offer Nissim Feat. Maya Simantov - Who is She - Live Performance,SONG_0307,Offer Nissim Feat. Maya Simantov,Who Is She,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0433,Offer Nissim Feat. Maya Simantov - Alone - 2025 Dub Mix,SONG_0172,Offer Nissim Feat. Maya Simantov,Alone,2025 Dub Mix,HIGH,version/remix retained: 2025 Dub Mix
+ALIAS_0434,Ivri Lider Feat. Rita - Cinderella Rockefella - Offer Nissim The Chin Mix,SONG_0205,Ivri Lider Feat. Rita,Cinderella Rockefella,Offer Nissim The Chin Mix,HIGH,version/remix retained: Offer Nissim The Chin Mix
+ALIAS_0435,Offer Nissim Feat. Ninet – Human - Trance Version,SONG_0308,Offer Nissim Feat. Ninet,Human,Trance Version,HIGH,version/remix retained: Trance Version
+ALIAS_0436,ABBA - Summer Night City - Offer Nissim Pride 2025 Remix,SONG_0309,ABBA,Summer Night City,Offer Nissim Pride 2025 Remix,HIGH,version/remix retained: Offer Nissim Pride 2025 Remix
+ALIAS_0437,Kim Wilde - Loved - Offer Nissim Remix,SONG_0059,Kim Wilde,Loved,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0438,Offer Nissim Feat. Epiphony - Heaven In Your Eyes - AVICII Tribute,SONG_0125,Offer Nissim Feat. Epiphony,Heaven In Your Eyes,AVICII Tribute,HIGH,version/remix retained: AVICII Tribute
+ALIAS_0439,Michelle Obama All-Star Girl Power Anthem - This Is for My Girls - Offer Nissim Remix,SONG_0069,Michelle Obama All-Star Girl Power Anthem,This Is For My Girls,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0440,Offer Nissim x Riki Ben-Ari - Slay - Live Performance,SONG_0310,Offer Nissim X Riki Ben-Ari,Slay,Live Performance,HIGH,artist credit normalized; version/remix retained: Live Performance | Artist normalized: 'Offer Nissim x Riki Ben-Ari' -> 'Offer Nissim X Riki Ben-Ari'
+ALIAS_0441,Offer Nissim - California Dreaming,SONG_0311,Offer Nissim,California Dreaming,,HIGH,primary spelling (no change)
+ALIAS_0442,Offer Nissim X Eden Golan - Pieces,SONG_0296,Offer Nissim X Eden Golan,Pieces,,HIGH,primary spelling (no change)
+ALIAS_0443,Offer Nissim Feat. Magi Azarzar - TITRAGEL ITA,SONG_0305,Offer Nissim Feat. Magi Azarzar,Titragel Ita,,HIGH,primary spelling (no change)
+ALIAS_0444,Offer Nissim Feat. Ilan Peled - Tac Oh Tertako - Live Performance,SONG_0312,Offer Nissim Feat. Ilan Peled,Tac Oh Tertako,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0445,Offer Nissim - Haw Haw,SONG_0313,Offer Nissim,Haw Haw,,HIGH,primary spelling (no change)
+ALIAS_0446,Britney Meets Hollywood - Gimme More And More - Offer Nissim Remix,SONG_0054,Britney Meets Hollywood,Gimme More And More,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0447,Dana International - Ahlah Gever - Offer Nissim,SONG_0240,Dana International,Ahlah Gever,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix | Source reads only 'Offer Nissim' after the title; it is the Offer Nissim Remix - confirmed by archive owner.
+ALIAS_0448,Offer Nissim X Eden Hason - LOVE IS LOVE - Live Performance,SONG_0314,Offer Nissim X Eden Hason,LOVE IS LOVE,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0449,Sarit Hadad - Ze Sheshomer Alay - Offer Nissim Remix,SONG_0011,Sarit Hadad,Ze She'shomer Alay,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0450,Offer Nissim - XTC,SONG_0315,Offer Nissim,XTC,,HIGH,primary spelling (no change)
+ALIAS_0451,Madonna - Ghosttown - Offer Nissim Remix,SONG_0316,Madonna,Ghosttown,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0452,Offer Nissim Feat. Nikka - Never See Me Again,SONG_0292,Offer Nissim Feat. Nikka,Never See Me Again,,HIGH,primary spelling (no change)
+ALIAS_0453,Cher - Gimme! Gimme! Gimme! - Offer Nissim Needs a Man Remix,SONG_0031,Cher,Gimme! Gimme! Gimme! (A Man After Midnight),Offer Nissim Needs a Man Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Needs a Man Remix | Title spelling normalized: 'Gimme! Gimme! Gimme!' -> 'Gimme! Gimme! Gimme! (A Man After Midnight)'
+ALIAS_0454,Offer Nissim X Amir Haddad - Encore - Show Mix - Live Performance,SONG_0317,Offer Nissim X Amir Haddad,Encore,Show Mix - Live Performance,HIGH,version/remix retained: Show Mix - Live Performance
+ALIAS_0455,Offer Nissim X Amir Haddad - De'senchante'e 2025 - Live Performance,SONG_0202,Offer Nissim X Amir Haddad,Désenchantée,2025 - Live Performance,HIGH,title variant/typo normalized; version/remix retained: 2025 - Live Performance | Apostrophes in source stand in for accents; same song as 'Offer Nissim Presents: Amir Haddad - Désenchantée' (Mylene Farmer cover).
+ALIAS_0456,Offer Nissim Feat. Fairuz - Eastern Drums,SONG_0318,Offer Nissim Feat. Fairuz,Eastern Drums,,HIGH,primary spelling (no change)
+ALIAS_0457,Offer Nissim X Ninet - Human - Live Performance,SONG_0308,Offer Nissim X Ninet,Human,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0458,Ninet - Kacha Ze - Offer Nissim Show Mix - Live Performance,SONG_0319,Ninet,Kacha Ze,Offer Nissim Show Mix - Live Performance,HIGH,version/remix retained: Offer Nissim Show Mix - Live Performance
+ALIAS_0459,Kristine W - Be Alright - Offer Nissim Intro Remix,SONG_0132,Kristine W.,Be Alright,Offer Nissim Intro Remix,HIGH,artist credit normalized; version/remix retained: Offer Nissim Intro Remix | Artist normalized: 'Kristine W' -> 'Kristine W.'
+ALIAS_0460,Rui Da Silva - Touch Me - Offer Nissim Remix,SONG_0320,Rui Da Silva,Touch Me,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0461,Frank Sinatra - The World We Know - Over And Over - Offer Nissim Remix,SONG_0271,Frank Sinatra,The World We Knew,Over And Over - Offer Nissim Remix,HIGH,"title variant/typo normalized; version/remix retained: Over And Over - Offer Nissim Remix | Source typo 'Know' for 'Knew'; 'Over And Over' is the song's subtitle, kept in version field as written."
+ALIAS_0462,Offer Nissim Feat. Maya Simantov - BRIDGES - Live Performance,SONG_0321,Offer Nissim Feat. Maya Simantov,Bridges,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0463,Offer Nissim - Let Me Tell You Something,SONG_0322,Offer Nissim,Let Me Tell You Something,,HIGH,primary spelling (no change)
+ALIAS_0464,Donna Summer - Sometimes Like Butterflies - Offer Nissim Remix,SONG_0323,Donna Summer,Sometimes Like Butterflies,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0465,Offer Nissim - Naked In The Rain,SONG_0324,Offer Nissim,Naked In The Rain,,HIGH,primary spelling (no change)
+ALIAS_0466,Offer Nissim Feat. Maya Simantov - Rain,SONG_0325,Offer Nissim Feat. Maya Simantov,Rain,,HIGH,primary spelling (no change)
+ALIAS_0467,Offer Nissim - Found Love,SONG_0326,Offer Nissim,Found Love,,HIGH,primary spelling (no change)
+ALIAS_0468,Offer Nissim Feat. Yael Bar Zohar - Desert Star 2025,SONG_0300,Offer Nissim Feat. Yael Bar Zohar,Desert Star 2025,,HIGH,primary spelling (no change)
+ALIAS_0469,Brothers in Rhythm - Such a Good Feeling - Offer Nissim Remix,SONG_0050,Brothers In Rhythm,Such A Good Feeling,Offer Nissim Remix,HIGH,artist credit normalized; version/remix retained: Offer Nissim Remix | Artist normalized: 'Brothers in Rhythm' -> 'Brothers In Rhythm'
+ALIAS_0470,Anita Meyer - Why Tell Me Why - Offer Nissim Remix,SONG_0055,Anita Meyer,Why Tell Me Why,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0471,Offer Nissim X Yuval Raphael - Eagle - Show Mix,SONG_0327,Offer Nissim X Yuval Raphael,Eagle,Show Mix,HIGH,version/remix retained: Show Mix
+ALIAS_0472,Offer Nissim x Margol & Or Ben David - Pgisha,SONG_0285,Offer Nissim X Margol & Or Ben David,Pgisha,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim x Margol & Or Ben David' -> 'Offer Nissim X Margol & Or Ben David'
+ALIAS_0473,Offer Nissim Feat Maya Simantov - Turn The Beat Around - Show Mix,SONG_0328,Offer Nissim Feat. Maya Simantov,Turn The Beat Around,Show Mix,HIGH,artist credit normalized; version/remix retained: Show Mix | Artist normalized: 'Offer Nissim Feat Maya Simantov' -> 'Offer Nissim Feat. Maya Simantov'
+ALIAS_0474,Offer Nissim Feat Riki Ben-Ari - Light My Fire,SONG_0119,Offer Nissim Feat. Riki Ben-Ari,Light My Fire,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim Feat Riki Ben-Ari' -> 'Offer Nissim Feat. Riki Ben-Ari'
+ALIAS_0475,Offer Nissim Feat. Magi Azarzar - TRITAGEL EITA,SONG_0305,Offer Nissim Feat. Magi Azarzar,Titragel Ita,,HIGH,title variant/typo normalized | Title spelling normalized: 'TRITAGEL EITA' -> 'Titragel Ita'
+ALIAS_0476,Offer Nissim  Presents Nina Hagen -  New York New York,SONG_0236,Offer Nissim Presents Nina Hagen,New York New York,,HIGH,artist credit normalized | Artist normalized: 'Offer Nissim  Presents Nina Hagen' -> 'Offer Nissim Presents Nina Hagen'
+ALIAS_0477,Suzanne Palmer - Eye Can See U - Offer Nissim Remix,SONG_0280,Suzanne Palmer,Eye Can See U,Offer Nissim Remix,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Remix | Title spelling normalized: 'Eye Can See U' -> 'Eye Can See You'; Corrected 26.09.2026: Official title is 'Eye Can See U' (Discogs); earlier normalization to 'Eye Can See You' reversed
+ALIAS_0478,Danny Tenaglia - Music Is The Answer - Eliran Halevy Remix,SONG_0329,Danny Tenaglia,Music Is The Answer,Eliran Halevy Remix,HIGH,version/remix retained: Eliran Halevy Remix
+ALIAS_0479,Offer Nissim X Eliran Halevy - Circle,SONG_0330,Offer Nissim X Eliran Halevy,Circle,,HIGH,primary spelling (no change)
+ALIAS_0480,Eliran Halevy - EXCITED,SONG_0302,Eliran Halevy,Excited,,HIGH,primary spelling (no change)
+ALIAS_0481,Offer Nissim X Ofra Haza - Adagio 2025 Edit,SONG_0261,Offer Nissim X Ofra Haza,Adagio,2025 Edit,HIGH,title variant/typo normalized; version/remix retained: 2025 Edit
+ALIAS_0482,Miri Mesika X Offer Nissim - Tizkor Oti,SONG_0331,Miri Mesika X Offer Nissim,Tizkor Oti,,HIGH,primary spelling (no change)
+ALIAS_0483,Paul Oakenfold - Southern Sun - Offer Nissim Remix,SONG_0073,Paul Oakenfold,Southern Sun,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0484,Beyonce - Deja Vu - Offer Nissim Remix,SONG_0332,Beyoncé,Deja Vu,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix; Corrected 26.09.2026: Artist spelling: 'Beyonce' -> 'Beyoncé'
+ALIAS_0485,Donna Summer & Barbra Streisand - Enough Is Enough - Offer Nissim Part B Remix,SONG_0084,Donna Summer & Barbra Streisand,Enough Is Enough,Offer Nissim Part B Remix,HIGH,version/remix retained: Offer Nissim Part B Remix
+ALIAS_0486,Aviv Geffen & Ella Lee - Varod Mavrik - Offer Nissim Remix,SONG_0170,Aviv Geffen & Ella-Lee,Varod Mavrik,Offer Nissim Remix,HIGH,artist credit normalized; version/remix retained: Offer Nissim Remix | Artist normalized: 'Aviv Geffen & Ella Lee' -> 'Aviv Geffen & Ella-Lee'
+ALIAS_0487,Offer Nissim Feat. Maya Simantov - I Wish You Were Here,SONG_0072,Offer Nissim Feat. Maya Simantov,Wish You Were Here,,HIGH,title variant/typo normalized | Same song as Wish You Were Here - confirmed by archive owner (probable).
+ALIAS_0488,"Duke Dumont, Clementine Douglas - Ain't Giving Up - Elad Navon Remix",SONG_0333,"Duke Dumont, Clementine Douglas",Ain't Giving Up,Elad Navon Remix,HIGH,version/remix retained: Elad Navon Remix
+ALIAS_0489,Shirley Bassey - La Passione - Offer Nissim Remix - Ofer Nachshon Tribute,SONG_0058,Shirley Bassey,La Passione,Offer Nissim Remix - Ofer Nachshon Tribute,HIGH,version/remix retained: Offer Nissim Remix - Ofer Nachshon Tribute
+ALIAS_0490,Dana International - Petra - Offer Nissim Remix,SONG_0099,Dana International,Petra,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0491,Offer Nissim X Megaphonim - Super Spreader,SONG_0334,Offer Nissim X Megaphonim,Super Spreader,,HIGH,primary spelling (no change)
+ALIAS_0492,Offer Nissim Feat. Ivana Lola - Love Again,SONG_0335,Offer Nissim Feat. Ivana Lola,Love Again,,HIGH,primary spelling (no change)
+ALIAS_0493,Offer Nissim Feat. Maya Simantov - Miracle Part B,SONG_0130,Offer Nissim Feat. Maya Simantov,Miracle,Part B,HIGH,title variant/typo normalized; version/remix retained: Part B | 'Part B' appended to title.
+ALIAS_0494,Offer Nissim Feat. Ilan Peled - Blue Monday - Show Mix,SONG_0336,Offer Nissim Feat. Ilan Peled,Blue Monday,Show Mix,HIGH,version/remix retained: Show Mix
+ALIAS_0495,Offer Nissim - Midnight Summer Dream,SONG_0337,Offer Nissim,Midnight Summer Dream,,HIGH,primary spelling (no change)
+ALIAS_0496,Offer Nissim X Celeda - Work Children (In Memory of Peter Rauhofer),SONG_0338,Offer Nissim X Celeda,Work Children,In Memory of Peter Rauhofer,HIGH,title variant/typo normalized; version/remix retained: In Memory of Peter Rauhofer | Parenthetical dedication kept in version field.
+ALIAS_0497,Offer Nissim X Meital De Razon - Now Come On - Live Performance,SONG_0339,Offer Nissim X Meital De Razon,Now Come On,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0498,Offer Nissim - Enjoy Your Life,SONG_0340,Offer Nissim,Enjoy Your Life,,HIGH,primary spelling (no change)
+ALIAS_0499,Friburn & Urik - Take Me Love Me - Offer Nissim Remix,SONG_0341,Friburn & Urik,Take Me Love Me,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0500,Offer Nissim X Anna Zak - Fix Me - Live Performance,SONG_0342,Offer Nissim X Anna Zak,Fix Me,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0501,Madonna & Sabrina Carpenter - Bring Your Love - Offer Nissim Remix,SONG_0343,Madonna & Sabrina Carpenter,Bring Your Love,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0502,Offer Nissim Presents The Bitches - Ain't No Mountain,SONG_0064,Offer Nissim Presents The Bitches,Ain't No Mountain,,HIGH,primary spelling (no change)
+ALIAS_0503,Offer Nissim Feat. Maya Simantov & Frida - Superman Show Mix - Live Performance,SONG_0299,Offer Nissim Feat. Maya Simantov & Frida,Superman,Show Mix - Live Performance,HIGH,title variant/typo normalized; version/remix retained: Show Mix - Live Performance | Version of Superman in which Frida sings with Maya Simantov live - confirmed by archive owner.
+ALIAS_0504,Offer Nissim Feat. Maya Simantov - Holy Love - Live Performance,SONG_0344,Offer Nissim Feat. Maya Simantov,Holy Love,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0505,Donna Summer & Barbra Streisand - Enough Is Enough (Offer Nissim Part B),SONG_0084,Donna Summer & Barbra Streisand,Enough Is Enough,Offer Nissim Part B,HIGH,title variant/typo normalized; version/remix retained: Offer Nissim Part B
+ALIAS_0506,Offer Nissim X Shiri Maimon - תסתכל לי בעיניים - Live Performance,SONG_0345,Offer Nissim X Shiri Maimon,תסתכל לי בעיניים (Tistakel Li Ba'einayim),Live Performance,HIGH,title variant/typo normalized; version/remix retained: Live Performance | Hebrew title kept; transliteration added in parentheses.
+ALIAS_0507,Brothers in Rhythm - Such A Good Feeling - Offer Nissim Remix,SONG_0050,Brothers In Rhythm,Such A Good Feeling,Offer Nissim Remix,HIGH,artist credit normalized; version/remix retained: Offer Nissim Remix | Artist normalized: 'Brothers in Rhythm' -> 'Brothers In Rhythm'
+ALIAS_0508,Kristine W. - Be Alright - Offer Nissim Intro Mix,SONG_0132,Kristine W.,Be Alright,Offer Nissim Intro Mix,HIGH,version/remix retained: Offer Nissim Intro Mix
+ALIAS_0509,Offer Nissim Feat. Gila Goldstein & Ilan Peled - I Can Be Whatever I Want,SONG_0346,Offer Nissim Feat. Gila Goldstein & Ilan Peled,I Can Be Whatever I Want,,HIGH,primary spelling (no change)
+ALIAS_0510,Eliran Halevy - I'm In Love,SONG_0347,Eliran Halevy,I'm In Love,,HIGH,primary spelling (no change)
+ALIAS_0511,Eliran Halevy & More Avarhami - Turn Me Up - Live at Set,SONG_0348,Eliran Halevy & More Avarhami,Turn Me Up,Live at Set,HIGH,version/remix retained: Live at Set
+ALIAS_0512,Offer Nissim Feat. Maya Simantov - First Time - Eliran Halevy Remix,SONG_0153,Offer Nissim Feat. Maya Simantov,First Time,Eliran Halevy Remix,HIGH,version/remix retained: Eliran Halevy Remix
+ALIAS_0513,ABBA - Summer Night City - Offer Nissim Remix,SONG_0309,ABBA,Summer Night City,Offer Nissim Remix,HIGH,version/remix retained: Offer Nissim Remix
+ALIAS_0514,Offer Nissim X Nasrin Kadry - הלך גבר? יבואו עשר - Live Performance,SONG_0349,Offer Nissim X Nasrin Kadri,הלך גבר? יבואו עשר (Halach Gever? Yavo'u Eser),Live Performance,HIGH,title variant/typo normalized; artist credit normalized; version/remix retained: Live Performance | Hebrew title kept; transliteration added.
+ALIAS_0515,Offer Nissim X Eyal Golan - מתגעגע לתקופה,SONG_0350,Offer Nissim X Eyal Golan,מתגעגע לתקופה (Mitga'agea LaTkufa),,HIGH,title variant/typo normalized | Hebrew title kept; transliteration added.
+ALIAS_0516,Offer Nissim X Yardena Arazi - Amour Affamé - Live Performance,SONG_0351,Offer Nissim X Yardena Arazi,Amour Affamé,Live Performance,HIGH,version/remix retained: Live Performance
+ALIAS_0517,Madonna & Sabrina Carpenter - Bring Your Love - Offer Nissim Prayer Of Love Remix,SONG_0343,Madonna & Sabrina Carpenter,Bring Your Love,Offer Nissim Prayer Of Love Remix,HIGH,Sukkot 2026
+ALIAS_0518,Offer Nissim - So What You Gonna Do,SONG_0352,Offer Nissim,So What You Gonna Do,,HIGH,New track
+ALIAS_0519,Kristine W. - Everything That I Got - Offer Nissim's Tel Aviv Mix,SONG_0223,Kristine W.,Everything That I Got,Offer Nissim's Tel Aviv Mix,HIGH,Sukkot 2026
+ALIAS_0520,Offer Nissim X Betty - Ra'al - Poison Show Mix - Live Performance,SONG_0081,Offer Nissim X Betty,Poison (Ra'al),Show Mix - Live Performance,HIGH,Title as printed 'Ra'al - Poison Show Mix'; mapped to existing Poison (Ra'al)
+ALIAS_0521,Offer Nissim X Betty - Light A Light - Live Performance,SONG_0353,Offer Nissim X Betty,Light A Light,Live Performance,HIGH,New track
+ALIAS_0522,Offer Nissim - Don't Stop (A Tribute To Michael Jackson),SONG_0354,Offer Nissim,Don't Stop (A Tribute To Michael Jackson),,HIGH,New track
+ALIAS_0523,Offer Nissim X Asulin - Handyman - Live Performance,SONG_0355,Offer Nissim X Asulin,Handyman,Live Performance,HIGH,Artist kept as printed (Asulin) per archive owner
+ALIAS_0524,Beyonce - Run Da World - Itay Kalderon & Adi Perez Remix,SONG_0102,Beyoncé,Run The World (Girls),Itay Kalderon & Adi Perez Remix,HIGH,Title spelling normalized: 'Run Da World' -> 'Run The World (Girls)'
+ALIAS_0525,Offer Nissim X Noa Kirel - Doctor,SONG_0277,Offer Nissim X Noa Kirel,Doctor,,HIGH,Sukkot 2026
+ALIAS_0526,Offer Nissim X Meital De Razon - Now Come On,SONG_0339,Offer Nissim X Meital De Razon,Now Come On,,HIGH,Sukkot 2026
+ALIAS_0527,Offer Nissim X Eden Fines - WORK - Live Performance,SONG_0356,Offer Nissim X Eden Fines,Work,Live Performance,HIGH,"New track, not found online"
+ALIAS_0528,Deborah Cox - Everybody Dance - Offer Nissim Show Mix,SONG_0180,Deborah Cox,Everybody Dance,Offer Nissim Show Mix,HIGH,Sukkot 2026
+ALIAS_0529,Offer Nissim X Lior Narkis - Taxis - Live Performance (x2),SONG_0357,Offer Nissim X Lior Narkis,Taxis,Live Performance,HIGH,List shows '(x2)' - played twice in a row; per archive owner shown once (set stays 60 tracks)
+ALIAS_0530,Eliran Halevy X Ilan Peled - Big Energy - Live Performance,SONG_0358,Eliran Halevy X Ilan Peled,Big Energy,Live Performance,HIGH,"New track, not found online"
+ALIAS_0531,Offer Nissim Feat. Epiphony - Mr. Charming,SONG_0224,Offer Nissim Feat. Epiphony,Mr Charming,,HIGH,Sukkot 2026
+ALIAS_0532,Offer Nissim Feat. Maya Simantov - Perfect Love - Full Vocal Mix,SONG_0041,Offer Nissim Feat. Maya Simantov,Perfect Love,Full Vocal Mix,HIGH,Sukkot 2026
+ALIAS_0533,Offer Nissim X Udi Schneider - Apollo - Live Performance,SONG_0359,Offer Nissim X Udi Schneider,Apollo,Live Performance,HIGH,"New track, not found online"
+ALIAS_0534,Offer Nissim Feat. Dana International - Maganuna - Reconstruction Mix,SONG_0211,Offer Nissim Feat. Dana International,Maganuna,Reconstruction Mix,HIGH,Same song as existing Maganuna - confirmed by archive owner
+ALIAS_0535,Madonna - Danceteria - Offer Nissim Remix,SONG_0360,Madonna,Danceteria,Offer Nissim Remix,HIGH,Madonna single 2026 (Confessions II era) - verified online
+ALIAS_0536,Madonna - Celebration - Offer Nissim Dub Mix,SONG_0222,Madonna,Celebration,Offer Nissim Dub Mix,HIGH,Madonna Celebration = Offer Nissim Celebration (owner decision 06.09.2026)
+ALIAS_0537,Offer Nissim Feat. Maya Simantov - Searching - Show Mix - Live Performance,SONG_0107,Offer Nissim Feat. Maya Simantov,Searching,Show Mix - Live Performance,HIGH,Sukkot 2026
+ALIAS_0538,Donna Summer & Barbra Streisand - Enough Is Enough - Offer Nissim Part B,SONG_0084,Donna Summer & Barbra Streisand,Enough Is Enough,Offer Nissim Part B,HIGH,Sukkot 2026
+ALIAS_0539,Age of Love - The Age of Love - Solomun Remix,SONG_0137,Age of Love,The Age Of Love,Solomun Remix,HIGH,"Remix confirmed as Solomun Remix by archive owner (corrected image, 27.09.2026)"

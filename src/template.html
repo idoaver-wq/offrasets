@@ -1,0 +1,449 @@
+<title>ארכיון הסטים של עופר ניסים</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=IBM+Plex+Mono:wght@400;500&family=Rubik:wght@400;500;700&display=swap">
+<style>
+:root{
+  --bg:#F6F2F7; --surface:#FFFFFF; --surface2:#EFE8F2; --line:#E2D8E7;
+  --text:#1D1624; --muted:#6B5D78; --faint:#9A8DA6;
+  --accent:#C8285E; --accent-soft:rgba(200,40,94,.10); --gold:#A86A0C;
+  --bar:#C8285E; --bar-bg:#E9E0EE;
+  --card:#FFFFFF; --card-line:#D8CADF; --card-shadow:0 1px 3px rgba(40,20,50,.07);
+  --sc:#E25A00; --sc-soft:rgba(226,90,0,.10);
+  --display:"Big Shoulders Display","Rubik",system-ui,sans-serif;
+  --body:"Rubik",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#15111C; --surface:#1E1828; --surface2:#271F33; --line:#352B42;
+    --text:#F3EEF6; --muted:#A99BB7; --faint:#77698A;
+    --accent:#FF6F91; --accent-soft:rgba(255,111,145,.12); --gold:#FFC857;
+    --bar:#FF6F91; --bar-bg:#2C2338;
+    --card:#231B2F; --card-line:#44374F; --card-shadow:none;
+    --sc:#FF8A3D; --sc-soft:rgba(255,138,61,.12);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#15111C; --surface:#1E1828; --surface2:#271F33; --line:#352B42;
+  --text:#F3EEF6; --muted:#A99BB7; --faint:#77698A;
+  --accent:#FF6F91; --accent-soft:rgba(255,111,145,.12); --gold:#FFC857;
+  --bar:#FF6F91; --bar-bg:#2C2338;
+    --card:#231B2F; --card-line:#44374F; --card-shadow:none;
+    --sc:#FF8A3D; --sc-soft:rgba(255,138,61,.12);
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:1040px;margin:0 auto;padding-inline:16px;padding-block:28px 64px}
+a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+.ltr{direction:ltr;unicode-bidi:isolate}
+.num{font-variant-numeric:tabular-nums}
+
+/* masthead */
+.mast{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px 32px;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.mast h1{margin:0;font-family:var(--display);font-weight:800;font-size:clamp(44px,9vw,84px);line-height:.88;letter-spacing:.01em;text-transform:uppercase;direction:ltr}
+.mast h1 span{color:var(--accent)}
+.mast .sub{margin:10px 0 0;color:var(--muted);font-size:15px;max-width:44ch}
+.totals{display:flex;gap:22px;flex-wrap:wrap}
+.totals div{display:flex;flex-direction:column}
+.totals b{font-family:var(--display);font-weight:800;font-size:34px;line-height:1;color:var(--text)}
+.totals small{color:var(--muted);font-size:12px;letter-spacing:.04em}
+
+nav.tabs{display:flex;gap:4px;margin:18px 0 26px;flex-wrap:wrap}
+nav.tabs .lang{margin-inline-start:auto;border:1px solid var(--line);background:transparent;color:var(--muted);padding:7px 14px;border-radius:999px;cursor:pointer;font-size:14px}
+nav.tabs .lang:hover{color:var(--text);border-color:var(--faint)}
+nav.tabs{align-items:center}
+nav.tabs a{text-decoration:none;padding:8px 16px;border-radius:999px;color:var(--muted);font-weight:500}
+nav.tabs a:hover{color:var(--text);background:var(--surface2)}
+nav.tabs a[aria-current="page"]{background:var(--text);color:var(--bg)}
+
+/* filters */
+.legend{margin:-6px 0 16px;color:var(--muted);font-size:13px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
+.chip{border:1px solid var(--line);background:transparent;padding:5px 12px;border-radius:999px;cursor:pointer;color:var(--muted);font-size:14px}
+.chip[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+
+/* event list */
+.evlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.ev{display:flex;flex-direction:column;gap:10px;text-align:start;background:var(--card);border:1px solid var(--card-line);box-shadow:var(--card-shadow);border-radius:10px;padding:16px;cursor:pointer;text-decoration:none;transition:border-color .15s}
+.ev:hover{border-color:var(--accent)}
+.ev .top{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.ev h3{margin:0;font-size:18px;font-weight:700}
+.ev .yr{font-family:var(--display);font-weight:800;font-size:28px;line-height:1;color:var(--accent)}
+.ev .meta{color:var(--muted);font-size:13px}
+.ev .foot{display:flex;justify-content:space-between;font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.ev .foot b{color:var(--text);font-weight:500}
+
+/* night strip: set position on a 15:00 -> 07:00 axis */
+.strip{position:relative;height:8px;border-radius:4px;background:var(--bar-bg);direction:ltr}
+.strip i{position:absolute;top:0;bottom:0;border-radius:4px;background:var(--bar)}
+.strip-scale{display:flex;justify-content:space-between;direction:ltr;font-family:var(--mono);font-size:10.5px;color:var(--faint);margin-top:-4px}
+
+/* event detail */
+.back{display:inline-flex;gap:6px;align-items:center;color:var(--muted);text-decoration:none;font-size:14px;margin-bottom:14px}
+.back:hover{color:var(--accent)}
+.evhead{display:grid;grid-template-columns:1fr auto;gap:8px 24px;align-items:end;margin-bottom:18px}
+.evhead h2{margin:0;font-size:clamp(30px,5vw,44px);line-height:1.05;text-wrap:balance}
+.evhead h2 .yr{font-family:var(--display);font-weight:800;color:var(--accent)}
+[dir=rtl] .evhead h2 .yr{margin-right:.4em}[dir=ltr] .evhead h2 .yr{margin-left:.4em}
+.evhead .en{color:var(--muted);margin:6px 0 0;font-size:14px}
+.settime{direction:ltr;font-family:var(--mono)}[dir=rtl] .settime{text-align:left}[dir=ltr] .settime{text-align:right}
+.settime .t{font-size:clamp(24px,4vw,34px);font-weight:500;letter-spacing:-.01em}
+.settime .t em{font-style:normal;color:var(--faint);padding:0 .25em}
+.settime small{display:block;color:var(--muted);font-size:12.5px}
+@media (max-width:620px){.evhead{grid-template-columns:1fr}[dir=rtl] .settime{text-align:right;direction:rtl}[dir=ltr] .settime{text-align:left}}
+.facts{display:flex;flex-wrap:wrap;gap:6px 22px;color:var(--muted);font-size:14px;margin-bottom:18px}
+.facts b{color:var(--text);font-weight:500}
+.live{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:-6px 0 20px}
+.live-l{color:var(--muted);font-size:14px;margin-inline-end:4px}
+.live a{display:inline-flex;align-items:center;gap:6px;padding:6px 14px;border-radius:999px;border:1px solid var(--accent);color:var(--accent);background:var(--accent-soft);text-decoration:none;font-size:14px;font-weight:500}
+.live a:hover{background:var(--accent);color:var(--bg)}
+.poster{display:block;width:100%;padding:0;cursor:zoom-in;border-radius:10px;overflow:hidden;border:1px solid var(--line);margin-bottom:22px;background:var(--surface2)}
+.poster img{display:block;width:100%;height:auto}
+.poster.none{padding:28px 18px;text-align:center;color:var(--faint);font-size:14px}
+.poster-cap{font-size:12.5px;color:var(--faint);margin:-14px 0 22px}
+
+ol.tracks{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+ol.tracks li{border-bottom:1px solid var(--line);display:flex;align-items:center;direction:ltr}
+ol.tracks li .trk{flex:1;min-width:0}
+.lk{flex:none;width:40px;display:flex;justify-content:center}
+.lnk{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;text-decoration:none;font-size:12px;line-height:1;border:1px solid var(--accent);color:var(--accent);background:var(--accent-soft)}
+.lnk:hover{background:var(--accent);color:var(--bg)}
+.lnk.sc{border-color:var(--sc);color:var(--sc);background:var(--sc-soft);font-size:14px}
+.lnk.sc:hover{background:var(--sc);color:#fff}
+.lbig{display:inline-flex;gap:6px;align-items:center;margin-top:10px;padding:7px 16px;border-radius:999px;border:1px solid var(--accent);color:var(--accent);background:var(--accent-soft);text-decoration:none;font-size:14px;font-weight:500}
+.lbig:hover{background:var(--accent);color:var(--bg)}
+.lbig.sc{border-color:var(--sc);color:var(--sc);background:var(--sc-soft)}
+.lbig.sc:hover{background:var(--sc);color:#fff}
+.srow{display:flex;align-items:center;border-bottom:1px solid var(--line);direction:ltr}
+.srow .songrow{flex:1;min-width:0;border-bottom:0}
+.trk{display:grid;grid-template-columns:2.4em 1fr auto;gap:12px;align-items:baseline;width:100%;padding:9px 4px;background:none;border:0;cursor:pointer;text-align:left;direction:ltr}
+.trk:hover{background:var(--surface2)}
+.trk .n{font-family:var(--mono);color:var(--faint);font-size:13px;text-align:right}
+.trk .ti{font-weight:500}
+.trk .ar{color:var(--muted)}
+.trk .ve{color:var(--faint);font-size:13px}
+.trk .pl{font-family:var(--mono);font-size:12px;color:var(--gold);white-space:nowrap}
+.trk.cur{background:var(--accent-soft)}
+
+/* songs */
+.searchrow{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.searchrow input,.searchrow select{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px;color:var(--text);font:inherit}
+.searchrow input{flex:1 1 260px}
+.count{color:var(--muted);font-size:13px;margin-bottom:8px}
+.songrow{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;width:100%;padding:10px 4px;background:none;border:0;border-bottom:1px solid var(--line);cursor:pointer;text-align:left;direction:ltr}
+.songrow:hover{background:var(--surface2)}
+.songrow .ti{font-weight:500}
+.songrow .ar{color:var(--muted);font-size:14px}
+.songrow .right{display:flex;align-items:center;gap:12px;font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.dots{display:flex;gap:2px}
+.dots i{width:5px;height:14px;border-radius:1px;background:var(--bar-bg)}
+.dots i.on{background:var(--bar)}
+.plays{color:var(--gold);min-width:2.5em;text-align:right}
+@media (max-width:560px){.dots{display:none}}
+
+/* song detail */
+.songhead h2{margin:0;font-size:clamp(28px,5vw,42px);line-height:1.1;direction:ltr;text-wrap:balance}
+.songhead .ar{color:var(--muted);font-size:17px;margin-top:4px;direction:ltr}
+[dir=rtl] .songhead h2,[dir=rtl] .songhead .ar,[dir=rtl] .al{text-align:right}[dir=ltr] .songhead h2,[dir=ltr] .songhead .ar,[dir=ltr] .al{text-align:left}
+.songhead .big{display:flex;gap:28px;margin:18px 0 22px;flex-wrap:wrap}
+.songhead .big div{display:flex;flex-direction:column}
+.songhead .big b{font-family:var(--display);font-weight:800;font-size:40px;line-height:1}
+.songhead .big small{color:var(--muted);font-size:12px}
+table.apps{width:100%;border-collapse:collapse}
+table.apps th{font-weight:500;color:var(--muted);font-size:12.5px;text-align:start;padding:6px 8px;border-bottom:1px solid var(--line)}
+table.apps td{padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:middle}
+table.apps tr{cursor:pointer}
+table.apps tbody tr:hover{background:var(--surface2)}
+.pos{display:flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.pos .strip{width:90px;height:6px}
+.pos .strip i{width:6px;border-radius:3px}
+.tbl{overflow-x:auto}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));gap:16px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px}
+.panel h3{margin:0 0 4px;font-size:17px}
+.panel p.d{margin:0 0 14px;color:var(--muted);font-size:13px}
+.hbar{display:grid;grid-template-columns:minmax(0,1fr) 30% 2.2em;gap:10px;align-items:center;padding:4px 0;cursor:pointer;background:none;border:0;width:100%;text-align:left;direction:ltr}
+.hbar:hover .lab{color:var(--accent)}
+.hbar .lab{font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hbar .lab small{color:var(--muted)}
+.hbar .b{height:10px;background:var(--bar-bg);border-radius:3px;overflow:hidden}
+.hbar .b i{display:block;height:100%;background:var(--bar);border-radius:3px}
+.hbar .v{font-family:var(--mono);font-size:12.5px;text-align:right;color:var(--muted)}
+.durs{display:flex;align-items:flex-end;gap:4px;height:170px;direction:ltr;padding-top:18px;position:relative}
+.durs button{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;background:none;border:0;padding:0;cursor:pointer;position:relative}
+.durs button i{display:block;width:100%;background:var(--bar);border-radius:3px 3px 0 0;min-height:2px}
+.durs button:hover i{opacity:.75}
+.durs button span{display:none}
+.durx{display:flex;gap:4px;direction:ltr;margin-top:6px}
+.durx span{flex:1;text-align:center;font-family:var(--mono);font-size:10px;color:var(--faint)}
+.durs .grid{position:absolute;left:0;right:0;z-index:1;border-top:1px dashed var(--line);font-family:var(--mono);font-size:10px;color:var(--faint);pointer-events:none}
+.oc{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:520px){.oc{grid-template-columns:1fr}}
+.oc h4{margin:0 0 6px;font-size:13px;color:var(--muted);font-weight:500}
+.oc ul{list-style:none;margin:0;padding:0}
+.oc li button{display:flex;justify-content:space-between;gap:8px;width:100%;background:none;border:0;padding:5px 0;border-bottom:1px solid var(--line);cursor:pointer;direction:ltr;text-align:left;font-size:13.5px}
+.oc li button:hover{color:var(--accent)}
+.oc li b{font-family:var(--mono);font-weight:400;color:var(--gold)}
+
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:50;background:#0B080F;display:flex;flex-direction:column}
+.lb-bar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:calc(env(safe-area-inset-top,0px) + 10px) 16px 10px;color:#EDE6F2;font-size:13px}
+.lb-bar button{background:rgba(255,255,255,.12);border:0;color:#fff;border-radius:999px;padding:8px 14px;cursor:pointer;font-size:14px}
+.lb-scroll{flex:1;overflow:auto;direction:ltr;-webkit-overflow-scrolling:touch;touch-action:pan-x pan-y pinch-zoom;display:flex;align-items:center;padding:0 0 env(safe-area-inset-bottom,0px)}
+.lb-scroll img{display:block;flex:none;width:100%;max-width:none;height:auto;margin:auto;cursor:zoom-in}
+.lb.big .lb-scroll{align-items:flex-start}
+.lb.big .lb-scroll img{width:auto;min-width:250%;cursor:zoom-out}
+footer a{text-decoration:none}footer a:hover{color:var(--accent)}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--faint);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap" id="wrap" dir="rtl" lang="he">
+  <header class="mast">
+    <div>
+      <h1>Offer Nissim <span>Set&nbsp;Lists</span></h1>
+    </div>
+    <div class="totals" id="totals"></div>
+  </header>
+  <nav class="tabs" id="tabs">
+    <a href="#events" data-v="events" data-t="tabEvents"></a>
+    <a href="#songs" data-v="songs" data-t="tabTracks"></a>
+    <a href="#stats" data-v="stats" data-t="tabStats"></a>
+    <button class="lang" id="langbtn" type="button"></button>
+  </nav>
+  <main id="view"></main>
+  <footer>
+    <span class="ltr">@idoaver</span>
+    <span id="upd"></span>
+  </footer>
+</div>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true"><div class="lb-bar"><button id="lbzoom"></button><button id="lbclose"></button></div><div class="lb-scroll" id="lbscroll"><img id="lbimg" alt=""></div></div>
+
+<script>
+const DATA = /*DATA*/null;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const EV = DATA.events.slice().sort((a,b)=>a.date.localeCompare(b.date));
+const EVI = Object.fromEntries(EV.map(e=>[e.id,e]));
+const fmtDate = d => { const [y,m,dd]=d.split('-'); return `${dd}.${m}.${y}`; };
+const year = e => e.date.slice(0,4);
+const mins = hm => { const [h,m]=hm.split(':').map(Number); return h*60+m; };
+const durTxt = d => { const [h,m]=d.split(':'); return `${+h}:${m.padStart(2,'0')}`; };
+
+// ---------- language ----------
+const I18N = {
+  he:{ dir:'rtl', other:'EN', otherLabel:'English', tabEvents:'מסיבות', tabTracks:'טראקים', tabStats:'סטטיסטיקות',
+    parties:'מסיבות', tracks:'טראקים', uniq:'טראקים שונים', years:'שנים', updated:'עודכן לאחרונה',
+    all:'הכל', pride:'גאווה', purim:'פורים', hanukkah:'חנוכה', rh:'ראש השנה', sukkot:'סוכות', abroad:'חו"ל', filterBy:'סינון לפי סוג',
+    hours:'שעות', back:'→', allParties:'כל המסיבות', allTracks:'כל הטראקים',
+    zoomImg:'הגדלת התמונה', imgAlt:'ההזמנה עם רשימת הטראקים', cap:'רשימת הטראקים כפי שפורסמה. לחיצה על התמונה מגדילה אותה.', noImg:'התמונה המקורית תתווסף בקרוב',
+    setTimes:'תחילת וסיום הסט', date:'תאריך', venue:'מקום', city:'עיר', credit:'תיעוד', opening:'פתיחה', playedAt:'מספר המסיבות שבהן נוגן',
+    search:'חיפוש טראק או אמן', sort:'מיון', byPlays:'הכי מנוגנים', byName:'לפי שם הטראק', byRecent:'נוגנו לאחרונה', dotsTitle:'המסיבות שבהן נוגן, לפי סדר כרונולוגי',
+    timesPlayed:'פעמים שנוגן', outOf:n=>`מתוך ${n} מסיבות`, firstLast:'נוגן לראשונה ולאחרונה', party:'מסיבה', position:'מיקום בסט', version:'גרסה', openingAct:'מופע פתיחה',
+    topTitle:'הטראקים הכי מנוגנים', topDesc:n=>`מספר הפעמים שכל טראק נוגן בכל ${n} המסיבות.`,
+    lenTitle:'אורך הסט', lenDesc:a=>`בשעות, לפי סדר כרונולוגי. ממוצע ${a}.`,
+    ocTitle:'פתיחות וסגירות', ocDesc:'הטראקים שפתחו וסגרו הכי הרבה סטים.', first:'טראק ראשון', last:'טראק אחרון',
+    zoom:'הגדלה', fit:'התאמה למסך', close:'✕ סגירה', lbLabel:'התמונה בגודל מלא', live:'צפייה בלייב', part:'חלק', watch:'צפייה', listenYT:'האזנה ביוטיוב', listenSC:'האזנה ב-SoundCloud' },
+  en:{ dir:'ltr', other:'עברית', otherLabel:'עברית', tabEvents:'Parties', tabTracks:'Tracks', tabStats:'Stats',
+    parties:'parties', tracks:'tracks', uniq:'unique tracks', years:'years', updated:'Last updated',
+    all:'All', pride:'Pride', purim:'Purim', hanukkah:'Hanukkah', rh:'Rosh Hashanah', sukkot:'Sukkot', abroad:'Abroad', filterBy:'Filter by type',
+    hours:'hours', back:'←', allParties:'All parties', allTracks:'All tracks',
+    zoomImg:'Enlarge image', imgAlt:'Published set list', cap:'The set list as published. Tap the image to enlarge it.', noImg:'The original image will be added soon',
+    setTimes:'Set start and end', date:'Date', venue:'Venue', city:'City', credit:'Recorded by', opening:'Intro', playedAt:'Number of parties it was played at',
+    search:'Search a track or artist', sort:'Sort', byPlays:'Most played', byName:'By track name', byRecent:'Recently played', dotsTitle:'Parties it was played at, in chronological order',
+    timesPlayed:'times played', outOf:n=>`of ${n} parties`, firstLast:'first and last played', party:'Party', position:'Position in set', version:'Version', openingAct:'Opening act',
+    topTitle:'Most played tracks', topDesc:n=>`How many times each track was played across all ${n} parties.`,
+    lenTitle:'Set length', lenDesc:a=>`In hours, in chronological order. Average ${a}.`,
+    ocTitle:'Openers and closers', ocDesc:'The tracks that opened and closed the most sets.', first:'First track', last:'Last track',
+    zoom:'Enlarge', fit:'Fit to screen', close:'✕ Close', lbLabel:'Full-size image', live:'Watch live', part:'Part', watch:'Watch', listenYT:'Listen on YouTube', listenSC:'Listen on SoundCloud' }
+};
+const KIND_EN = {'Pride Tel Aviv':'Tel Aviv Pride','NYC Pride':'NYC Pride','White Party Bangkok':'White Party Bangkok','Purim':'Purim','Hanukkah':'Hanukkah','Rosh Hashanah':'Rosh Hashanah','Sukkot':'Sukkot'};
+let LANG = 'he';
+try { const v = localStorage.getItem('lang'); if (v==='en'||v==='he') LANG = v; } catch(e) {}
+const T = k => I18N[LANG][k];
+const evName = e => LANG==='he' ? e.he : (KIND_EN[e.kind]||e.kind);
+const HASLINKS = Object.keys(DATA.links||{}).length>0;
+const lnk = id => { const l=DATA.links[id]; if(!l) return ''; const sc=l[0]==='sc'; return `<a class="lnk ${l[0]}" href="${esc(l[1])}" target="_blank" rel="noopener" title="${sc?'SoundCloud':'YouTube'}" aria-label="${sc?'SoundCloud':'YouTube'}">${sc?'☁':'▶'}</a>`; };
+const evCity = e => LANG==='he' ? e.city : e.city_en;
+
+// songs index: plays across events, excluding opening-act row 0
+const SONG = {};
+for (const e of EV) for (const [seq,id,ar,ti,ve] of e.t) {
+  const s = SONG[id] ||= {id, artist:DATA.songs[id]?.[0]||ar, title:DATA.songs[id]?.[1]||ti, apps:[]};
+  s.apps.push({e, seq, ve, total:e.t.filter(r=>r[0]>0).length});
+}
+const SONGS = Object.values(SONG);
+SONGS.forEach(s=>{ s.plays=s.apps.filter(a=>a.seq>0).length; s.events=new Set(s.apps.map(a=>a.e.id)).size; });
+const totalPlays = EV.reduce((n,e)=>n+e.t.filter(r=>r[0]>0).length,0);
+
+function chrome(){
+  const w = $('#wrap'); w.dir = T('dir'); w.lang = LANG; document.documentElement.lang = LANG;
+  document.querySelectorAll('[data-t]').forEach(el=>el.textContent=T(el.dataset.t));
+  $('#langbtn').textContent = T('other');
+  $('#langbtn').setAttribute('aria-label', T('otherLabel'));
+  $('#langbtn').lang = LANG==='he' ? 'en' : 'he';
+  $('#totals').innerHTML = [
+    [EV.length,T('parties')],[totalPlays,T('tracks')],[SONGS.length,T('uniq')],
+    [`${year(EV[0])}–${year(EV[EV.length-1]).slice(2)}`,T('years')]
+  ].map(([v,l])=>`<div><b class="num ltr">${v}</b><small>${l}</small></div>`).join('');
+  $('#upd').textContent = `${T('updated')} ${DATA.updated}`;
+  $('#lb').setAttribute('aria-label',T('lbLabel')); $('#lb').dir = T('dir');
+  $('#lbclose').textContent = T('close');
+  $('#lbzoom').textContent = LB.classList.contains('big') ? T('fit') : T('zoom');
+}
+
+const KINDS = [['all','all'],['Pride Tel Aviv','pride'],['Purim','purim'],['Hanukkah','hanukkah'],['Rosh Hashanah','rh'],['Sukkot','sukkot'],['abroad','abroad']];
+let kindFilter = 'all', songQ = '', songSort = 'plays';
+
+function vEvents(){
+  const list = EV.slice().reverse().filter(e => kindFilter==='all' || (kindFilter==='abroad' ? e.country!=='Israel' : e.kind===kindFilter));
+  return `<div class="chips" role="group" aria-label="${T('filterBy')}">${KINDS.map(([k,l])=>`<button class="chip" data-kind="${k}" aria-pressed="${k===kindFilter}">${T(l)}</button>`).join('')}</div>
+  <div class="evlist">${list.map(e=>`
+    <a class="ev" href="#${e.id}">
+      <div class="top"><h3>${esc(evName(e))}</h3><span class="yr ltr">${year(e)}</span></div>
+      <div class="meta">${fmtDate(e.date)} · ${esc(evCity(e))}</div>
+      <div class="foot"><span class="ltr"><b>${e.start}</b> → <b>${e.end}</b></span><span>${durTxt(e.dur)} ${T('hours')} · ${e.t.filter(r=>r[0]>0).length} ${T('tracks')}</span></div>
+    </a>`).join('')}</div>`;
+}
+
+function vEvent(e){
+  const n = e.t.filter(r=>r[0]>0).length;
+  const img = e.img
+    ? `<button class="poster" data-zoom="${e.img}" aria-label="${T('zoomImg')}"><img src="${e.img}" alt="${T('imgAlt')}, ${esc(evName(e))} ${year(e)}" loading="lazy"></button><p class="poster-cap">${T('cap')}</p>`
+    : `<div class="poster none">${T('noImg')}</div>`;
+  return `<a class="back" href="#events">${T('back')} ${T('allParties')}</a>
+  <div class="evhead">
+    <div><h2>${esc(evName(e))}<span class="yr ltr">${year(e)}</span></h2><p class="en ltr al">${esc(e.name)}</p></div>
+    <div class="settime"><div class="t num">${e.start}<em>→</em>${e.end}</div><small>${T('setTimes')} · ${durTxt(e.dur)} ${T('hours')}</small></div>
+  </div>
+  <div class="facts"><span>${T('date')} <b class="num">${fmtDate(e.date)}</b></span><span>${T('venue')} <b class="ltr">${esc(e.venue)}</b></span><span>${T('city')} <b>${esc(evCity(e))}</b></span><span>${T('tabTracks')} <b class="num">${n}</b></span>${e.credit?(typeof e.credit==='object'?`<span>${esc(e.credit[LANG]).replace(/@[\w.]+/g,m=>`<b class="ltr">${m}</b>`)}</span>`:`<span>${T('credit')} <b class="ltr">${esc(e.credit)}</b></span>`):''}</div>
+  ${e.live&&e.live.length?`<div class="live"><span class="live-l">${T('live')}</span>${e.live.map(l=>`<a href="${esc(l.url)}" target="_blank" rel="noopener">▶ ${l.part?`${T('part')} ${esc(l.part)}`:T('watch')}</a>`).join('')}</div>`:''}
+  ${img}
+  <ol class="tracks">${e.t.map(([seq,id,ar,ti,ve])=>{
+    const s=SONG[id];
+    return `<li><button class="trk" data-song="${id}">
+      <span class="n num">${seq===0?T('opening'):seq}</span>
+      <span><span class="ti">${esc(ti)}</span> <span class="ar">· ${esc(ar)}</span>${ve?`<br><span class="ve">${esc(ve)}</span>`:''}</span>
+      <span class="pl" title="${T('playedAt')}">${s.events>1?`×${s.events}`:''}</span>
+    </button>${HASLINKS?`<span class="lk">${lnk(id)}</span>`:''}</li>`;}).join('')}</ol>`;
+}
+
+function vSongs(){
+  const o=(v,k)=>`<option value="${v}"${songSort===v?' selected':''}>${T(k)}</option>`;
+  return `<div class="searchrow">
+    <input id="q" type="search" placeholder="${T('search')}" value="${esc(songQ)}" aria-label="${T('search')}">
+    <select id="sort" aria-label="${T('sort')}">${o('plays','byPlays')}${o('az','byName')}${o('recent','byRecent')}</select>
+  </div><div id="songres"></div>`;
+}
+function renderSongList(){
+  const q = songQ.trim().toLowerCase();
+  let list = SONGS.filter(s=>!q || (s.title+' '+s.artist+' '+s.apps.map(a=>a.ve).join(' ')).toLowerCase().includes(q));
+  if (songSort==='plays') list.sort((a,b)=>b.plays-a.plays||a.title.localeCompare(b.title));
+  else if (songSort==='az') list.sort((a,b)=>a.title.localeCompare(b.title));
+  else list.sort((a,b)=>b.apps.at(-1).e.date.localeCompare(a.apps.at(-1).e.date)||b.plays-a.plays);
+  $('#songres').innerHTML = `<div class="count">${list.length} ${T('tracks')}</div>` + list.map(s=>{
+    const on = new Set(s.apps.map(a=>a.e.id));
+    return `<div class="srow"><button class="songrow" data-song="${s.id}">
+      <span><span class="ti">${esc(s.title)}</span><br><span class="ar">${esc(s.artist)}</span></span>
+      <span class="right"><span class="dots" title="${T('dotsTitle')}">${EV.map(e=>`<i class="${on.has(e.id)?'on':''}"></i>`).join('')}</span><span class="plays">×${s.plays||1}</span></span>
+    </button>${HASLINKS?`<span class="lk">${lnk(s.id)}</span>`:''}</div>`;}).join('');
+}
+
+function vSong(s){
+  const first = s.apps[0].e, last = s.apps.at(-1).e;
+  return `<a class="back" href="#songs">${T('back')} ${T('allTracks')}</a>
+  <div class="songhead"><h2>${esc(s.title)}</h2><div class="ar">${esc(s.artist)}</div>${DATA.links[s.id]?`<div class="al"><a class="lbig ${DATA.links[s.id][0]}" href="${esc(DATA.links[s.id][1])}" target="_blank" rel="noopener">${DATA.links[s.id][0]==='sc'?'☁ '+T('listenSC'):'▶ '+T('listenYT')}</a></div>`:''}
+  <div class="big"><div><b class="num">${s.plays}</b><small>${T('timesPlayed')}</small></div><div><b class="num">${s.events}</b><small>${T('outOf')(EV.length)}</small></div><div><b class="num ltr">${year(first)}${first!==last?'–'+year(last).slice(2):''}</b><small>${T('firstLast')}</small></div></div></div>
+  <div class="tbl"><table class="apps"><thead><tr><th>${T('date')}</th><th>${T('party')}</th><th>${T('position')}</th><th>${T('version')}</th></tr></thead><tbody>
+  ${s.apps.map(a=>`<tr data-ev="${a.e.id}" data-seq="${a.seq}"><td class="num">${fmtDate(a.e.date)}</td><td>${esc(evName(a.e))}</td>
+    <td><div class="pos">${a.seq===0?T('openingAct'):`<span class="num">${a.seq}/${a.total}</span><div class="strip"><i style="left:calc(${(a.seq-1)/Math.max(1,a.total-1)} * (100% - 6px))"></i></div>`}</div></td>
+    <td class="ltr al" style="color:var(--muted);font-size:13.5px">${esc(a.ve)||'—'}</td></tr>`).join('')}
+  </tbody></table></div>`;
+}
+
+function vStats(){
+  const top = SONGS.slice().sort((a,b)=>b.plays-a.plays||a.title.localeCompare(b.title)).slice(0,20);
+  const mx = top[0].plays;
+  const tally = pick => { const c={}; EV.forEach(e=>{const r=pick(e); if(r) c[r[1]]=(c[r[1]]||0)+1;}); return Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,6); };
+  const openers = tally(e=>e.t.find(r=>r[0]===1)), closers = tally(e=>e.t.filter(r=>r[0]>0).at(-1));
+  const dm = EV.map(e=>mins(e.dur)), dmax = 6*60;
+  const li = arr => arr.map(([id,n])=>`<li><button data-song="${id}"><span>${esc(SONG[id].title)}</span><b>${n}</b></button></li>`).join('');
+  const avg = Math.round(dm.reduce((a,b)=>a+b,0)/dm.length);
+  return `<div class="stats">
+  <section class="panel"><h3>${T('topTitle')}</h3><p class="d">${T('topDesc')(EV.length)}</p>
+    ${top.map(s=>`<button class="hbar" data-song="${s.id}"><span class="lab">${esc(s.title)} <small>· ${esc(s.artist)}</small></span><span class="b"><i style="width:${s.plays/mx*100}%"></i></span><span class="v">${s.plays}</span></button>`).join('')}
+  </section>
+  <div style="display:flex;flex-direction:column;gap:16px">
+  <section class="panel"><h3>${T('lenTitle')}</h3><p class="d">${T('lenDesc')(`${Math.floor(avg/60)}:${String(avg%60).padStart(2,'0')}`)}</p>
+    <div class="durs">${[2,4,6].map(h=>`<div class="grid" style="bottom:${h*60/dmax*152}px"><span>${h}h</span></div>`).join('')}
+    ${EV.map((e,i)=>`<button data-ev="${e.id}" title="${esc(evName(e))} ${year(e)} · ${durTxt(e.dur)}" style="--h:${dm[i]/dmax*152}px"><span>${durTxt(e.dur)}</span><i style="height:${dm[i]/dmax*152}px"></i></button>`).join('')}</div>
+    <div class="durx">${EV.map(e=>`<span>${year(e).slice(2)}</span>`).join('')}</div>
+  </section>
+  <section class="panel"><h3>${T('ocTitle')}</h3><p class="d">${T('ocDesc')}</p>
+    <div class="oc"><div><h4>${T('first')}</h4><ul>${li(openers)}</ul></div><div><h4>${T('last')}</h4><ul>${li(closers)}</ul></div></div>
+  </section>
+  </div></div>`;
+}
+
+function route(){
+  const h = decodeURIComponent(location.hash.slice(1)) || 'events';
+  let tab = 'events', html;
+  if (h==='songs'){ tab='songs'; html=vSongs(); }
+  else if (h==='stats'){ tab='stats'; html=vStats(); }
+  else if (EVI[h]){ html=vEvent(EVI[h]); }
+  else if (SONG[h]){ tab='songs'; html=vSong(SONG[h]); }
+  else html=vEvents();
+  $('#view').innerHTML = html;
+  document.querySelectorAll('#tabs a').forEach(a=>{ if(a.dataset.v===tab) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
+  if (h==='songs') { renderSongList(); }
+  const hl = sessionStorageGet('hl');
+  if (hl && EVI[h]) { const b=document.querySelectorAll('.trk')[+hl]; if(b){b.classList.add('cur'); b.scrollIntoView({block:'center'});} sessionStorageSet('hl',''); }
+  else if (!keepScroll) window.scrollTo(0,0);
+  keepScroll=false;
+}
+let keepScroll=false;
+function sessionStorageGet(k){ try{return sessionStorage.getItem(k);}catch(e){return null;} }
+function sessionStorageSet(k,v){ try{sessionStorage.setItem(k,v);}catch(e){} }
+const go = h => { if (location.hash==='#'+h) route(); else location.hash = h; };
+
+const LB=$('#lb');
+function lbOpen(src){ $('#lbimg').src=src; LB.classList.remove('big'); $('#lbzoom').textContent=T('zoom'); LB.hidden=false; document.body.style.overflow='hidden'; }
+function lbClose(){ LB.hidden=true; document.body.style.overflow=''; }
+function lbToggle(){ const big=LB.classList.toggle('big'); $('#lbzoom').textContent= big?T('fit'):T('zoom'); }
+$('#lbclose').addEventListener('click',lbClose);
+$('#lbzoom').addEventListener('click',lbToggle);
+$('#lbimg').addEventListener('click',lbToggle);
+$('#lbscroll').addEventListener('click',ev=>{ if(ev.target.id==='lbscroll') lbClose(); });
+document.addEventListener('keydown',ev=>{ if(ev.key==='Escape' && !LB.hidden) lbClose(); });
+window.addEventListener('hashchange',()=>{ if(!LB.hidden) lbClose(); });
+$('#langbtn').addEventListener('click',()=>{
+  LANG = LANG==='he' ? 'en' : 'he';
+  try { localStorage.setItem('lang', LANG); } catch(e) {}
+  chrome(); keepScroll=true; route();
+});
+document.addEventListener('click', ev=>{
+  const z = ev.target.closest('[data-zoom]'); if (z) { lbOpen(z.dataset.zoom); return; }
+  const t = ev.target.closest('[data-song],[data-ev],[data-kind]'); if(!t) return;
+  if (t.dataset.kind){ kindFilter=t.dataset.kind; keepScroll=true; route(); return; }
+  if (t.dataset.ev){
+    const e=EVI[t.dataset.ev];
+    if (t.dataset.seq!=null){ const i=e.t.findIndex(r=>String(r[0])===t.dataset.seq); sessionStorageSet('hl',String(i)); }
+    go(t.dataset.ev); return;
+  }
+  go(t.dataset.song);
+});
+document.addEventListener('input', ev=>{ if(ev.target.id==='q'){ songQ=ev.target.value; renderSongList(); } });
+document.addEventListener('change', ev=>{ if(ev.target.id==='sort'){ songSort=ev.target.value; renderSongList(); } });
+window.addEventListener('hashchange', route);
+chrome();
+route();
+</script>

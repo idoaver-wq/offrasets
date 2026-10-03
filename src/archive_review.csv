@@ -1,0 +1,55 @@
+﻿review_id,event_id,sequence_number,issue_type,source_text,proposed_resolution,confidence,notes
+REV_001,,,merge decision (review),Offer Nissim - Lost The Music / Offer Nissim - Lost In Music,Merged into one canonical song 'Lost In Music'. Archive owner confirmed on 06.09.2026 that 'Lost The Music' (2019-2022 lists) was a typo of his own. Source text kept as printed.,HIGH,"6 plays as 'Lost The Music', 4 as 'Lost In Music' = 10 plays."
+REV_002,,,different songs (confirmed),Offer Nissim - Underground / Celeda - The Underground,Kept separate; archive owner confirmed on 06.09.2026 they are different songs.,HIGH,
+REV_003,,,merge decision (review),Offer Nissim - Celebration / Madonna - Celebration - Offer Nissim dub Remix,"Merged into one canonical song (Madonna's Celebration). Archive owner confirmed on 06.09.2026: after the first play the credit was changed to 'Offer Nissim' on the set lists, probably for copyright reasons.",HIGH,
+REV_004,,,different songs (confirmed),Eliran Halevy - Can You Feel It / Offer Nissim - Can You Feel It,Kept separate; archive owner confirmed on 06.09.2026 they are different songs.,HIGH,
+REV_005,,,merge decision (review),Eliran Halevy - Vicious Games / Yello - Vicious Games - Eliran Halevy Remix(?),"Merged: both are Eliran Halevy's remix of Yello - confirmed by archive owner 06.09.2026. Played twice (Pride TLV 2023, NYC Pride 2023).",HIGH,
+REV_006,,,possible duplicate (NOT merged),Offer Nissim - Move Your Body / Offer Nissim - Move Your Body - Club Mix,Same canonical song; version 'Club Mix' kept only where written.,HIGH,
+REV_007,,,merge decision (review),Offer Nissim Feat. Dana International - Layla Tov Eropa / Offer Nissim X Dana International - Good Night Europe - Show Mix,Merged into one canonical song (Layla Tov Eropa = Hebrew for Good Night Europe) - archive owner: probably the same.,HIGH,
+REV_008,,,merge decision (review),Offer Nissim Feat. Maya Simantov - Wish You Were Here / I Wish You Were Here,Merged (2025 listing adds 'I') - archive owner: probably the same.,HIGH,
+REV_009,,,merge decision (review),Another Cha Cha / Cha Cha Cha / Anoter Cha Cha (all Peter Rauhofer NYC Edit),"Merged into one song, one version (Peter Rauhofer's NYC Edit of Offer Nissim's production of Santa Esmeralda's song). Owner recalls that on one of the nine occasions Offer's own version (without the Rauhofer edit) was played, but cannot say which; all nine kept as printed.",HIGH,
+REV_010,,,merge decision (review),Show Me Love: Offer Nissim Feat. Robin S. / Robin S. - ... Offer Nissim Remix / Offer Nissim & Mr. Black - Show Me Love (Pride Version - Vox By SAILO),All linked to one canonical song; the Mr. Black versions carry a version label - confirmed by archive owner.,HIGH,
+REV_011,,,different songs (confirmed),Lord Of Mercy: Feat. Nasrin Qadri / Vs Abdulqader Qawza,"Two canonical songs: the Nasrin Kadri track is an original production, the Abdulqader Qawza one is a remix - confirmed by archive owner 06.09.2026.",HIGH,
+REV_012,,,merge decision (review),Anita Mayer / Anita Meyer - Why Tell Me Why,Artist normalized to 'Anita Meyer' (singer's actual name); 'Mayer' kept in source_track_text.,HIGH,
+REV_013,,,merge decision (review),Deborah Cox - Easy As Life (Offer Nissim Remix) / (Offer Nissim Show Mix) / (Show Mix),One canonical song; versions kept as written.,HIGH,
+REV_014,,,merge decision (review),Enough Is Enough: '2017 (Offer Nissim's Drama Remix)' / '2017 (Offer Nissim Remix)' / 'Offer Nissim Part B Remix' / '(Offer Nissim Part B)',One canonical song; four distinct version labels preserved.,HIGH,
+REV_015,,,merge decision (review),Gimme! Gimme! Gimme! (Cher): versions 'Offer Nissim Needs A Man Remix' vs 'Offer Nissim Remix' vs none,One canonical song; version text kept exactly as written per listing (2019 and 2024 lists say 'Offer Nissim Remix').,HIGH,
+REV_016,,,merge decision (review),Amelia Lily - Bring Me Joy / You Bring Me Joy,Merged (2019 listings drop 'You').,HIGH,
+REV_017,,,merge decision (review),Petra (Dana International): 'Offer Nissim '08 Reconstruction' / 'Offer Nissim Reconstruction Mix' / 'Offer Nissim Remix',One canonical song; version labels kept.,HIGH,
+REV_018,,,merge decision (review),TITRAGEL ITA / TRITAGEL EITA (Magi Azarzar),Merged; one is a misspelling - confirmed by archive owner.,HIGH,
+REV_019,,,merge decision (review),TYP / The Young Professionals - Be With You Tonight,Merged (TYP is the band's abbreviation).,HIGH,
+REV_020,,,merge decision (review),"First Time variants: 'First Time', 'First Time - Show Mix', 'Cafe Del Mar First Time', 'First Time - Eliran Halevy Remix'",One canonical song; 'Cafe Del Mar' is a remix of First Time - confirmed by archive owner.,HIGH,
+REV_021,,,merge decision (review),Désenchantée: 'Offer Nissim Presents: Amir Haddad - Désenchantée' / 'Offer Nissim X Amir Haddad - De'senchante'e 2025 - Live Performance',Merged; 2025 treated as version.,HIGH,
+REV_022,,,merge decision (review),Nina Hagen - New York New York - Offer Nissim Remix / Offer Nissim Presents Nina Hagen - New York New York,Merged into one canonical song.,HIGH,
+REV_023,,,merge decision (review),Human (Ninet): 'Feat. Ninet - Human - Trance Version' / 'X Ninet - Human - Live Performance',One canonical song; versions kept.,HIGH,
+REV_024,,,merge decision (review),Eshal: 'Eyal Golan Feat. Offer Nissim - Eshal' / 'Offer Nissim Feat. Eyal Golan - ESHAL (- Show Mix)',One canonical song.,HIGH,
+REV_025,,,merge decision (review),"Rainbow: 'Offer Nissim Feat. Maya Simantov - Rainbow' (2019, 2026) / 'Offer Nissim - Rainbow' (2024)",One canonical song.,HIGH,
+REV_026,,,merge decision (review),"Malkat Harahava (Ran Danker): 'Offer Nissim Remix', 'Offer Nissim Show Mix', 'Offer Nissim Remix - Live Performance'; typo 'Harahva'",One canonical song; versions kept.,HIGH,
+REV_027,,,merge decision (review),Pieces (Eden Golan): 'PIECES - Live Performance' / 'Pieces',One canonical song.,HIGH,
+REV_028,,,merge decision (review),Superman (Maya Simantov) / 'Maya Simantov & Frida - Superman Show Mix - Live Performance',One canonical song; live version with Frida - confirmed by archive owner.,HIGH,
+REV_029,EVT_01,,event date,no date printed on image,2019-03-23 confirmed by archive owner on 04.09.2026. RESOLVED.,HIGH,
+REV_030,EVT_03,,event date,date on image hidden behind logo ('?0/09/..'),"2019-09-30 from Secret Tel Aviv / Expo listings (Monday 30/9/2019, 19:00).",HIGH,
+REV_031,EVT_04,,event date (unverified online),Saturday December 21th 2019 (image),Kept as printed; no external listing found.,HIGH,
+REV_032,EVT_08,,event date (unverified online),11.6.22 (image),Kept as printed; no external listing found.,HIGH,
+REV_033,EVT_14,,event date (unverified online),30.09.23 (image),Kept as printed; no external listing found.,HIGH,
+REV_034,EVT_05,,edition vs calendar date,White Party Bangkok 2020 / 30.12.19,"Edition label 2020, date 2019-12-30, set 00:00-03:00 actually on 31.12.2019.",HIGH,
+REV_035,EVT_13,,opening act / set times,"02:30 opening act (Deborah Cox), 02:38 Offer Nissim, 06:00 end","Set start 02:38, end 06:00 (early 25.06.2023). Track 0 included as opening-act row.",HIGH,
+REV_036,EVT_13,0,opening act entry,"Deborah Cox Opening act - Everybody Dance, Easy As, Summer Of Love - Offer Nissim Show Mix",Included as sequence 0 with its own canonical id (medley). Exclude sequence 0 if counting only Offer Nissim's own plays.,MEDIUM,
+REV_037,EVT_01,60,true repeated play,Offer Nissim - Ahasuerus (#3 and #60),Two rows kept.,HIGH,
+REV_038,EVT_11,55,true repeated play,Offer Nissim Feat. Ilan Peled and Nasrin Kadri - LIBERTÉ (#11 and #55),Two rows kept.,HIGH,
+REV_039,EVT_04,,warm-up acts,"names partly visible behind list (Ana Paula, Eliyot?)",Not transcribed - illegible; opening DJs only.,LOW,
+REV_040,,,online name correction,SONG_0008,artist -> Offer Nissim Feat. Maya Simantov & Vanesa Klein,HIGH,26.09.2026: Artist spelling: 'Vanesa LeKlein' -> 'Vanesa Klein' (Spotify / Apple Music credits)
+REV_041,,,online name correction,SONG_0053,artist -> Kristine W.; version -> Gabriel & Dresden Mix (Offer Nissim Mix),MEDIUM,26.09.2026: Artist corrected: the song is Kristine W. - Save My Soul; Gabriel & Dresden are the remixers (Beatport / Spotify / Wikipedia)
+REV_042,,,online name correction,SONG_0134,artist -> Offer Nissim Feat. Assaf Amdursky,HIGH,26.09.2026: Artist spelling: 'Amdrusky' -> 'Amdursky'
+REV_043,,,online name correction,SONG_0102,artist -> Beyoncé; title -> Run The World (Girls),HIGH,26.09.2026: Official spelling: 'Beyonce - Run The World' -> 'Beyoncé - Run The World (Girls)'
+REV_044,,,online name correction,SONG_0332,artist -> Beyoncé,HIGH,26.09.2026: Artist spelling: 'Beyonce' -> 'Beyoncé'
+REV_045,,,online name correction,SONG_0026,title -> Beegharar,HIGH,26.09.2026: Title spelling per Offer Nissim's official release (Spotify: 'Beegharar - Offer Nissim Club Remix')
+REV_046,,,online name correction,SONG_0095,title -> Here Comes That Sound Again,HIGH,26.09.2026: Official title is 'Here Comes That Sound Again' (Discogs / Wikipedia)
+REV_047,,,online name correction,SONG_0280,title -> Eye Can See U,HIGH,26.09.2026: Official title is 'Eye Can See U' (Discogs); earlier normalization to 'Eye Can See You' reversed
+REV_048,,,online name correction,SONG_0171,artist -> StoneBridge Feat. Therese,HIGH,26.09.2026: Original is credited 'StoneBridge feat. Therese' (Discogs / Spotify)
+REV_049,EVT_04,40,transcription fix,SONG_0136,artist -> Chic,HIGH,"26.09.2026: Transcription error: image reads 'Chic', not 'Cher'"
+REV_050,EVT_21,27,repeated play (shown once),Offer Nissim X Lior Narkis - Taxis - Live Performance (x2),"Played twice in a row; owner decided to show once, set = 60 tracks",HIGH,27.09.2026
+REV_051,EVT_21,42,merge decision (confirmed),Offer Nissim Feat. Dana International - Maganuna - Reconstruction Mix,Same song as SONG_0211 Maganuna,HIGH,27.09.2026
+REV_052,EVT_21,58,merge decision (confirmed),Age of Love - The Age of Love - Solomun Remix,"Same song as SONG_0137, Solomun Remix (image corrected by owner)",HIGH,27.09.2026
+REV_053,EVT_21,16,artist kept as printed,Offer Nissim X Asulin - Handyman - Live Performance,Artist 'Asulin' kept as printed,HIGH,27.09.2026
+REV_054,EVT_21,,event details,Sukkot 2026 | Expo TLV,Bitan 1 confirmed by owner; credit line shown as printed,HIGH,27.09.2026
