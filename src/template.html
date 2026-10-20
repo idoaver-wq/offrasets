@@ -201,6 +201,18 @@ table.apps tbody tr:hover{background:var(--surface2)}
 .lb-scroll img{display:block;flex:none;width:100%;max-width:none;height:auto;margin:auto;cursor:zoom-in}
 .lb.big .lb-scroll{align-items:flex-start}
 .lb.big .lb-scroll img{width:auto;min-width:250%;cursor:zoom-out}
+/* legacy */
+.notice{background:var(--surface);border:1px solid var(--line);border-inline-start:3px solid var(--gold);border-radius:10px;padding:14px 18px;margin-bottom:18px;color:var(--muted);font-size:14px}
+.notice h2{margin:0 0 6px;font-size:20px;color:var(--text)}
+.notice ul{margin:0;padding-inline-start:18px}
+.notice b{color:var(--text);font-weight:500}
+.badge{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);border:1px solid currentColor;border-radius:4px;padding:0 6px}
+.ev.leg .yr,.evhead.leg h2 .yr{color:var(--gold)}
+.live small{color:var(--faint);font-size:12.5px}
+div.trk{cursor:default}div.trk:hover{background:none}
+.legapps{margin-top:28px}
+.legapps h3{margin:0 0 2px;font-size:17px;display:flex;gap:8px;align-items:center}
+.legapps p.d{margin:0 0 8px;color:var(--muted);font-size:13px}
 footer a{text-decoration:none}footer a:hover{color:var(--accent)}
 footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--faint);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
@@ -217,6 +229,7 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:v
     <a href="#events" data-v="events" data-t="tabEvents"></a>
     <a href="#songs" data-v="songs" data-t="tabTracks"></a>
     <a href="#stats" data-v="stats" data-t="tabStats"></a>
+    <a href="#legacy" data-v="legacy" data-t="tabLegacy"></a>
     <button class="lang" id="langbtn" type="button"></button>
   </nav>
   <main id="view"></main>
@@ -252,7 +265,12 @@ const I18N = {
     topTitle:'הטראקים הכי מנוגנים', topDesc:n=>`מספר הפעמים שכל טראק נוגן בכל ${n} המסיבות.`,
     lenTitle:'אורך הסט', lenDesc:a=>`בשעות, לפי סדר כרונולוגי. ממוצע ${a}.`,
     ocTitle:'פתיחות וסגירות', ocDesc:'הטראקים שפתחו וסגרו הכי הרבה סטים.', first:'טראק ראשון', last:'טראק אחרון',
-    zoom:'הגדלה', fit:'התאמה למסך', close:'✕ סגירה', lbLabel:'התמונה בגודל מלא', live:'צפייה בלייב', part:'חלק', watch:'צפייה', listenYT:'האזנה ביוטיוב', listenSC:'האזנה ב-SoundCloud' },
+    zoom:'הגדלה', fit:'התאמה למסך', close:'✕ סגירה', lbLabel:'התמונה בגודל מלא', live:'צפייה בלייב', part:'חלק', watch:'צפייה', listenYT:'האזנה ביוטיוב', listenSC:'האזנה ב-SoundCloud',
+    tabLegacy:'לגסי', legacy:'לגסי', legTitle:'סטי לגסי <span class="ltr">2005–2018</span>', allLegacy:'כל סטי הלגסי',
+    legNotes:['רשימות היסטוריות שהגיעו ממקורות חיצוניים, לפני תחילת התיעוד השוטף (2019).','אין שעות התחלה וסיום, והרשימות אינן בהכרח מלאות או מדויקות.','הקישורים ליוטיוב מפנים לסרטונים ערוכים, ולא לתיעוד רשמי של הסטים.','הסטים האלה לא נספרים במספרים ובסטטיסטיקות של האתר.'],
+    legSource:'הרשימות באדיבות', legList:'רשימה', ytEdited:'צפייה ביוטיוב', ytNote:'סרטון ערוך, לא תיעוד רשמי של הסט',
+    legPartial:'רשימה היסטורית, ייתכן שאינה מלאה. לא נספרת בסטטיסטיקות.', legSets:'מספר סטי הלגסי שבהם מופיע',
+    alsoLegacy:'הופיע גם בסטי לגסי', alsoLegacyD:'<span class="ltr">2005–2018</span>, לא נספר במספרים שלמעלה.', legSet:'סט' },
   en:{ dir:'ltr', other:'עברית', otherLabel:'עברית', tabEvents:'Parties', tabTracks:'Tracks', tabStats:'Stats',
     parties:'parties', tracks:'tracks', uniq:'unique tracks', years:'years', updated:'Last updated',
     all:'All', pride:'Pride', purim:'Purim', hanukkah:'Hanukkah', rh:'Rosh Hashanah', sukkot:'Sukkot', abroad:'Abroad', filterBy:'Filter by type',
@@ -264,7 +282,12 @@ const I18N = {
     topTitle:'Most played tracks', topDesc:n=>`How many times each track was played across all ${n} parties.`,
     lenTitle:'Set length', lenDesc:a=>`In hours, in chronological order. Average ${a}.`,
     ocTitle:'Openers and closers', ocDesc:'The tracks that opened and closed the most sets.', first:'First track', last:'Last track',
-    zoom:'Enlarge', fit:'Fit to screen', close:'✕ Close', lbLabel:'Full-size image', live:'Watch live', part:'Part', watch:'Watch', listenYT:'Listen on YouTube', listenSC:'Listen on SoundCloud' }
+    zoom:'Enlarge', fit:'Fit to screen', close:'✕ Close', lbLabel:'Full-size image', live:'Watch live', part:'Part', watch:'Watch', listenYT:'Listen on YouTube', listenSC:'Listen on SoundCloud',
+    tabLegacy:'Legacy', legacy:'Legacy', legTitle:'Legacy sets 2005–2018', allLegacy:'All legacy sets',
+    legNotes:['Historical set lists from outside sources, from before regular documentation began (2019).','There are no set start and end times, and the lists are not necessarily complete or accurate.','The YouTube links lead to edited videos, not official recordings of the sets.','These sets are not counted in the site\'s totals or stats.'],
+    legSource:'Set lists courtesy of', legList:'List', ytEdited:'Watch on YouTube', ytNote:'Edited video, not an official recording of the set',
+    legPartial:'Historical list, may be incomplete. Not counted in stats.', legSets:'Number of legacy sets it appears in',
+    alsoLegacy:'Also in legacy sets', alsoLegacyD:'2005–2018, not counted in the numbers above.', legSet:'Set' }
 };
 const KIND_EN = {'Pride Tel Aviv':'Tel Aviv Pride','NYC Pride':'NYC Pride','White Party Bangkok':'White Party Bangkok','Purim':'Purim','Hanukkah':'Hanukkah','Rosh Hashanah':'Rosh Hashanah','Sukkot':'Sukkot'};
 let LANG = 'he';
@@ -283,6 +306,13 @@ for (const e of EV) for (const [seq,id,ar,ti,ve] of e.t) {
 }
 const SONGS = Object.values(SONG);
 SONGS.forEach(s=>{ s.plays=s.apps.filter(a=>a.seq>0).length; s.events=new Set(s.apps.map(a=>a.e.id)).size; });
+// legacy sets: separate index, never merged into SONG / totals / stats
+const LG = (DATA.legacy||[]).slice().sort((a,b)=>a.date.localeCompare(b.date));
+const LGI = Object.fromEntries(LG.map(e=>[e.id,e]));
+const LAPPS = {};
+for (const e of LG) for (const [seq,id,ar,ti,ve] of e.t) (LAPPS[id] ||= []).push({e, seq, ve, total:e.t.length});
+const lgSets = id => new Set((LAPPS[id]||[]).map(a=>a.e.id)).size;
+const lgName = e => LANG==='he' && e.name==='Tel Aviv Pride' ? 'גאווה תל אביב' : e.name;
 const totalPlays = EV.reduce((n,e)=>n+e.t.filter(r=>r[0]>0).length,0);
 
 function chrome(){
@@ -337,6 +367,33 @@ function vEvent(e){
     </button>${HASLINKS?`<span class="lk">${lnk(id)}</span>`:''}</li>`;}).join('')}</ol>`;
 }
 
+function vLegacy(){
+  return `<div class="notice"><h2>${T('legTitle')}</h2><ul>${T('legNotes').map(n=>`<li>${n}</li>`).join('')}</ul>
+    <p style="margin:8px 0 0">${T('legSource')} <b class="ltr">@the.shay.guy</b></p></div>
+  <div class="evlist">${LG.slice().reverse().map(e=>`
+    <a class="ev leg" href="#${e.id}">
+      <div class="top"><h3><bdi>${esc(lgName(e))}</bdi></h3><span class="yr ltr">${year(e)}</span></div>
+      <div class="meta">${fmtDate(e.date)} · ${esc(evCity(e))}</div>
+      <div class="foot"><span class="badge">${T('legacy')}</span><span>${e.t.length} ${T('tracks')}</span></div>
+    </a>`).join('')}</div>`;
+}
+
+function vLegacyEvent(e){
+  return `<a class="back" href="#legacy">${T('back')} ${T('allLegacy')}</a>
+  <div class="evhead leg">
+    <div><h2><bdi>${esc(lgName(e))}</bdi><span class="yr ltr">${year(e)}</span></h2><p class="en ltr al">${esc([e.name,e.venue].filter(Boolean).join(' · '))}</p></div>
+    <div><span class="badge">${T('legacy')}</span></div>
+  </div>
+  <div class="facts"><span>${T('date')} <b class="num">${fmtDate(e.date)}</b></span>${e.venue?`<span>${T('venue')} <b class="ltr">${esc(e.venue)}</b></span>`:''}<span>${T('city')} <b>${esc(evCity(e))}</b></span><span>${T('tabTracks')} <b class="num">${e.t.length}</b></span><span>${T('legList')} <b class="ltr">${esc(e.credit)}</b></span></div>
+  ${e.yt?`<div class="live"><a href="${esc(e.yt)}" target="_blank" rel="noopener">▶ ${T('ytEdited')}</a><small>${T('ytNote')}</small></div>`:''}
+  <p class="poster-cap" style="margin:0 0 12px">${T('legPartial')}</p>
+  <ol class="tracks">${e.t.map(([seq,id,ar,ti,ve])=>{
+    const n=lgSets(id), inner=`<span class="n num">${seq}</span>
+      <span><span class="ti">${esc(ti)}</span> <span class="ar">· ${esc(ar)}</span>${ve?`<br><span class="ve">${esc(ve)}</span>`:''}</span>
+      <span class="pl" title="${T('legSets')}">${n>1?`×${n}`:''}</span>`;
+    return `<li>${SONG[id]?`<button class="trk" data-song="${id}">${inner}</button>`:`<div class="trk">${inner}</div>`}</li>`;}).join('')}</ol>`;
+}
+
 function vSongs(){
   const o=(v,k)=>`<option value="${v}"${songSort===v?' selected':''}>${T(k)}</option>`;
   return `<div class="searchrow">
@@ -367,7 +424,13 @@ function vSong(s){
   ${s.apps.map(a=>`<tr data-ev="${a.e.id}" data-seq="${a.seq}"><td class="num">${fmtDate(a.e.date)}</td><td>${esc(evName(a.e))}</td>
     <td><div class="pos">${a.seq===0?T('openingAct'):`<span class="num">${a.seq}/${a.total}</span><div class="strip"><i style="left:calc(${(a.seq-1)/Math.max(1,a.total-1)} * (100% - 6px))"></i></div>`}</div></td>
     <td class="ltr al" style="color:var(--muted);font-size:13.5px">${esc(a.ve)||'—'}</td></tr>`).join('')}
-  </tbody></table></div>`;
+  </tbody></table></div>${LAPPS[s.id]?`
+  <section class="legapps"><h3>${T('alsoLegacy')} <span class="badge">${T('legacy')}</span></h3><p class="d">${T('alsoLegacyD')}</p>
+  <div class="tbl"><table class="apps"><thead><tr><th>${T('date')}</th><th>${T('legSet')}</th><th>${T('position')}</th><th>${T('version')}</th></tr></thead><tbody>
+  ${LAPPS[s.id].map(a=>`<tr data-ev="${a.e.id}" data-seq="${a.seq}"><td class="num">${fmtDate(a.e.date)}</td><td><bdi>${esc(lgName(a.e))}</bdi> · ${esc(evCity(a.e))}</td>
+    <td><div class="pos"><span class="num">${a.seq}/${a.total}</span><div class="strip"><i style="left:calc(${(a.seq-1)/Math.max(1,a.total-1)} * (100% - 6px))"></i></div></div></td>
+    <td class="ltr al" style="color:var(--muted);font-size:13.5px">${esc(a.ve)||'—'}</td></tr>`).join('')}
+  </tbody></table></div></section>`:''}`;
 }
 
 function vStats(){
@@ -399,14 +462,16 @@ function route(){
   let tab = 'events', html;
   if (h==='songs'){ tab='songs'; html=vSongs(); }
   else if (h==='stats'){ tab='stats'; html=vStats(); }
+  else if (h==='legacy'){ tab='legacy'; html=vLegacy(); }
   else if (EVI[h]){ html=vEvent(EVI[h]); }
+  else if (LGI[h]){ tab='legacy'; html=vLegacyEvent(LGI[h]); }
   else if (SONG[h]){ tab='songs'; html=vSong(SONG[h]); }
   else html=vEvents();
   $('#view').innerHTML = html;
   document.querySelectorAll('#tabs a').forEach(a=>{ if(a.dataset.v===tab) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
   if (h==='songs') { renderSongList(); }
   const hl = sessionStorageGet('hl');
-  if (hl && EVI[h]) { const b=document.querySelectorAll('.trk')[+hl]; if(b){b.classList.add('cur'); b.scrollIntoView({block:'center'});} sessionStorageSet('hl',''); }
+  if (hl && (EVI[h]||LGI[h])) { const b=document.querySelectorAll('.trk')[+hl]; if(b){b.classList.add('cur'); b.scrollIntoView({block:'center'});} sessionStorageSet('hl',''); }
   else if (!keepScroll) window.scrollTo(0,0);
   keepScroll=false;
 }
@@ -435,7 +500,7 @@ document.addEventListener('click', ev=>{
   const t = ev.target.closest('[data-song],[data-ev],[data-kind]'); if(!t) return;
   if (t.dataset.kind){ kindFilter=t.dataset.kind; keepScroll=true; route(); return; }
   if (t.dataset.ev){
-    const e=EVI[t.dataset.ev];
+    const e=EVI[t.dataset.ev]||LGI[t.dataset.ev];
     if (t.dataset.seq!=null){ const i=e.t.findIndex(r=>String(r[0])===t.dataset.seq); sessionStorageSet('hl',String(i)); }
     go(t.dataset.ev); return;
   }

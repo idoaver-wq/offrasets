@@ -28,7 +28,8 @@ KIND = [('Rosh Hashanah', 'ראש השנה'), ('Hanukkah', 'חנוכה'), ('Puri
 CREDIT = {'hanukkah_2025': '@eladdon',
           'sukkot_2026': {'he': 'רשימת טראקים @offra_before_offra · סטוריז @tal_huga',
                           'en': 'Tracklist @offra_before_offra · Stories @tal_huga'}}
-CITY = {'Tel Aviv': 'תל אביב', 'Bangkok': 'בנגקוק', 'New York': 'ניו יורק'}
+CITY = {'Tel Aviv': 'תל אביב', 'Bangkok': 'בנגקוק', 'New York': 'ניו יורק', 'Eilat': 'אילת', 'Paris': 'פריז',
+        'Barcelona': 'ברצלונה', 'Madrid': 'מדריד', 'Antwerp': 'אנטוורפן'}
 
 def kind(ed):
     for en, he in KIND:
@@ -75,10 +76,26 @@ if SHOW_TRACK_LINKS and os.path.exists('track_links.csv'):
         for r in csv.DictReader(h):
             if r['approved'].strip().lower() == 'yes':
                 LINKS[r['canonical_song_id']] = ['yt' if r['platform'] == 'YouTube' else 'sc', r['url']]
+# legacy sets 2005-2018 (legacy_*.csv): shown in their own tab, not counted in totals or stats
+LEGACY, LSO = [], {}
+if os.path.exists('legacy_events.csv'):
+    LGI = {}
+    for e in rd('legacy_events.csv'):
+        LGI[e['legacy_id']] = {'id': e['legacy_id'], 'name': e['event_name'], 'date': e['event_date'],
+                               'venue': e['venue'], 'city': CITY.get(e['city'], e['city']), 'city_en': e['city'],
+                               'country': e['country'], 'yt': e['youtube_url'], 'credit': e['source'], 't': []}
+        LEGACY.append(LGI[e['legacy_id']])
+    for t in rd('legacy_tracks.csv'):
+        LGI[t['legacy_id']]['t'].append([int(t['sequence']), t['song_id'], t['normalized_artist'],
+                                         t['normalized_title'], t['version_or_remix']])
+    for e in LEGACY:
+        e['t'].sort(key=lambda r: r[0])
+    LSO = {s['legacy_song_id']: [s['display_artist'], s['display_title']] for s in rd('legacy_songs.csv')}
+
 from datetime import datetime
 from zoneinfo import ZoneInfo
 UPDATED = datetime.now(ZoneInfo('Asia/Jerusalem')).strftime('%d.%m.%Y')  # build date, Israel time
-data = {'events': EV, 'songs': SO, 'links': LINKS, 'updated': UPDATED}
+data = {'events': EV, 'songs': SO, 'links': LINKS, 'updated': UPDATED, 'legacy': LEGACY, 'lsongs': LSO}
 
 tpl = open('template.html', encoding='utf-8').read()
 out = tpl.replace('/*DATA*/null', json.dumps(data, ensure_ascii=False, separators=(',', ':')))
@@ -92,4 +109,5 @@ open(os.path.join(ROOT, 'index.html'), 'w', encoding='utf-8').write(page)
 open(os.path.join(ROOT, 'CNAME'), 'w').write('offrasets.com\n')
 open(os.path.join(ROOT, '.nojekyll'), 'w').write('')
 print('events', len(EV), 'tracks', sum(len(e['t']) for e in EV), 'songs', len(SO),
-      'images', sum(1 for e in EV if e['img']))
+      'images', sum(1 for e in EV if e['img']),
+      'legacy sets', len(LEGACY), 'legacy tracks', sum(len(e['t']) for e in LEGACY))
