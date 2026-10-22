@@ -81,7 +81,7 @@ LEGACY, LSO = [], {}
 if os.path.exists('legacy_events.csv'):
     LGI = {}
     for e in rd('legacy_events.csv'):
-        LGI[e['legacy_id']] = {'id': e['legacy_id'], 'name': e['event_name'], 'date': e['event_date'],
+        LGI[e['legacy_id']] = {'id': e['legacy_id'], 'name': e['event_name'], 'he': e.get('event_name_he', ''), 'date': e['event_date'],
                                'venue': e['venue'], 'city': CITY.get(e['city'], e['city']), 'city_en': e['city'],
                                'country': e['country'], 'yt': e['youtube_url'], 'credit': e['source'], 't': []}
         LEGACY.append(LGI[e['legacy_id']])

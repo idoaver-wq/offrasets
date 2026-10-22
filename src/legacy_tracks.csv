@@ -1,4 +1,31 @@
 ﻿legacy_id,sequence,source_track_text,normalized_artist,normalized_title,version_or_remix,song_id,confidence,notes
+legacy_radio_102fm_2003,1,Tomer G & Maxine - Soul on fire,Tomer G & Maxine,Soul On Fire,,LSONG_052,HIGH,
+legacy_radio_102fm_2003,2,Offer Nissim Feat. Maya Simantov - Thats the way and i like it,Offer Nissim Feat. Maya Simantov,That's The Way And I Like It,,LSONG_053,HIGH,
+legacy_radio_102fm_2003,3,Groovemaster K. & Daniel Garcia - Burning (Dub Remix),Groovemaster K. & Daniel Garcia,Burning,Dub Remix,LSONG_054,HIGH,
+legacy_radio_102fm_2003,4,Dark Suite - Dark sweet piano (Wally Lopez Remix),Dark Suite,Dark Sweet Piano,Wally Lopez Remix,LSONG_055,HIGH,
+legacy_radio_102fm_2003,5,Dark monks - Insane (Steve Moreno Remix),Dark Monks,Insane,Steve Moreno Remix,LSONG_056,HIGH,
+legacy_radio_102fm_2003,6,Delerium & Jaël - After all (Satoshi Tomiie Remix),Delerium & Jaël,After All,Satoshi Tomiie Remix,LSONG_057,HIGH,
+legacy_radio_102fm_2003,7,Martin Bros - Dominix Groove,Martin Bros,Dominix Groove,,LSONG_058,HIGH,
+legacy_hanukkah_2003,1,Murk - Believe (Rasabel's Dub Mix),Murk,Believe,Rasabel's Dub Mix,LSONG_059,HIGH,
+legacy_hanukkah_2003,2,Beat Hustlerz - Just About Had Enouth (Chris Cox Dub),Beat Hustlerz,Just About Had Enough,Chris Cox Dub,LSONG_060,MEDIUM,"Printed ""Enouth"""
+legacy_hanukkah_2003,3,Industry - Release Me (Peter Rauhofer's Reconstruction Mix),Industry,Release Me,Peter Rauhofer's Reconstruction Mix,LSONG_061,HIGH,
+legacy_hanukkah_2003,4,Sol Brothers Feat. Kathy Brown - Turn Me Out,Sol Brothers Feat. Kathy Brown,Turn Me Out,,LSONG_062,HIGH,
+legacy_hanukkah_2003,5,Aretha Franklin - The Only Thing Missin' (Furilla Late Nite Dub),Aretha Franklin,The Only Thing Missin',Furilla Late Nite Dub,LSONG_063,HIGH,
+legacy_hanukkah_2003,6,Brighton Project - Satisfied (Level K Remix),Brighton Project,Satisfied,Level K Remix,LSONG_064,HIGH,
+legacy_hanukkah_2003,7,Kylie Minogue - Slow (Chemical Brothers Remix),Kylie Minogue,Slow,Chemical Brothers Remix,LSONG_065,HIGH,
+legacy_hanukkah_2003,8,Offer Nissim Feat. Maya Simantov- What's the way and I like it,Offer Nissim Feat. Maya Simantov,That's The Way And I Like It,,LSONG_053,MEDIUM,"Printed ""What's the way and I like it"""
+legacy_hanukkah_2003,9,Janet Jackson - Janet Megamix 04' (Chris Cox Club Megamix),Janet Jackson,Janet Megamix '04,Chris Cox Club Megamix,LSONG_066,HIGH,
+legacy_hanukkah_2003,10,D-Formation - Sings & Portents,D-Formation,Sings & Portents,,LSONG_067,HIGH,
+legacy_hanukkah_2003,11,Kristine W - Save My Soul (Gabriel + Dresden Bootleg Mix),Kristine W.,Save My Soul,Gabriel + Dresden Bootleg Mix,SONG_0053,HIGH,
+legacy_hanukkah_2003,12,Offer Nissim Feat. Maya Simantov - Only You,Offer Nissim Feat. Maya Simantov,Only You,,LSONG_068,HIGH,
+legacy_hanukkah_2003,13,Ivri Lider - Beautiful Eyes (Offer Nissim Oriental Dub Remix),Ivri Lider,Beautiful Eyes,Offer Nissim Oriental Dub Remix,LSONG_069,HIGH,
+legacy_hanukkah_2003,14,Britney Spears - Me Against The Music (Rishi Rich's Desi Kulcha Remix),Britney Spears,Me Against The Music,Rishi Rich's Desi Kulcha Remix,LSONG_070,HIGH,
+legacy_hanukkah_2003,15,Billy Paul Williams - So In Love (Robbie Rivera Juicy Club Remix),Billy Paul Williams,So In Love,Robbie Rivera Juicy Club Remix,LSONG_071,HIGH,
+legacy_hanukkah_2003,16,Dark Monks Feat. Mim - Insane (Vocal Mix),Dark Monks Feat. Mim,Insane,Vocal Mix,LSONG_056,HIGH,
+legacy_hanukkah_2003,17,Offer Nissim Feat. Mickiyagi - Love Takes You,Offer Nissim Feat. Mickiyagi,Love Takes You,,LSONG_072,HIGH,
+legacy_hanukkah_2003,18,Offer Nissim Feat. Maya Simantov - Searching,Offer Nissim Feat. Maya Simantov,Searching,,SONG_0107,HIGH,
+legacy_hanukkah_2003,19,Pants & Corset - Dammit Janet VS. Public Image Limited - This Is Not A Love Song,Pants & Corset Vs. Public Image Limited,Dammit Janet Vs. This Is Not A Love Song,,LSONG_073,HIGH,
+legacy_hanukkah_2003,20,Annie Lennox - A Thousand Beautiful Things (Peter Rauhofer Remix),Annie Lennox,A Thousand Beautiful Things,Peter Rauhofer Remix,LSONG_074,HIGH,
 legacy_eilat_2005,1,Murray Head – One Night In Bangkok,Murray Head,One Night In Bangkok,,LSONG_001,HIGH,
 legacy_eilat_2005,2,DJ Wope – Rock Da House,DJ Wope,Rock Da House,,LSONG_002,HIGH,
 legacy_eilat_2005,3,Tony Moran Presents Deborah Cooper – Live You All Over (Offer Nissim Remix),Tony Moran Presents Deborah Cooper,Live You All Over,Offer Nissim Remix,LSONG_003,HIGH,
@@ -24,7 +51,7 @@ legacy_paris_2011,4,Britney Spears - Till the World Ends (Offer Nissim & Itay Ka
 legacy_paris_2011,5,Offer Nissim Feat. Maya Simantov & Vanessa Klein - Breaking Away,Offer Nissim Feat. Maya Simantov & Vanesa Klein,Breaking Away,,SONG_0008,HIGH,
 legacy_paris_2011,6,Kristine W - Wonder of It All (Offer Nissim 2011 Remix),Kristine W.,The Wonder Of It All,Offer Nissim 2011 Remix,SONG_0164,HIGH,
 legacy_paris_2011,7,Santa Esmeralda - Sevilla Nights (Offer Nissim Remix),Santa Esmeralda,Sevilla Nights,Offer Nissim Remix,LSONG_016,HIGH,
-legacy_paris_2011,8,Bob Sinclar Feat. Raffaella Carrà - Far l'Amore (Offer Nissim Remix),Bob Sinclar Feat. Raffaella Carrà,Far l'Amore,Offer Nissim Remix,LSONG_017,HIGH,
+legacy_paris_2011,8,Bob Sinclar Feat. Raffaella Carrà - Far l'Amore (Offer Nissim Remix),Raffaella Carrà,Far l'Amore,Bob Sinclar Remix,LSONG_017,HIGH,"Corrected by @the.shay.guy, 20.10.2026 (was printed as Bob Sinclar Feat. Raffaella Carrà, Offer Nissim Remix)"
 legacy_paris_2011,9,Offer Nissim & Itay Kalderon Feat. Epiphony - Million Stars (Club Mix),Offer Nissim Feat. Epiphony & Elisete,Million Stars,Club Mix,SONG_0080,MEDIUM,
 legacy_paris_2011,10,Offer Nissim Presents Freddie Mercury - Barcelona 2011,Offer Nissim,Barcelona,,SONG_0057,MEDIUM,
 legacy_paris_2011,11,Beyoncé - Run the World (Girls) (Itay Kalderon & Adi Perez Remix),Beyoncé,Run The World (Girls),Girls) (Itay Kalderon & Adi Perez Remix,SONG_0102,HIGH,
@@ -69,7 +96,7 @@ legacy_madrid_2014,25,Offer Nissim Feat. Epiphony - Out of My Skin,Offer Nissim 
 legacy_madrid_2014,26,Offer Nissim Feat. Rocking Son - Moskau,Offer Nissim Feat. ROCKING SON,Moskau,,SONG_0056,HIGH,
 legacy_madrid_2014,27,Offer Nissim Presents Brothers in Rhythm - Such a Good Feeling,Brothers In Rhythm,Such A Good Feeling,,SONG_0050,HIGH,
 legacy_madrid_2014,28,Offer Nissim Feat. Maya Simantov & Vanessa Klein - Breaking Away (Offer Nissim Club Mix),Offer Nissim Feat. Maya Simantov & Vanesa Klein,Breaking Away,Offer Nissim Club Mix,SONG_0008,HIGH,
-legacy_madrid_2014,29,Offer Nissim - Cha Cha Cha,Offer Nissim,Cha Cha Cha,,SONG_0023,HIGH,
+legacy_madrid_2014,29,Offer Nissim - Cha Cha Cha,Offer Nissim,Cha Cha Cha,Peter Rauhofer Remix,SONG_0023,HIGH,"Version added by @the.shay.guy, 20.10.2026"
 legacy_madrid_2014,30,Jennifer Lopez - Que Hiciste (Offer Nissim Remix),Jennifer Lopez,Que Hiciste,Offer Nissim Remix,SONG_0009,HIGH,
 legacy_madrid_2014,31,Offer Nissim - Barcelona,Offer Nissim,Barcelona,,SONG_0057,HIGH,
 legacy_madrid_2014,32,Eyal Golan - Eshal (Offer Nissim Remix),Offer Nissim Feat. Eyal Golan,Eshal,Offer Nissim Remix,SONG_0167,HIGH,
@@ -136,7 +163,7 @@ legacy_paris_2015,26,Suzanne Palmer – Free My Love (Offer Nissim Remix),Suzann
 legacy_paris_2015,27,Suzanne Palmer – Eye Can See U (Offer Nissim Remix),Suzanne Palmer,Eye Can See U,Offer Nissim Remix,SONG_0280,HIGH,
 legacy_paris_2015,28,Offer Nissim Feat. Epiphony – Out Of My Skin,Offer Nissim Feat. Epiphony,Out Of My Skin,,SONG_0140,HIGH,
 legacy_paris_2015,29,Offer Nissim Feat. Maya Simantov – Alone,Offer Nissim Feat. Maya Simantov,Alone,,SONG_0172,HIGH,
-legacy_paris_2015,30,Offer Nissim Feat. Maya Simantov – Let Me Live My Live,Offer Nissim Feat. Maya Simantov,Let Me Live,,SONG_0040,HIGH,"typo in source (""Let Me Live My Live"")"
+legacy_paris_2015,30,Offer Nissim Feat. Maya Simantov – Let Me Live My Live,Offer Nissim Feat. Maya Simantov,Let Me Live,,SONG_0040,HIGH,"Printed ""Let Me Live My Live""; confirmed as Let Me Live by @the.shay.guy, 20.10.2026"
 legacy_paris_2015,31,Offer Nissim Presents Amir Haddad – Désenchantée,Offer Nissim Presents Amir Haddad,Désenchantée,,SONG_0202,HIGH,
 legacy_paris_2015,32,Joe Dassin – Et Si Tu N’existait Pas (Offer Nissim Remix),Joe Dassin,Et Si Tu N’existais Pas,Offer Nissim Remix,LSONG_020,HIGH,
 legacy_paris_2015,33,Jean-Jacques Goldman – La Vie Par Procuration (Offer Nissim Reconstruction Remix),Jean-Jacques Goldman,La Vie Par Procuration,Offer Nissim Reconstruction Remix,SONG_0133,HIGH,
@@ -164,7 +191,7 @@ legacy_pride_tel_aviv_2015,19,Offer Nissim Feat. Maya Simantov – Everybody Nee
 legacy_pride_tel_aviv_2015,20,Offer Nissim Feat. Maya Simantov – Wake Up (Original Mix),Offer Nissim Feat. Maya Simantov,Wake Up,Original Mix,SONG_0022,HIGH,
 legacy_pride_tel_aviv_2015,21,Suzanne Palmer – Free My Love Vs. Eye Can See You (Offer Nissim Remix),Suzanne Palmer,Free My Love Vs. Eye Can See You,Offer Nissim Remix,LSONG_040,HIGH,
 legacy_pride_tel_aviv_2015,22,Offer Nissim Presents Brothers In Rhythm – Such A Good Feeling,Brothers In Rhythm,Such A Good Feeling,,SONG_0050,HIGH,
-legacy_pride_tel_aviv_2015,23,Offer Nissim Feat. Maya Simantov – Let Me Live (Original Mix),Offer Nissim Feat. Maya Simantov,Let Me Live,Original Mix,SONG_0040,HIGH,
+legacy_pride_tel_aviv_2015,23,Offer Nissim Feat. Maya Simantov – Let Me Live (Original Mix),Offer Nissim Feat. Maya Simantov & Rita,Let Me Live,Unreleased version,SONG_0040,HIGH,"Corrected by @the.shay.guy, 20.10.2026: unreleased version with Rita"
 legacy_pride_tel_aviv_2015,24,Rita – Bigharar (Offer Nissim Extended Remix),Rita,Bigharar,Offer Nissim Extended Remix,LSONG_035,HIGH,
 legacy_pride_tel_aviv_2015,25,Offer Nissim Feat. Rocking Son – Moskau,Offer Nissim Feat. ROCKING SON,Moskau,,SONG_0056,HIGH,
 legacy_pride_tel_aviv_2015,26,Aretha Franklin – Rolling In The Deep (Offer Nissim Remix),Aretha Franklin,Rolling In The Deep,Offer Nissim Remix,SONG_0087,HIGH,

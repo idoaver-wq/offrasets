@@ -266,11 +266,11 @@ const I18N = {
     lenTitle:'אורך הסט', lenDesc:a=>`בשעות, לפי סדר כרונולוגי. ממוצע ${a}.`,
     ocTitle:'פתיחות וסגירות', ocDesc:'הטראקים שפתחו וסגרו הכי הרבה סטים.', first:'טראק ראשון', last:'טראק אחרון',
     zoom:'הגדלה', fit:'התאמה למסך', close:'✕ סגירה', lbLabel:'התמונה בגודל מלא', live:'צפייה בלייב', part:'חלק', watch:'צפייה', listenYT:'האזנה ביוטיוב', listenSC:'האזנה ב-SoundCloud',
-    tabLegacy:'לגסי', legacy:'לגסי', legTitle:'סטי לגסי <span class="ltr">2005–2018</span>', allLegacy:'כל סטי הלגסי',
+    tabLegacy:'לגסי', legacy:'לגסי', legTitle:r=>`סטי לגסי <span class="ltr">${r}</span>`, allLegacy:'כל סטי הלגסי',
     legNotes:['רשימות היסטוריות שהגיעו ממקורות חיצוניים, לפני תחילת התיעוד השוטף (2019).','אין שעות התחלה וסיום, והרשימות אינן בהכרח מלאות.','הקישורים ליוטיוב מפנים לסרטונים ערוכים, ולא לתיעוד רשמי של הסטים.','הסטים האלה לא נספרים במספרים ובסטטיסטיקות של האתר.'],
     legSource:'הרשימות באדיבות', legList:'רשימה', ytEdited:'צפייה ביוטיוב', ytNote:'סרטון ערוך, לא תיעוד רשמי של הסט',
     legPartial:'רשימה היסטורית, ייתכן שאינה מלאה. לא נספרת בסטטיסטיקות.', legSets:'מספר סטי הלגסי שבהם מופיע',
-    alsoLegacy:'הופיע גם בסטי לגסי', alsoLegacyD:'<span class="ltr">2005–2018</span>, לא נספר במספרים שלמעלה.', legSet:'סט' },
+    alsoLegacy:'הופיע גם בסטי לגסי', alsoLegacyD:r=>`<span class="ltr">${r}</span>, לא נספר במספרים שלמעלה.`, legSet:'סט' },
   en:{ dir:'ltr', other:'עברית', otherLabel:'עברית', tabEvents:'Parties', tabTracks:'Tracks', tabStats:'Stats',
     parties:'parties', tracks:'tracks', uniq:'unique tracks', years:'years', updated:'Last updated',
     all:'All', pride:'Pride', purim:'Purim', hanukkah:'Hanukkah', rh:'Rosh Hashanah', sukkot:'Sukkot', abroad:'Abroad', filterBy:'Filter by type',
@@ -283,11 +283,11 @@ const I18N = {
     lenTitle:'Set length', lenDesc:a=>`In hours, in chronological order. Average ${a}.`,
     ocTitle:'Openers and closers', ocDesc:'The tracks that opened and closed the most sets.', first:'First track', last:'Last track',
     zoom:'Enlarge', fit:'Fit to screen', close:'✕ Close', lbLabel:'Full-size image', live:'Watch live', part:'Part', watch:'Watch', listenYT:'Listen on YouTube', listenSC:'Listen on SoundCloud',
-    tabLegacy:'Legacy', legacy:'Legacy', legTitle:'Legacy sets 2005–2018', allLegacy:'All legacy sets',
+    tabLegacy:'Legacy', legacy:'Legacy', legTitle:r=>`Legacy sets ${r}`, allLegacy:'All legacy sets',
     legNotes:['Historical set lists from outside sources, from before regular documentation began (2019).','There are no set start and end times, and the lists are not necessarily complete.','The YouTube links lead to edited videos, not official recordings of the sets.','These sets are not counted in the site\'s totals or stats.'],
     legSource:'Set lists courtesy of', legList:'List', ytEdited:'Watch on YouTube', ytNote:'Edited video, not an official recording of the set',
     legPartial:'Historical list, may be incomplete. Not counted in stats.', legSets:'Number of legacy sets it appears in',
-    alsoLegacy:'Also in legacy sets', alsoLegacyD:'2005–2018, not counted in the numbers above.', legSet:'Set' }
+    alsoLegacy:'Also in legacy sets', alsoLegacyD:r=>`${r}, not counted in the numbers above.`, legSet:'Set' }
 };
 const KIND_EN = {'Pride Tel Aviv':'Tel Aviv Pride','NYC Pride':'NYC Pride','White Party Bangkok':'White Party Bangkok','Purim':'Purim','Hanukkah':'Hanukkah','Rosh Hashanah':'Rosh Hashanah','Sukkot':'Sukkot'};
 let LANG = 'he';
@@ -312,7 +312,8 @@ const LGI = Object.fromEntries(LG.map(e=>[e.id,e]));
 const LAPPS = {};
 for (const e of LG) for (const [seq,id,ar,ti,ve] of e.t) (LAPPS[id] ||= []).push({e, seq, ve, total:e.t.length});
 const lgSets = id => new Set((LAPPS[id]||[]).map(a=>a.e.id)).size;
-const lgName = e => LANG==='he' && e.name==='Tel Aviv Pride' ? 'גאווה תל אביב' : e.name;
+const lgName = e => LANG==='he' && e.he ? e.he : e.name;
+const lgRange = () => LG.length ? `${year(LG[0])}–${year(LG[LG.length-1])}` : '';
 const totalPlays = EV.reduce((n,e)=>n+e.t.filter(r=>r[0]>0).length,0);
 
 function chrome(){
@@ -368,7 +369,7 @@ function vEvent(e){
 }
 
 function vLegacy(){
-  return `<div class="notice"><h2>${T('legTitle')}</h2><ul>${T('legNotes').map(n=>`<li>${n}</li>`).join('')}</ul>
+  return `<div class="notice"><h2>${T('legTitle')(lgRange())}</h2><ul>${T('legNotes').map(n=>`<li>${n}</li>`).join('')}</ul>
     <p style="margin:8px 0 0">${T('legSource')} <b class="ltr">@the.shay.guy</b></p></div>
   <div class="evlist">${LG.slice().reverse().map(e=>`
     <a class="ev leg" href="#${e.id}">
@@ -425,7 +426,7 @@ function vSong(s){
     <td><div class="pos">${a.seq===0?T('openingAct'):`<span class="num">${a.seq}/${a.total}</span><div class="strip"><i style="left:calc(${(a.seq-1)/Math.max(1,a.total-1)} * (100% - 6px))"></i></div>`}</div></td>
     <td class="ltr al" style="color:var(--muted);font-size:13.5px">${esc(a.ve)||'—'}</td></tr>`).join('')}
   </tbody></table></div>${LAPPS[s.id]?`
-  <section class="legapps"><h3>${T('alsoLegacy')} <span class="badge">${T('legacy')}</span></h3><p class="d">${T('alsoLegacyD')}</p>
+  <section class="legapps"><h3>${T('alsoLegacy')} <span class="badge">${T('legacy')}</span></h3><p class="d">${T('alsoLegacyD')(lgRange())}</p>
   <div class="tbl"><table class="apps"><thead><tr><th>${T('date')}</th><th>${T('legSet')}</th><th>${T('position')}</th><th>${T('version')}</th></tr></thead><tbody>
   ${LAPPS[s.id].map(a=>`<tr data-ev="${a.e.id}" data-seq="${a.seq}"><td class="num">${fmtDate(a.e.date)}</td><td><bdi>${esc(lgName(a.e))}</bdi> · ${esc(evCity(a.e))}</td>
     <td><div class="pos"><span class="num">${a.seq}/${a.total}</span><div class="strip"><i style="left:calc(${(a.seq-1)/Math.max(1,a.total-1)} * (100% - 6px))"></i></div></div></td>
