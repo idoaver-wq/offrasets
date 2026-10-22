@@ -10,6 +10,7 @@
   --bar:#C8285E; --bar-bg:#E9E0EE;
   --card:#FFFFFF; --card-line:#D8CADF; --card-shadow:0 1px 3px rgba(40,20,50,.07);
   --sc:#E25A00; --sc-soft:rgba(226,90,0,.10);
+  --fest-a:#B4650A; --fest-b:#C8285E; --on-fest:#FFFFFF;
   --display:"Big Shoulders Display","Rubik",system-ui,sans-serif;
   --body:"Rubik",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
@@ -23,6 +24,7 @@
     --bar:#FF6F91; --bar-bg:#2C2338;
     --card:#231B2F; --card-line:#44374F; --card-shadow:none;
     --sc:#FF8A3D; --sc-soft:rgba(255,138,61,.12);
+    --fest-a:#FFC857; --fest-b:#FF6F91; --on-fest:#1D1624;
   }
 }
 :root[data-theme="dark"]{
@@ -33,6 +35,7 @@
   --bar:#FF6F91; --bar-bg:#2C2338;
     --card:#231B2F; --card-line:#44374F; --card-shadow:none;
     --sc:#FF8A3D; --sc-soft:rgba(255,138,61,.12);
+    --fest-a:#FFC857; --fest-b:#FF6F91; --on-fest:#1D1624;
 }
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:15px;line-height:1.5}
@@ -60,6 +63,8 @@ nav.tabs{align-items:center}
 nav.tabs a{text-decoration:none;padding:8px 16px;border-radius:999px;color:var(--muted);font-weight:500}
 nav.tabs a:hover{color:var(--text);background:var(--surface2)}
 nav.tabs a[aria-current="page"]{background:var(--text);color:var(--bg)}
+nav.tabs a[data-v="legacy"],nav.tabs a[data-v="legacy"]:hover{background:linear-gradient(120deg,var(--fest-a),var(--fest-b));color:var(--on-fest);font-weight:700;letter-spacing:.02em}
+nav.tabs a[data-v="legacy"][aria-current="page"]{box-shadow:0 0 0 2px var(--bg),0 0 0 4px var(--fest-b)}
 
 /* filters */
 .legend{margin:-6px 0 16px;color:var(--muted);font-size:13px}
@@ -206,7 +211,7 @@ table.apps tbody tr:hover{background:var(--surface2)}
 .notice h2{margin:0 0 6px;font-size:20px;color:var(--text)}
 .notice ul{margin:0;padding-inline-start:18px}
 .notice b{color:var(--text);font-weight:500}
-.badge{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);border:1px solid currentColor;border-radius:4px;padding:0 6px}
+.badge{display:inline-block;font-family:var(--mono);font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--on-fest);background:linear-gradient(120deg,var(--fest-a),var(--fest-b));border-radius:4px;padding:1px 7px}
 .ev.leg .yr,.evhead.leg h2 .yr{color:var(--gold)}
 .live small{color:var(--faint);font-size:12.5px}
 div.trk{cursor:default}div.trk:hover{background:none}
@@ -266,11 +271,11 @@ const I18N = {
     lenTitle:'אורך הסט', lenDesc:a=>`בשעות, לפי סדר כרונולוגי. ממוצע ${a}.`,
     ocTitle:'פתיחות וסגירות', ocDesc:'הטראקים שפתחו וסגרו הכי הרבה סטים.', first:'טראק ראשון', last:'טראק אחרון',
     zoom:'הגדלה', fit:'התאמה למסך', close:'✕ סגירה', lbLabel:'התמונה בגודל מלא', live:'צפייה בלייב', part:'חלק', watch:'צפייה', listenYT:'האזנה ביוטיוב', listenSC:'האזנה ב-SoundCloud',
-    tabLegacy:'לגסי', legacy:'לגסי', legTitle:r=>`סטי לגסי <span class="ltr">${r}</span>`, allLegacy:'כל סטי הלגסי',
+    tabLegacy:'Legacy', legacy:'Legacy', legTitle:r=>`סטי <span class="ltr">Legacy ${r}</span>`, allLegacy:'כל סטי ה-Legacy',
     legNotes:['רשימות היסטוריות שהגיעו ממקורות חיצוניים, לפני תחילת התיעוד השוטף (2019).','אין שעות התחלה וסיום, והרשימות אינן בהכרח מלאות.','הקישורים ליוטיוב מפנים לסרטונים ערוכים, ולא לתיעוד רשמי של הסטים.','הסטים האלה לא נספרים במספרים ובסטטיסטיקות של האתר.'],
     legSource:'הרשימות באדיבות', legRec:'תיעוד הסרטונים', legList:'רשימה', ytEdited:'צפייה ביוטיוב', ytNote:'סרטון ערוך, לא תיעוד רשמי של הסט',
-    legPartial:'רשימה היסטורית, ייתכן שאינה מלאה. לא נספרת בסטטיסטיקות.', legSets:'מספר סטי הלגסי שבהם מופיע',
-    alsoLegacy:'הופיע גם בסטי לגסי', alsoLegacyD:r=>`<span class="ltr">${r}</span>, לא נספר במספרים שלמעלה.`, legSet:'סט' },
+    legPartial:'רשימה היסטורית, ייתכן שאינה מלאה. לא נספרת בסטטיסטיקות.', legSets:'מספר סטי ה-Legacy שבהם מופיע',
+    alsoLegacy:'הופיע גם בסטי Legacy', alsoLegacyD:r=>`<span class="ltr">${r}</span>, לא נספר במספרים שלמעלה.`, legSet:'סט' },
   en:{ dir:'ltr', other:'עברית', otherLabel:'עברית', tabEvents:'Parties', tabTracks:'Tracks', tabStats:'Stats',
     parties:'parties', tracks:'tracks', uniq:'unique tracks', years:'years', updated:'Last updated',
     all:'All', pride:'Pride', purim:'Purim', hanukkah:'Hanukkah', rh:'Rosh Hashanah', sukkot:'Sukkot', abroad:'Abroad', filterBy:'Filter by type',
