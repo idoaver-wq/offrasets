@@ -18,7 +18,7 @@ Archive of Offer Nissim party set lists - https://offrasets.com
 - `track_aliases.csv`, `archive_review.csv` - normalization records
 - `live_links.csv` - live recordings per party (shown only when `approved` = yes)
 - `track_links.csv` - listening links per song (display paused: `SHOW_TRACK_LINKS = False` in build.py)
-- `legacy_events.csv`, `legacy_tracks.csv`, `legacy_songs.csv` - Legacy sets 2003-2018 (lists by @the.shay.guy, via Alon Sadeh and directly). Shown in their own "Legacy" tab and on song pages, never counted in totals or stats. No set times; lists may be incomplete; YouTube links are edited videos. `song_id` is a `SONG_xxxx` when the track is in the main archive, otherwise `LSONG_xxx`
+- `legacy_events.csv`, `legacy_tracks.csv`, `legacy_songs.csv` - Legacy sets 2003-2018 (lists by @the.shay.guy, via Alon Sadeh and directly). Shown in their own "Legacy" tab and on song pages, never counted in totals or stats. No set times; lists may be incomplete; YouTube links are edited videos; video recorder credit in `recorder` (@MyClubbingVideos for most sets). `song_id` is a `SONG_xxxx` when the track is in the main archive, otherwise `LSONG_xxx`
 - `legacy_review.csv` - legacy merge decisions awaiting the archive owner's approval
 
 A correction to a track is made in both `tracks.csv` and `archive.csv`, with a dated note.

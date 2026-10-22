@@ -268,7 +268,7 @@ const I18N = {
     zoom:'הגדלה', fit:'התאמה למסך', close:'✕ סגירה', lbLabel:'התמונה בגודל מלא', live:'צפייה בלייב', part:'חלק', watch:'צפייה', listenYT:'האזנה ביוטיוב', listenSC:'האזנה ב-SoundCloud',
     tabLegacy:'לגסי', legacy:'לגסי', legTitle:r=>`סטי לגסי <span class="ltr">${r}</span>`, allLegacy:'כל סטי הלגסי',
     legNotes:['רשימות היסטוריות שהגיעו ממקורות חיצוניים, לפני תחילת התיעוד השוטף (2019).','אין שעות התחלה וסיום, והרשימות אינן בהכרח מלאות.','הקישורים ליוטיוב מפנים לסרטונים ערוכים, ולא לתיעוד רשמי של הסטים.','הסטים האלה לא נספרים במספרים ובסטטיסטיקות של האתר.'],
-    legSource:'הרשימות באדיבות', legList:'רשימה', ytEdited:'צפייה ביוטיוב', ytNote:'סרטון ערוך, לא תיעוד רשמי של הסט',
+    legSource:'הרשימות באדיבות', legRec:'תיעוד הסרטונים', legRecMost:'ברוב הסטים', legList:'רשימה', ytEdited:'צפייה ביוטיוב', ytNote:'סרטון ערוך, לא תיעוד רשמי של הסט',
     legPartial:'רשימה היסטורית, ייתכן שאינה מלאה. לא נספרת בסטטיסטיקות.', legSets:'מספר סטי הלגסי שבהם מופיע',
     alsoLegacy:'הופיע גם בסטי לגסי', alsoLegacyD:r=>`<span class="ltr">${r}</span>, לא נספר במספרים שלמעלה.`, legSet:'סט' },
   en:{ dir:'ltr', other:'עברית', otherLabel:'עברית', tabEvents:'Parties', tabTracks:'Tracks', tabStats:'Stats',
@@ -285,7 +285,7 @@ const I18N = {
     zoom:'Enlarge', fit:'Fit to screen', close:'✕ Close', lbLabel:'Full-size image', live:'Watch live', part:'Part', watch:'Watch', listenYT:'Listen on YouTube', listenSC:'Listen on SoundCloud',
     tabLegacy:'Legacy', legacy:'Legacy', legTitle:r=>`Legacy sets ${r}`, allLegacy:'All legacy sets',
     legNotes:['Historical set lists from outside sources, from before regular documentation began (2019).','There are no set start and end times, and the lists are not necessarily complete.','The YouTube links lead to edited videos, not official recordings of the sets.','These sets are not counted in the site\'s totals or stats.'],
-    legSource:'Set lists courtesy of', legList:'List', ytEdited:'Watch on YouTube', ytNote:'Edited video, not an official recording of the set',
+    legSource:'Set lists courtesy of', legRec:'Videos recorded by', legRecMost:'for most sets', legList:'List', ytEdited:'Watch on YouTube', ytNote:'Edited video, not an official recording of the set',
     legPartial:'Historical list, may be incomplete. Not counted in stats.', legSets:'Number of legacy sets it appears in',
     alsoLegacy:'Also in legacy sets', alsoLegacyD:r=>`${r}, not counted in the numbers above.`, legSet:'Set' }
 };
@@ -313,6 +313,8 @@ const LAPPS = {};
 for (const e of LG) for (const [seq,id,ar,ti,ve] of e.t) (LAPPS[id] ||= []).push({e, seq, ve, total:e.t.length});
 const lgSets = id => new Set((LAPPS[id]||[]).map(a=>a.e.id)).size;
 const lgName = e => LANG==='he' && e.he ? e.he : e.name;
+const recLink = (r,u) => u ? `<a class="ltr" href="${esc(u)}" target="_blank" rel="noopener"><b>${esc(r)}</b></a>` : `<b class="ltr">${esc(r)}</b>`;
+const lgRecs = () => [...new Map(LG.filter(e=>e.rec).map(e=>[e.rec,[e.rec,e.rec_url]])).values()];
 const lgRange = () => LG.length ? `${year(LG[0])}–${year(LG[LG.length-1])}` : '';
 const totalPlays = EV.reduce((n,e)=>n+e.t.filter(r=>r[0]>0).length,0);
 
@@ -370,7 +372,7 @@ function vEvent(e){
 
 function vLegacy(){
   return `<div class="notice"><h2>${T('legTitle')(lgRange())}</h2><ul>${T('legNotes').map(n=>`<li>${n}</li>`).join('')}</ul>
-    <p style="margin:8px 0 0">${T('legSource')} <b class="ltr">@the.shay.guy</b></p></div>
+    <p style="margin:8px 0 0">${T('legSource')} <b class="ltr">@the.shay.guy</b>${lgRecs().map(([r,u])=>` · ${T('legRec')} ${recLink(r,u)} ${T('legRecMost')}`).join('')}</p></div>
   <div class="evlist">${LG.slice().reverse().map(e=>`
     <a class="ev leg" href="#${e.id}">
       <div class="top"><h3><bdi>${esc(lgName(e))}</bdi></h3><span class="yr ltr">${year(e)}</span></div>
@@ -385,7 +387,7 @@ function vLegacyEvent(e){
     <div><h2><bdi>${esc(lgName(e))}</bdi><span class="yr ltr">${year(e)}</span></h2><p class="en ltr al">${esc([e.name,e.venue].filter(Boolean).join(' · '))}</p></div>
     <div><span class="badge">${T('legacy')}</span></div>
   </div>
-  <div class="facts"><span>${T('date')} <b class="num">${fmtDate(e.date)}</b></span>${e.venue?`<span>${T('venue')} <b class="ltr">${esc(e.venue)}</b></span>`:''}<span>${T('city')} <b>${esc(evCity(e))}</b></span><span>${T('tabTracks')} <b class="num">${e.t.length}</b></span><span>${T('legList')} <b class="ltr">${esc(e.credit)}</b></span></div>
+  <div class="facts"><span>${T('date')} <b class="num">${fmtDate(e.date)}</b></span>${e.venue?`<span>${T('venue')} <b class="ltr">${esc(e.venue)}</b></span>`:''}<span>${T('city')} <b>${esc(evCity(e))}</b></span><span>${T('tabTracks')} <b class="num">${e.t.length}</b></span><span>${T('legList')} <b class="ltr">${esc(e.credit)}</b></span>${e.rec?`<span>${T('credit')} ${recLink(e.rec,e.rec_url)}</span>`:''}</div>
   ${e.yt?`<div class="live"><a href="${esc(e.yt)}" target="_blank" rel="noopener">▶ ${T('ytEdited')}</a><small>${T('ytNote')}</small></div>`:''}
   <p class="poster-cap" style="margin:0 0 12px">${T('legPartial')}</p>
   <ol class="tracks">${e.t.map(([seq,id,ar,ti,ve])=>{

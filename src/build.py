@@ -83,7 +83,8 @@ if os.path.exists('legacy_events.csv'):
     for e in rd('legacy_events.csv'):
         LGI[e['legacy_id']] = {'id': e['legacy_id'], 'name': e['event_name'], 'he': e.get('event_name_he', ''), 'date': e['event_date'],
                                'venue': e['venue'], 'city': CITY.get(e['city'], e['city']), 'city_en': e['city'],
-                               'country': e['country'], 'yt': e['youtube_url'], 'credit': e['source'], 't': []}
+                               'country': e['country'], 'yt': e['youtube_url'], 'credit': e['source'],
+                               'rec': e.get('recorder', ''), 'rec_url': e.get('recorder_url', ''), 't': []}
         LEGACY.append(LGI[e['legacy_id']])
     for t in rd('legacy_tracks.csv'):
         LGI[t['legacy_id']]['t'].append([int(t['sequence']), t['song_id'], t['normalized_artist'],
