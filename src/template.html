@@ -63,6 +63,8 @@ nav.tabs{align-items:center}
 nav.tabs a{text-decoration:none;padding:8px 16px;border-radius:999px;color:var(--muted);font-weight:500}
 nav.tabs a:hover{color:var(--text);background:var(--surface2)}
 nav.tabs a[aria-current="page"]{background:var(--text);color:var(--bg)}
+@media (max-width:560px){nav.tabs{gap:2px;flex-wrap:nowrap}nav.tabs a{padding:6px 10px;font-size:14px;white-space:nowrap}nav.tabs .lang{padding:5px 10px;font-size:13px;flex:none}}
+@media (max-width:359px){nav.tabs{gap:0}nav.tabs a{padding:5px 6px;font-size:13px}nav.tabs .lang{padding:4px 8px;font-size:12px}}
 nav.tabs a[data-v="legacy"],nav.tabs a[data-v="legacy"]:hover{background:linear-gradient(120deg,var(--fest-a),var(--fest-b));color:var(--on-fest);font-weight:700;letter-spacing:.02em}
 nav.tabs a[data-v="legacy"][aria-current="page"]{box-shadow:0 0 0 2px var(--bg),0 0 0 4px var(--fest-b)}
 
