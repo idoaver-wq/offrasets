@@ -1,6 +1,6 @@
 ﻿review_id,legacy_id,sequence,source_text,song_id,proposed_resolution,status
 LREV_001,legacy_eilat_2005,11,Offer Nissim Feat. Maya Simantov – Summer Night City,,"Not merged with ABBA - Summer Night City (SONG_0309, Offer Nissim Remix 2025): 2005 version credited to Offer Nissim feat. Maya Simantov.",pending
-LREV_002,legacy_paris_2011,2,Offer Nissim Feat. Meital De Razon - Heaven in Your Eyes 2011,,Not merged with Offer Nissim Feat. Epiphony - Heaven In Your Eyes (SONG_0125): 2011 version credited to Meital De Razon.,pending
+LREV_002,legacy_paris_2011,2,Offer Nissim Feat. Meital De Razon - Heaven in Your Eyes 2011,SONG_0125,"Merged into SONG_0125 (Offer Nissim Feat. Epiphony - Heaven In Your Eyes), version ""2011"", per Alon Sadeh.",approved 23.10.2026
 LREV_003,legacy_paris_2011,9,Offer Nissim & Itay Kalderon Feat. Epiphony - Million Stars (Club Mix),SONG_0080,Merged into SONG_0080 (Offer Nissim Feat. Epiphony & Elisete - Million Stars).,pending
 LREV_004,legacy_paris_2011,10,Offer Nissim Presents Freddie Mercury - Barcelona 2011,SONG_0057,Merged into SONG_0057 (Offer Nissim - Barcelona).,pending
 LREV_005,legacy_antwerp_2016,24,Offer Nissim Presents Genghis Khan – Moskau (Remix),SONG_0056,Merged into SONG_0056 (Offer Nissim Feat. ROCKING SON - Moskau).,pending

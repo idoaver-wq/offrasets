@@ -135,6 +135,8 @@ ol.tracks li .trk{flex:1;min-width:0}
 .trk .ar{color:var(--muted)}
 .trk .ve{color:var(--faint);font-size:13px}
 .trk .pl{font-family:var(--mono);font-size:12px;color:var(--gold);white-space:nowrap}
+.trk .pl .lgc,.cnt-key .lgc{color:var(--fest-b);margin-inline-start:6px}
+.cnt-key{font-size:12.5px;color:var(--muted);margin:-6px 0 12px}.cnt-key b,.cnt-key .lgc{font-family:var(--mono);font-weight:400;direction:ltr;unicode-bidi:isolate}.cnt-key b{color:var(--gold)}.cnt-key .lgc{margin:0}
 .trk.cur{background:var(--accent-soft)}
 
 /* songs */
@@ -276,7 +278,7 @@ const I18N = {
     tabLegacy:'Legacy', legacy:'Legacy', legTitle:r=>`סטי <span class="ltr">Legacy ${r}</span>`, allLegacy:'כל סטי ה-Legacy',
     legNotes:['רשימות היסטוריות שהגיעו ממקורות חיצוניים, לפני תחילת התיעוד השוטף (2019).','אין שעות התחלה וסיום, והרשימות אינן בהכרח מלאות.','הקישורים ליוטיוב מפנים לסרטונים ערוכים, ולא לתיעוד רשמי של הסטים.','הסטים האלה לא נספרים במספרים ובסטטיסטיקות של האתר.'],
     legSource:'הרשימות באדיבות', legRec:'תיעוד הסרטונים', legList:'רשימה', ytEdited:'צפייה ביוטיוב', ytNote:'סרטון ערוך, לא תיעוד רשמי של הסט',
-    legPartial:'רשימה היסטורית, ייתכן שאינה מלאה. לא נספרת בסטטיסטיקות.', legSets:'מספר סטי ה-Legacy שבהם מופיע',
+    legPartial:'רשימה היסטורית, ייתכן שאינה מלאה. לא נספרת בסטטיסטיקות.', legSets:'מספר סטי ה-Legacy שבהם מופיע', mainEv:'מספר המסיבות במאגר (2019 והלאה)', cntKey:'<b>×19</b> מסיבות במאגר (2019 והלאה) · <span class="lgc">L×7</span> סטי Legacy',
     alsoLegacy:'הופיע גם בסטי Legacy', alsoLegacyD:r=>`<span class="ltr">${r}</span>, לא נספר במספרים שלמעלה.`, legSet:'סט' },
   en:{ dir:'ltr', other:'עברית', otherLabel:'עברית', tabEvents:'Parties', tabTracks:'Tracks', tabStats:'Stats',
     parties:'parties', tracks:'tracks', uniq:'unique tracks', years:'years', updated:'Last updated',
@@ -293,7 +295,7 @@ const I18N = {
     tabLegacy:'Legacy', legacy:'Legacy', legTitle:r=>`Legacy sets ${r}`, allLegacy:'All legacy sets',
     legNotes:['Historical set lists from outside sources, from before regular documentation began (2019).','There are no set start and end times, and the lists are not necessarily complete.','The YouTube links lead to edited videos, not official recordings of the sets.','These sets are not counted in the site\'s totals or stats.'],
     legSource:'Set lists courtesy of', legRec:'Videos recorded by', legList:'List', ytEdited:'Watch on YouTube', ytNote:'Edited video, not an official recording of the set',
-    legPartial:'Historical list, may be incomplete. Not counted in stats.', legSets:'Number of legacy sets it appears in',
+    legPartial:'Historical list, may be incomplete. Not counted in stats.', legSets:'Number of legacy sets it appears in', mainEv:'Parties in the main archive (2019 on)', cntKey:'<b>×19</b> parties in the main archive (2019 on) · <span class="lgc">L×7</span> legacy sets',
     alsoLegacy:'Also in legacy sets', alsoLegacyD:r=>`${r}, not counted in the numbers above.`, legSet:'Set' }
 };
 const KIND_EN = {'Pride Tel Aviv':'Tel Aviv Pride','NYC Pride':'NYC Pride','White Party Bangkok':'White Party Bangkok','Purim':'Purim','Hanukkah':'Hanukkah','Rosh Hashanah':'Rosh Hashanah','Sukkot':'Sukkot'};
@@ -397,10 +399,11 @@ function vLegacyEvent(e){
   <div class="facts"><span>${T('date')} <b class="num">${fmtDate(e.date)}</b></span>${e.venue?`<span>${T('venue')} <b class="ltr">${esc(e.venue)}</b></span>`:''}<span>${T('city')} <b>${esc(evCity(e))}</b></span><span>${T('tabTracks')} <b class="num">${e.t.length}</b></span><span>${T('legList')} <b class="ltr">${esc(e.credit)}</b></span>${e.rec?`<span>${T('credit')} ${recLink(e.rec,e.rec_url)}</span>`:''}</div>
   ${e.yt?`<div class="live"><a href="${esc(e.yt)}" target="_blank" rel="noopener">▶ ${T('ytEdited')}</a><small>${T('ytNote')}</small></div>`:''}
   <p class="poster-cap" style="margin:0 0 12px">${T('legPartial')}</p>
+  <p class="cnt-key">${T('cntKey')}</p>
   <ol class="tracks">${e.t.map(([seq,id,ar,ti,ve])=>{
     const n=lgSets(id), inner=`<span class="n num">${seq}</span>
       <span><span class="ti">${esc(ti)}</span> <span class="ar">· ${esc(ar)}</span>${ve?`<br><span class="ve">${esc(ve)}</span>`:''}</span>
-      <span class="pl" title="${T('legSets')}">${n>1?`×${n}`:''}</span>`;
+      <span class="pl">${SONG[id]?`<span title="${T('mainEv')}">×${SONG[id].events}</span>`:''}<span class="lgc" title="${T('legSets')}">L×${n}</span></span>`;
     return `<li>${SONG[id]?`<button class="trk" data-song="${id}">${inner}</button>`:`<div class="trk">${inner}</div>`}</li>`;}).join('')}</ol>`;
 }
 
