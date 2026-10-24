@@ -29,7 +29,7 @@ CREDIT = {'hanukkah_2025': '@eladdon',
           'sukkot_2026': {'he': 'רשימת טראקים @offra_before_offra · סטוריז @tal_huga',
                           'en': 'Tracklist @offra_before_offra · Stories @tal_huga'}}
 CITY = {'Tel Aviv': 'תל אביב', 'Bangkok': 'בנגקוק', 'New York': 'ניו יורק', 'Eilat': 'אילת', 'Paris': 'פריז',
-        'Barcelona': 'ברצלונה', 'Madrid': 'מדריד', 'Antwerp': 'אנטוורפן'}
+        'Barcelona': 'ברצלונה', 'Madrid': 'מדריד', 'Antwerp': 'אנטוורפן', 'Nitzanim': 'ניצנים'}
 
 def kind(ed):
     for en, he in KIND:
